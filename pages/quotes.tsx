@@ -19,7 +19,7 @@ const Quotes = () => {
 				Quote of the Day
 			</Heading>
 			<Section>
-				<Image src={currQuote.src} width={500} height={500} alt="Quote of the Day" />
+				<Image src={currQuote.src} width={500} height={500} priority alt="Quote of the Day" />
 			</Section>
 		</Page>
 	)
