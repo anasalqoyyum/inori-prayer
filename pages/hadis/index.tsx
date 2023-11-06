@@ -4,9 +4,21 @@ import { Flex, Card, Avatar, Box, Text, Heading, Separator, TextField } from '@r
 import Link from 'next/link'
 import { HadisList } from '@/constants/Hadis'
 import { MagnifyingGlassIcon } from '@radix-ui/react-icons'
+import { Fragment, useState } from 'react'
 
 const Hadis = () => {
 	const hadisLen = HadisList.length
+	const [searchTerm, setSearchTerm] = useState('')
+	const [searchResults, setSearchResults] = useState(HadisList)
+
+	const handleSearch = (searchTerm: string) => {
+		if (searchTerm === '') setSearchResults(HadisList)
+		const filteredResults = HadisList.filter(
+			item =>
+				item.title.toLowerCase().includes(searchTerm.toLowerCase()) || item.info.shahih.toLowerCase().includes(searchTerm.toLowerCase())
+		)
+		setSearchResults(filteredResults)
+	}
 
 	return (
 		<Page>
@@ -14,19 +26,26 @@ const Hadis = () => {
 				Hadis Perempuan
 			</Heading>
 			<Section>
-				<TextField.Root>
+				<TextField.Root radius="full">
 					<TextField.Slot>
 						<MagnifyingGlassIcon height="16" width="16" />
 					</TextField.Slot>
-					<TextField.Input placeholder="Cari hadis…" />
+					<TextField.Input
+						placeholder="Cari hadis…"
+						value={searchTerm}
+						onChange={e => {
+							setSearchTerm(e.target.value)
+							handleSearch(e.target.value)
+						}}
+					/>
 				</TextField.Root>
 			</Section>
 			<Section>
 				<Flex gap="6" direction="column">
-					{HadisList.map((item, index) => {
+					{searchResults.map((item, index) => {
 						return (
-							<>
-								<Card asChild size="3" variant="ghost" key={item.slug}>
+							<Fragment key={item.slug}>
+								<Card asChild size="3" variant="ghost">
 									<Link href={`/hadis/${item.slug}`}>
 										<Flex gap="3" align="center">
 											<Avatar size="3" radius="full" fallback={index + 1} />
@@ -42,7 +61,7 @@ const Hadis = () => {
 									</Link>
 								</Card>
 								{hadisLen === index + 1 ? null : <Separator orientation="horizontal" size="4" />}
-							</>
+							</Fragment>
 						)
 					})}
 				</Flex>

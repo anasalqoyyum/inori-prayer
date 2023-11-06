@@ -2,7 +2,7 @@ import { Routes } from '@/constants/Link'
 import Page from '@/components/page'
 import Section from '@/components/section'
 import { Flex, Card, Avatar, Box, Text, Heading } from '@radix-ui/themes'
-import { AppWindow, Library, PencilRuler } from 'lucide-react'
+import { AppWindow, Clipboard, Library, PencilRuler, Scale } from 'lucide-react'
 import Link from 'next/link'
 import { ReactNode } from 'react'
 
@@ -15,29 +15,23 @@ interface Item {
 
 const Items: Item[] = [
 	{
-		title: 'Tentang Aplikasi',
-		subtitle: 'Informasi aplikasi',
-		icon: <AppWindow />,
-		href: Routes.about.aplikasi
+		title: 'Hak',
+		subtitle: 'Hak seorang perempuan',
+		icon: <Scale />,
+		href: Routes.hakKewajiban.hak
 	},
 	{
-		title: 'Profil Penulis',
-		subtitle: 'Informasi tentang penulis',
-		icon: <PencilRuler />,
-		href: Routes.about.penulis
-	},
-	{
-		title: 'Daftar Pustaka',
-		subtitle: 'Daftar Referensi',
-		icon: <Library />,
-		href: Routes.jurnal.index
+		title: 'Kewajiban',
+		subtitle: 'Kewajiban seorang perempuan',
+		icon: <Clipboard />,
+		href: Routes.hakKewajiban.kewajiban
 	}
 ]
 
-const Index = () => (
+const HakKewajiban = () => (
 	<Page>
 		<Heading as="h2" size="8" align="center" className="text-pink-500">
-			About
+			Hak & Kewajiban
 		</Heading>
 		<Section>
 			<Flex gap="3" direction="column">
@@ -65,4 +59,4 @@ const Index = () => (
 	</Page>
 )
 
-export default Index
+export default HakKewajiban
