@@ -3,7 +3,7 @@ import { GradientBG } from '@/components/gradient'
 import Page from '@/components/page'
 import Section from '@/components/section'
 import { Flex, Card, Avatar, Box, Text, Heading } from '@radix-ui/themes'
-import { Book, Quote, Scale, ScrollText, User } from 'lucide-react'
+import { AppWindow, Library, PencilRuler } from 'lucide-react'
 import Link from 'next/link'
 import { ReactNode } from 'react'
 
@@ -16,34 +16,22 @@ interface Item {
 
 const Items: Item[] = [
 	{
-		title: 'Hadis Perempuan',
-		subtitle: 'Daftar Hadis Perempuan',
-		icon: <Book />,
-		href: Routes.hadis.index
+		title: 'Tentang Aplikasi',
+		subtitle: 'Informasi aplikasi',
+		icon: <AppWindow />,
+		href: Routes.about.aplikasi
 	},
 	{
-		title: 'Wanita Inspiratif',
-		subtitle: 'Sosok Wanita yang dapat menginspirasi',
-		icon: <User />,
-		href: Routes.wanitaInspiratif.index
+		title: 'Profil Penulis',
+		subtitle: 'Informasi tentang penulis',
+		icon: <PencilRuler />,
+		href: Routes.about.penulis
 	},
 	{
-		title: 'Jurnal',
-		subtitle: 'Jurnal hadis-hadis perempuan',
-		icon: <ScrollText />,
+		title: 'Daftar Pustaka',
+		subtitle: 'Daftar Referensi',
+		icon: <Library />,
 		href: Routes.jurnal.index
-	},
-	{
-		title: 'Hak dan Kewajiban',
-		subtitle: 'Hak dan Kewajiban seorang perempuan',
-		icon: <Scale />,
-		href: Routes.hakKewajiban.index
-	},
-	{
-		title: 'Quotes',
-		subtitle: 'Kata-kata inspiratif',
-		icon: <Quote />,
-		href: Routes.quotes
 	}
 ]
 
@@ -51,7 +39,7 @@ const Index = () => (
 	<Page>
 		<GradientBG />
 		<Heading as="h2" size="8" align="center" className="text-pink-500">
-			Home
+			About
 		</Heading>
 		<Section>
 			<Flex gap="3" direction="column">

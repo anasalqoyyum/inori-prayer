@@ -1,10 +1,17 @@
 export const Routes = {
+	index: '/',
 	hadis: {
 		index: '/hadis',
 		detail: '/hadis/:slug'
 	},
-	wanitaInspiratif: '/wanita-inspiratif',
-	jurnal: '/jurnal',
+	wanitaInspiratif: {
+		index: '/wanita-inspiratif',
+		detail: '/wanita-inspiratif/:slug'
+	},
+	jurnal: {
+		index: '/jurnal',
+		detail: '/jurnal/:slug'
+	},
 	hakKewajiban: {
 		index: '/hak-kewajiban',
 		hak: '/hak-kewajiban/hak',
@@ -22,5 +29,5 @@ export const Routes = {
 
 export const Links = [
 	{ label: 'Hadis Perempuan', href: Routes.hadis.index },
-	{ label: 'Wanita Inspiratif', href: Routes.wanitaInspiratif }
+	{ label: 'Tentang Aplikasi', href: Routes.about.index }
 ]

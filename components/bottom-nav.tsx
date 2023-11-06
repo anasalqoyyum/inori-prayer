@@ -1,3 +1,4 @@
+import { Routes } from '@/constants/Link'
 import { Home, Info, Search } from 'lucide-react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
@@ -15,7 +16,7 @@ const BottomNav = () => {
 							href={href}
 							className={`flex h-full w-full flex-col items-center justify-center space-y-1 ${
 								router.pathname === href
-									? 'text-indigo-500 dark:text-indigo-400'
+									? 'text-pink-500 dark:text-pink-400'
 									: 'text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-50'
 							}`}>
 							{icon}
@@ -33,17 +34,17 @@ export default BottomNav
 const links = [
 	{
 		label: 'Cari Hadis',
-		href: '/hadis',
+		href: Routes.hadis.index,
 		icon: <Search />
 	},
 	{
 		label: 'Home',
-		href: '/',
+		href: Routes.index,
 		icon: <Home />
 	},
 	{
 		label: 'Tentang',
-		href: '/recipes',
+		href: Routes.about.index,
 		icon: <Info />
 	}
 ]

@@ -22,9 +22,7 @@ export default function App({ Component, pageProps }: AppProps) {
 	return (
 		<ThemeProvider attribute="class" defaultTheme="light" disableTransitionOnChange>
 			<Theme accentColor="crimson" grayColor="auto" radius="small">
-				<main className={`${inter.variable} ${arabic.variable}`}>
-					<Component {...pageProps} />
-				</main>
+				<Component className={`${inter.variable} ${arabic.variable}`} {...pageProps} />
 			</Theme>
 		</ThemeProvider>
 	)

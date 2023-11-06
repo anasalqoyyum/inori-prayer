@@ -10,7 +10,7 @@ const Hadis = () => {
 
 	return (
 		<Page>
-			<Heading as="h2" size="8" align="center" color="pink">
+			<Heading as="h2" size="8" align="center" className="text-pink-500">
 				Hadis Perempuan
 			</Heading>
 			<Section>

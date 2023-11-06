@@ -16,12 +16,12 @@ const HadisDetail = () => {
 	return (
 		<Page>
 			<Flex align="center" gap="4">
-				<IconButton variant="ghost">
+				<IconButton asChild variant="ghost">
 					<Link href={Routes.hadis.index}>
 						<ArrowLeft width="24" height="24" />
 					</Link>
 				</IconButton>
-				<Heading as="h2" size="8" align="center" color="pink">
+				<Heading as="h2" size="8" align="center" className="text-pink-500">
 					{currentHadis?.info.shahih.split(':')[0]}
 				</Heading>
 			</Flex>
@@ -30,7 +30,7 @@ const HadisDetail = () => {
 				<Flex gap="6" direction="column">
 					<Card>
 						<Flex gap="3" direction="column">
-							<Heading as="h3" align={'center'}>
+							<Heading as="h3" align={'center'} className="text-pink-500">
 								{currentHadis?.title}
 							</Heading>
 							<Heading as="h4" size={'3'} align={'center'}>
@@ -52,7 +52,7 @@ const HadisDetail = () => {
 					</Text>
 					<Card>
 						<Flex gap="3" direction="column">
-							<Heading as="h3" align={'center'}>
+							<Heading as="h3" align={'center'} className="text-pink-500">
 								Takhrij Hadis
 							</Heading>
 							<Separator size={'4'} />
