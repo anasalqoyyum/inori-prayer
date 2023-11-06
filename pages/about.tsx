@@ -1,5 +1,4 @@
 import { Routes } from '@/constants/Link'
-import { GradientBG } from '@/components/gradient'
 import Page from '@/components/page'
 import Section from '@/components/section'
 import { Flex, Card, Avatar, Box, Text, Heading } from '@radix-ui/themes'
@@ -37,7 +36,6 @@ const Items: Item[] = [
 
 const Index = () => (
 	<Page>
-		<GradientBG />
 		<Heading as="h2" size="8" align="center" className="text-pink-500">
 			About
 		</Heading>
