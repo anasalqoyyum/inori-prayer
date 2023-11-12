@@ -46,7 +46,7 @@ const Hadis = () => {
 						return (
 							<Fragment key={item.slug}>
 								<Card asChild size="3" variant="ghost">
-									<Link href={`/hadis/${item.slug}`}>
+									<Link href={`/hadis/${item.slug.toLowerCase()}`}>
 										<Flex gap="3" align="center">
 											<Avatar size="3" radius="full" fallback={index + 1} />
 											<Box>
