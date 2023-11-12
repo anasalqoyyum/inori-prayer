@@ -30,14 +30,14 @@ const Items: Item[] = [
 		title: 'Daftar Pustaka',
 		subtitle: 'Daftar Referensi',
 		icon: <Library />,
-		href: Routes.jurnal.index
+		href: Routes.about.daftarPustaka
 	}
 ]
 
 const About = () => (
 	<Page>
 		<Heading as="h2" size="8" align="center" className="text-pink-500">
-			About
+			Tentang
 		</Heading>
 		<Section>
 			<Flex gap="3" direction="column">
