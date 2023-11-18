@@ -1,11 +1,15 @@
 import Page from '@/components/page'
 import Section from '@/components/section'
-import { Card, Grid, Heading, Inset, Strong, Text } from '@radix-ui/themes'
+import { Card, Grid, Heading, Inset, Text } from '@radix-ui/themes'
 import Image from 'next/image'
 import img1 from '@/public/assets/wanita/wanita1.png'
 import img2 from '@/public/assets/wanita/wanita2.png'
 import img3 from '@/public/assets/wanita/wanita3.png'
 import img4 from '@/public/assets/wanita/wanita4.png'
+import img5 from '@/public/assets/wanita/wanita5.png'
+import img6 from '@/public/assets/wanita/wanita6.png'
+import img7 from '@/public/assets/wanita/wanita7.png'
+import img8 from '@/public/assets/wanita/wanita8.png'
 
 const Data = [
 	{
@@ -23,6 +27,22 @@ const Data = [
 	{
 		name: 'Maudy Ayunda',
 		pict: img4.src
+	},
+	{
+		name: 'R.A. Kartini',
+		pict: img5.src
+	},
+	{
+		name: 'Susi Pudjiastuti',
+		pict: img6.src
+	},
+	{
+		name: 'Sri Mulyani',
+		pict: img7.src
+	},
+	{
+		name: 'Oki Setiana Dewi',
+		pict: img8.src
 	}
 ]
 

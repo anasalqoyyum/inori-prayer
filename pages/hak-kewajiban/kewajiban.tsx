@@ -30,6 +30,10 @@ const Kewajiban = () => {
 					</Card>
 
 					<Card>
+						<Text as="p">
+							Dalam kitab Dau’ul al-Misbah fi Bayani ahkam al-Nikah karya KH. Hasyim Asy’ari. Beliau memaparkan hak-hak perempuan sebagai
+							berikut:
+						</Text>
 						<ol className="list-decimal mx-6 my-6">
 							<Flex direction={'column'} gap={'2'}>
 								{KewajibanList.map((item, idx) => (

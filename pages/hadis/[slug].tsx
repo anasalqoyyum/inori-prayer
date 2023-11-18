@@ -43,7 +43,7 @@ const HadisDetail = () => {
 							</Blockquote>
 						</Flex>
 					</Card>
-					<Text as="p" size="5" align="center" className={clsx(arabic.className, 'leading-9')}>
+					<Text as="p" size="5" align="center" className={clsx(arabic.className, 'leading-9 font-semibold')}>
 						{currentHadis?.content}
 					</Text>
 					<Separator size={'4'} />

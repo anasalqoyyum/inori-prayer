@@ -1,3 +1,21 @@
+interface Jurnalv2 {
+	theme: string
+	slug: string
+	list: {
+		title: string
+		slug: string
+		writer: string
+		asal: string
+		contact: string
+		hadis: {
+			shahih: string
+			content: string
+			description: string
+		}
+		link: string
+	}[]
+}
+
 interface Jurnal {
 	title: string
 	tahun: string
@@ -10,6 +28,47 @@ interface Jurnal {
 		abstract: string
 	}[]
 }
+
+export const JurnalListv2: Jurnalv2[] = [
+	{
+		theme: 'Peran Perempuan Dalam Rumah Tangga',
+		slug: 'peran-perempuan-dalam-rumah-tangga',
+		list: [
+			{
+				title: 'Peran Perempuan Dalam Rumah Tangga Perspektif Islam',
+				slug: 'peran-perempuan-dalam-rumah-tangga-perspektif-islam',
+				writer: 'Eko Zulfikar',
+				asal: 'Institut Agama Islam Negeri (IAIN) Tulungagung',
+				contact: 'ekozulfikar2020@gmail.com',
+				hadis: {
+					shahih: 'Shahih Bukhari:3237',
+					content: `حَدَّثَنَا مُسَدَّدٌ حَدَّثَنَا أَبُو عَوَانَةَ عَنْ الْأَعْمَشِ عَنْ أَبِي حَازِمٍ عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ إِذَا دَعَا الرَّجُلُ امْرَأَتَهُ إِلَى فِرَاشِهِ فَأَبَتْ فَبَاتَ غَضْبَانَ عَلَيْهَا لَعَنَتْهَا الْمَلَائِكَةُ حَتَّى تُصْبِحَ تَابَعَهُ شُعْبَةُ وَأَبُو حَمْزَةَ وَابْنُ دَاوُدَ وَأَبُو مُعَاوِيَةَ عَنْ الْأَعْمَشِ`,
+					description: `Telah bercerita kepada kami Musaddad, telah bercerita kepada kami Abu 'Awanah dari Al A'masy dari Abu Hazim dari Abu Hurairah radhiyallahu anhu berkata, rasulullah bersabda: :”Apabila suami mengajak istrinya ke tempat tidur (untuk memenuhi hasrat secara biologis) tetapi ia tidak memenuhinya, lantas ia tidur dalam keadaan suaminya marah kepadanya, maka malaikat melaknatnya sampai pagi”`
+				},
+				link: 'https://www.syekhnurjati.ac.id/jurnal/index.php/diya/article/view/4529'
+			}
+		]
+	},
+	{
+		theme: 'Peran Perempuan Di Ruang Publik',
+		slug: 'peran-perempuan-di-ruang-publik',
+		list: [
+			{
+				title: 'Kepemimpinan Perempuan pada Masyarakat dalam Perspektif Saʿīd Ramaḍān Al-Būṭī: Telaah Hadis Misoginis',
+				slug: 'kepemimpinan-perempuan-pada-masyrakat-dalam-perspektif-said-ramadan',
+				writer: 'Nasirudin Al Ahsani',
+				asal: 'Institut Agama Islam Negeri Jember',
+				contact: 'nasirudin@iain-jember.ac.id',
+				hadis: {
+					shahih: 'Shahih Bukhari:4425',
+					content: `حَدَّثَنَا عُثْمَانُ بْنُ الْهَيْثَمِ حَدَّثَنَا عَوْفٌ عَنْ الْحَسَنِ عَنْ أَبِي بَكْرَةَ قَالَ لَقَدْ نَفَعَنِي اللَّهُ بِكَلِمَةٍ سَمِعْتُهَا مِنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَيَّامَ الْجَمَلِ بَعْدَ مَا كِدْتُ أَنْ أَلْحَقَ بِأَصْحَابِ الْجَمَلِ فَأُقَاتِلَ مَعَهُمْ قَالَ لَمَّا بَلَغَ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَنَّ أَهْلَ فَارِسَ قَدْ مَلَّكُوا عَلَيْهِمْ بِنْتَ كِسْرَى قَالَ لَنْ يُفْلِحَ قَوْمٌ وَلَّوْا أَمْرَهُمْ امْرَأَةً`,
+					description: `“Dari Utsman bin Haitsam dari Auf dari Hasan dari Abi Bakrah berkata: ‘Allah memberikan manfaat kepadaku dengan sebuah kalimat yang kudengar dari Rasulullah SAW pada hari menjelang Perang Jamal, setelah aku hampir membenarkan mereka (Ashabul Jamal) dan berperang bersama mereka. Ketika sampai kabar kepada Rasulullah SAW bahwa bangsa Persia mengangkat putri Kisra sebagai pemimpin, beliau bersabda ‘Tidak akan beruntung suatu kaum yang menyerahkan urusan mereka kepada wanita.’’`
+				},
+				link: 'https://moraref.kemenag.go.id/documents/article/99047180253363892'
+			}
+		]
+	}
+]
 
 export const JurnalList: Jurnal[] = [
 	{

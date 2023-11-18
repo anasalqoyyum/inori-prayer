@@ -4,7 +4,7 @@ import { Theme } from '@radix-ui/themes'
 import '@radix-ui/themes/styles.css'
 import '@/styles/globals.css'
 import '@/styles/theme-config.css'
-import { Inter, Noto_Sans_Arabic } from 'next/font/google'
+import { Inter, Noto_Naskh_Arabic } from 'next/font/google'
 
 const inter = Inter({
 	subsets: ['latin'],
@@ -12,7 +12,7 @@ const inter = Inter({
 	variable: '--font-inter'
 })
 
-export const arabic = Noto_Sans_Arabic({
+export const arabic = Noto_Naskh_Arabic({
 	subsets: ['arabic'],
 	display: 'swap',
 	variable: '--font-arabic'
