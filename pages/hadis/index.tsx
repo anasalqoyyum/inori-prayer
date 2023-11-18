@@ -12,10 +12,14 @@ const Hadis = () => {
 	const [searchResults, setSearchResults] = useState(HadisList)
 
 	const handleSearch = (searchTerm: string) => {
-		if (searchTerm === '') setSearchResults(HadisList)
+		if (searchTerm.trim() === '') setSearchResults(HadisList)
+		const refinedSearch = searchTerm.toLowerCase().trim()
 		const filteredResults = HadisList.filter(
 			item =>
-				item.title.toLowerCase().includes(searchTerm.toLowerCase()) || item.info.shahih.toLowerCase().includes(searchTerm.toLowerCase())
+				item.title.toLowerCase().includes(refinedSearch) ||
+				item.info.shahih.toLowerCase().includes(refinedSearch) ||
+				item.info.bab.toLowerCase().includes(refinedSearch) ||
+				item.info.kitab.toLowerCase().includes(refinedSearch)
 		)
 		setSearchResults(filteredResults)
 	}
@@ -55,6 +59,9 @@ const Hadis = () => {
 												</Text>
 												<Text as="div" size="2" color="gray">
 													{item.info.shahih}
+												</Text>
+												<Text as="div" size="2" color="gray">
+													Kitab: {item.info.kitab} | Bab: {item.info.bab}
 												</Text>
 											</Box>
 										</Flex>
