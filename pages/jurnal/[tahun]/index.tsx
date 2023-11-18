@@ -5,13 +5,13 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { ArrowLeft, Scroll } from 'lucide-react'
 import { Routes } from '@/constants/Link'
-import { JurnalList } from '@/constants/Jurnal'
+import { JurnalListv2 } from '@/constants/Jurnal'
 import { Fragment } from 'react'
 
 const JurnalDetail = () => {
 	const { query } = useRouter()
-	const currentJurnalList = JurnalList.find(jurnal => jurnal.tahun === query.tahun)
-	const len = currentJurnalList?.list.length
+	const currentJurnalListv2 = JurnalListv2.find(jurnal => jurnal.slug === query.tahun)
+	const len = currentJurnalListv2?.list.length
 
 	return (
 		<Page>
@@ -22,18 +22,18 @@ const JurnalDetail = () => {
 					</Link>
 				</IconButton>
 				<Heading as="h2" size="5" align="center" className="text-pink-500">
-					{currentJurnalList?.title}
+					{currentJurnalListv2?.theme}
 				</Heading>
 			</Flex>
 
 			<Section>
 				<Flex gap="6" direction="column">
-					{currentJurnalList &&
-						currentJurnalList.list.map((item, index) => {
+					{currentJurnalListv2 &&
+						currentJurnalListv2.list.map((item, index) => {
 							return (
 								<Fragment key={item.slug}>
 									<Card asChild size="3" variant="ghost">
-										<Link href={`/jurnal/${currentJurnalList.tahun}/${item.slug}`}>
+										<Link href={`/jurnal/${currentJurnalListv2.slug}/${item.slug}`}>
 											<Flex gap="3" align="center">
 												<Avatar size="3" radius="full" fallback={<Scroll />} />
 												<Flex gap="2" direction={'column'}>

@@ -3,11 +3,11 @@ import Section from '@/components/section'
 import { Flex, Card, Avatar, Box, Text, Heading, Separator } from '@radix-ui/themes'
 import Link from 'next/link'
 import { Scroll } from 'lucide-react'
-import { JurnalList } from '@/constants/Jurnal'
+import { JurnalListv2 } from '@/constants/Jurnal'
 import { Fragment } from 'react'
 
 const Jurnal = () => {
-	const jurnalLen = JurnalList.length
+	const jurnalLen = JurnalListv2.length
 
 	return (
 		<Page>
@@ -16,19 +16,16 @@ const Jurnal = () => {
 			</Heading>
 			<Section>
 				<Flex gap="6" direction="column">
-					{JurnalList.map((item, index) => {
+					{JurnalListv2.map((item, index) => {
 						return (
-							<Fragment key={item.tahun}>
+							<Fragment key={item.slug}>
 								<Card asChild size="3" variant="ghost">
-									<Link href={`/jurnal/${item.tahun}`}>
+									<Link href={`/jurnal/${item.slug}`}>
 										<Flex gap="3" align="center">
 											<Avatar size="3" radius="full" fallback={<Scroll />} />
 											<Box>
-												<Text as="div" size="5" weight="bold">
-													{item.title}
-												</Text>
-												<Text as="div" size="2" color="gray">
-													Jurnal hadis yang ditulis pada tahun {item.tahun}
+												<Text as="div" size="4" weight="bold">
+													{item.theme}
 												</Text>
 											</Box>
 										</Flex>

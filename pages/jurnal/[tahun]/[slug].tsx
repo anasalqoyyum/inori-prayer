@@ -4,18 +4,21 @@ import { Flex, Card, Text, Heading, IconButton, Blockquote, Separator, Link as L
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { ArrowLeft } from 'lucide-react'
-import { JurnalList } from '@/constants/Jurnal'
+import { JurnalListv2 } from '@/constants/Jurnal'
+import clsx from 'clsx'
+import { arabic } from '@/pages/_app'
 
 const JurnalDetail = () => {
 	const { query } = useRouter()
-	const currentJurnalList = JurnalList.find(jurnal => jurnal.tahun === query.tahun)
-	const currentJurnal = currentJurnalList?.list.find(jurnal => jurnal.slug === query.slug)
+	const currentJurnalListv2 = JurnalListv2.find(jurnal => jurnal.slug === query.tahun)
+	const currentJurnal = currentJurnalListv2?.list.find(jurnal => jurnal.slug === query.slug)
+	const multiContact = currentJurnal?.contact.split(',')
 
 	return (
 		<Page>
 			<Flex align="center" gap="4">
 				<IconButton asChild variant="ghost">
-					<Link href={`/jurnal/${currentJurnalList?.tahun}`}>
+					<Link href={`/jurnal/${currentJurnalListv2?.slug}`}>
 						<ArrowLeft width="24" height="24" />
 					</Link>
 				</IconButton>
@@ -37,13 +40,30 @@ const JurnalDetail = () => {
 							</Text>
 							<br />
 							<Text as="p">{currentJurnal?.asal}</Text>
-							<LinkExtend>{currentJurnal?.contact}</LinkExtend>
+							<Flex direction={'column'} gap={'2'}>
+								{multiContact && multiContact.length === 1 ? (
+									<LinkExtend href={`mailto:${multiContact[0]}`}>{multiContact[0]}</LinkExtend>
+								) : (
+									<div>
+										{multiContact?.map((item, idx) => (
+											<LinkExtend href={`mailto:${item}`} key={idx}>
+												{idx !== multiContact.length - 1 ? `${item}, ` : item}
+											</LinkExtend>
+										))}
+									</div>
+								)}
+								<LinkExtend href={currentJurnal?.link}>Download PDF Jurnal</LinkExtend>
+							</Flex>
 						</Blockquote>
-						<Heading align={'center'} as="h5" size={'4'}>
-							Abstract
+						<Heading as="h4" size={'3'} align={'center'}>
+							{currentJurnal?.hadis.shahih}
 						</Heading>
-						<Text as="span" align="center" size={'2'}>
-							{currentJurnal?.abstract}
+						<Text as="p" size="5" align="center" className={clsx(arabic.className, 'leading-9 font-semibold')}>
+							{currentJurnal?.hadis.content}
+						</Text>
+						<Separator size={'4'} />
+						<Text as="span" align="center">
+							{currentJurnal?.hadis.description}
 						</Text>
 					</Flex>
 				</Card>
