@@ -8,7 +8,7 @@ interface Jurnalv2 {
 		asal: string
 		contact: string
 		hadis: {
-			shahih: string
+			shahih?: string
 			content: string
 			description: string
 		}
@@ -46,6 +46,73 @@ export const JurnalListv2: Jurnalv2[] = [
 					description: `Telah bercerita kepada kami Musaddad, telah bercerita kepada kami Abu 'Awanah dari Al A'masy dari Abu Hazim dari Abu Hurairah radhiyallahu anhu berkata, rasulullah bersabda: :”Apabila suami mengajak istrinya ke tempat tidur (untuk memenuhi hasrat secara biologis) tetapi ia tidak memenuhinya, lantas ia tidur dalam keadaan suaminya marah kepadanya, maka malaikat melaknatnya sampai pagi”`
 				},
 				link: 'https://www.syekhnurjati.ac.id/jurnal/index.php/diya/article/view/4529'
+			},
+			{
+				title: 'Pembacaan Hermeneutika Hadis Tentang Perintah Istri Bersujud Kepada Suami: Perspektif Hans-George Gadamer',
+				slug: 'pembacaan-hermeneutika-hadis-tentang-perintah-istri-bersujud-kepada-suami',
+				writer: 'Azzah Nurin Taufiqotuzzahro',
+				asal: 'STAI Al Anwar, Sarang, Rembang',
+				contact: 'azzahnurin08@gmail.com',
+				hadis: {
+					shahih: 'Sunan Tirmidzi:1159',
+					content: ` حَدَّثَنَا مَحْمُودُ بْنُ غَيْلاَنَ، قَالَ: حَدَّثَنَا النَّضْرُ بْنُ شُمَيْلٍ، قَالَ: أَخْبَرَنَا مُحَمَّدُ بْنُ عَمْرٍو، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ: لَوْ كُنْتُ آمِرًا أَحَدًا أَنْ يَسْجُدَ لأَحَدٍ لأَمَرْتُ الْمَرْأَةَ أَنْ تَسْجُدَ لِزَوْجِهَا.`,
+					description: `Dari Abu Hurairah, Nabi Muhammad Saw, bersabda:” Jikalau aku memerintahkan seseorang bersujud kepada orang lain, maka aku akan menyuruh istri untuk bersujud kepada suaminya”`
+				},
+				link: 'https://ejournal.uin-suka.ac.id/ushuluddin/Living/article/view/1616'
+			},
+			{
+				title: 'Nalar Hermeneutis Ulama Hadis: Larangan Perempuan Bepergian tanpa Mahram dalam Ruang Sejarah Pemahaman',
+				slug: 'nalar-hermeneutis-ulama-hadis',
+				writer: 'Miski',
+				asal: 'Universitas Islam Negeri Maulana Malik Ibrahim Malang',
+				contact: 'miski@uin-malang.ac.id',
+				hadis: {
+					shahih: 'Muslim, Shaẖîẖ Muslim: 827',
+					content: `حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ حَدَّثَنَا جَرِيرٌ عَنْ مُغِيرَةَ عَنْ إِبْرَاهِيمَ عَنْ سَهْمِ بْنِ مِنْجَابٍ عَنْ قَزَعَةَ عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ قَالَ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ لَا تُسَافِرْ الْمَرْأَةُ ثَلَاثًا إِلَّا مَعَ ذِي مَحْرَمٍ`,
+					description: `Telah menceritakan kepada kami Utsman bin Abu Syaibah, telah menceritakan kepada kami Jarir dari Mughirah dari Ibrahim dari Sahm bin Minjab dari Qaza'ah dari Abu Sa'id Al Khudri ia berkata, Rasulullah bersabda, "Seorang wanita tidak boleh bepergian selama tiga hari kecuali bersama mahramnya."`
+				},
+				link: 'https://ejournal.uinsaid.ac.id/index.php/dinika/article/view/2464'
+			},
+			{
+				title: 'Hadits Perempuan Melakukan Perjalanan Tanpa Maẖram Perspektif Hermeneutika Paul Ricoeur',
+				slug: 'hadits-perempuan-melakukan-perjalanan-tanpa-mahram',
+				writer: 'Ummi Hasanah',
+				asal: 'Universitas Islam Negeri Syarif Hidayatullah Jakarta',
+				contact: 'ummihasanah1712@gmail.com',
+				hadis: {
+					shahih: 'Saẖîẖ al-Bukhâri: 1862',
+					content: `حَدَّثَنَا أَبُو النُّعْمَانِ حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ عَنْ عَمْرٍو عَنْ أَبِي مَعْبَدٍ مَوْلَى ابْنِ عَبَّاسٍ عَنْ ابْنِ عَبَّاسٍ رَضِيَ اللَّهُ عَنْهُمَا قَالَ قَالَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ لَا تُسَافِرْ الْمَرْأَةُ إِلَّا مَعَ ذِي مَحْرَمٍ وَلَا يَدْخُلُ عَلَيْهَا رَجُلٌ إِلَّا وَمَعَهَا مَحْرَمٌ فَقَالَ رَجُلٌ يَا رَسُولَ اللَّهِ إِنِّي أُرِيدُ أَنْ أَخْرُجَ فِي جَيْشِ كَذَا وَكَذَا وَامْرَأَتِي تُرِيدُ الْحَجَّ فَقَالَ اخْرُجْ مَعَهَا`,
+					description: `“Abu Nu’man telah bercerita kepada kami, Hammad bin Zaid dari Abi Ma’bad budak Ibn ‘Abbas dari Ibn ‘Abbas bahwa Rasulullas saw bersabda; Janganlah seorang perempuan bepergian kecuali bersama maẖram, dan janganlah seorang laki-laki menemuinya kecuali ia (perempuan itu) bersama maẖram. Seseorang berkata; wahai Rasulullah saw saya ingin pergi keluar untuk berperang, tetapi istriku ingin pergi haji, maka Rasul menjawab; berangkatlah bersamanya (istrimu).”`
+				},
+				link: 'https://journal.iain-manado.ac.id/index.php/AJIP/article/download/633/527'
+			},
+			{
+				title:
+					'Reinterpretasi Hadis Larangan Perempuan Bepergian Tanpa Mahram Dan Larangan Melukis (Pendekatan Sosio-Historis Dan Antropologis)',
+				slug: 'reinterpretasi-hadis-larangan-perempuan-bepergian-tanpa-mahram-dan-larangan-melukis',
+				writer: 'Ghufron Hamzah',
+				asal: 'FAI Universitas Wahid Hasyim Semarang',
+				contact: 'ghufronhamzah@gmail.com',
+				hadis: {
+					shahih: 'Shahih Bukhari:1086',
+					content: `حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ الحَنْظَلِيُّ، قَالَ: قُلْتُ لِأَبِي أُسَامَةَ: حَدَّثَكُمْ عُبَيْدُ اللَّهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ رَضِيَ اللَّهُ عَنْهُمَا: أَنَّ النَّبِيَّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: «لاَ تُسَافِرِ المَرْأَةُ ثَلاَثَةَ أَيَّامٍ إِلَّا مَعَ ذِي مَحْرَمٍ`,
+					description: `Ishaq bin Ibrahim al-Hanzali telah menceritakan kepada kami (al-Bukhari) dia berkata:saya berkata kepada abu Usamah, telah menceritakan kepada kalian Ubaidillah dari Nafi’ dari Ibn Umar r.a. bahwa Nabi saw. Bersabda: “Janganlah perempuan bepergian sejauh perjalanan tiga hari, kecuali ada mahram bersamanya”`
+				},
+				link: 'https://ejournal.unisnu.ac.id/j-asna/article/view/944/1532'
+			},
+			{
+				title: 'Peran Ganda Wanita dalam Rumah Tangga',
+				slug: 'peran-ganda-wanita-dalam-rumah-tangga',
+				writer: 'Samsidar',
+				asal: 'IAIN Bone',
+				contact: 'ghufronhamzah@gmail.com',
+				hadis: {
+					shahih: 'Shahih Bukhari:4789',
+					content: `حَدَّثَنَا أَبُو النُّعْمَانِ حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ عَنْ أَيُّوبَ عَنْ نَافِعٍ عَنْ عَبْدِ اللَّهِ قَالَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ كُلُّكُمْ رَاعٍ وَكُلُّكُمْ مَسْئُولٌ فَالْإِمَامُ رَاعٍ وَهُوَ مَسْئُولٌ وَالرَّجُلُ رَاعٍ عَلَى أَهْلِهِ وَهُوَ مَسْئُولٌ وَالْمَرْأَةُ رَاعِيَةٌ عَلَى بَيْتِ زَوْجِهَا وَهِيَ مَسْئُولَةٌ وَالْعَبْدُ رَاعٍ عَلَى مَالِ سَيِّدِهِ وَهُوَ مَسْئُولٌ أَلَا فَكُلُّكُمْ رَاعٍ وَكُلُّكُمْ مَسْئُولٌ`,
+					description: `Telah menceritakan kepada kami Abu Nu'man Telah menceritakan kepada kami Hammad bin Zaid dari Ayyub dari Nafi' dari Abdullah ia berkata: Nabi shallallahu 'alaihi wa sallam bersabda:
+					"Setiap kalian adalah pemimpin, dan setiap kalian akan dimintai pertanggungjawabannya. Seorang laki-laki adalah pemimpin atas keluarganya dan ia akan dimintai pertanggungjawabannya. Seorang wanita adalah pemimpin atas rumah suaminya, dan ia pun akan dimintai pertanggung jawabannya. Dan seorang budak juga pemimpin atas harta tuannya dan ia juga akan dimintai pertanggung jawabannya. Sungguh setiap kalian adalah pemimpin dan setiap kalian akan dimintai pertanggung jawabannya."`
+				},
+				link: 'https://mail.jurnal.iain-bone.ac.id/index.php/annisa/article/view/663'
 			}
 		]
 	},
@@ -65,6 +132,256 @@ export const JurnalListv2: Jurnalv2[] = [
 					description: `“Dari Utsman bin Haitsam dari Auf dari Hasan dari Abi Bakrah berkata: ‘Allah memberikan manfaat kepadaku dengan sebuah kalimat yang kudengar dari Rasulullah SAW pada hari menjelang Perang Jamal, setelah aku hampir membenarkan mereka (Ashabul Jamal) dan berperang bersama mereka. Ketika sampai kabar kepada Rasulullah SAW bahwa bangsa Persia mengangkat putri Kisra sebagai pemimpin, beliau bersabda ‘Tidak akan beruntung suatu kaum yang menyerahkan urusan mereka kepada wanita.’’`
 				},
 				link: 'https://moraref.kemenag.go.id/documents/article/99047180253363892'
+			},
+			{
+				title: 'Kepemimpinan perempuan dalam hukum islam: telaah atas hadis kepemimpinan perempuan',
+				slug: 'kepemimpinan-perempuan-dalam-hukum-islam-telaah-atas-hadis',
+				writer: 'Achmad Saeful',
+				asal: 'Sekolah Tinggi Agama Islam Binamadani',
+				contact: 'achmadsaeful@stai-binamadani.ac.id',
+				hadis: {
+					shahih: 'an-Nasai:5405',
+					content: `أَخْبَرَنَا مُحَمَّدُ بْنُ الْمُثَنَّى قَالَ حَدَّثَنَا خَالِدُ بْنُ الْحَارِثِ قَالَ حَدَّثَنَا حُمَيْدٌ عَنْ الْحَسَنِ عَنْ أَبِي بَكْرَةَ قَالَ عَصَمَنِي اللَّهُ بِشَيْءٍ سَمِعْتُهُ مِنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ لَمَّا هَلَكَ كِسْرَى قَالَ مَنْ اسْتَخْلَفُوا قَالُوا بِنْتَهُ قَالَ لَنْ يُفْلِحَ قَوْمٌ وَلَّوْا أَمْرَهُمْ امْرَأَةً`,
+					description: `Telah mengabarkan kepada kami Muhammad Ibnul Mutsanna ia berkata, telah menceritakan kepada kami Khalid Ibnul Harits ia berkata, telah menceritakan kepada kami Humaid dari Al Hasan dari Abu Bakrah ia berkata, "Allah telah memeliharaku dengan sesuatu yang aku dengar dari Rasulullah ﷺ saat Kisra hancur, beliau bertanya, "Siapa yang mereka angkat sebagai raja?" para sahabat menjawab, "Puterinya." Beliau lalu bersabda, "Tidak akan beruntung suatu kaum yang menyerahkan perkaranya kepada seorang wanita."`
+				},
+				link: 'https://stai-binamadani.e-journal.id/Syarie/article/view/271'
+			},
+			{
+				title: 'Kepemimpinan Perempuan Dalam Tinjauan Hadis',
+				slug: 'kepemimpinan-perempuan-dalam-tinjauan-hadis',
+				writer: 'Faridah, Siar Ni’mah, Muhammad Yusuf, Kusnadi',
+				asal: 'Institut Agama Islam Muhammadiyah Sinjai, Sekolah Tinggi Agama Islam Darud Dakwah wal Irsyad Makassar',
+				contact: 'andifaridah81@gmail.com,siar.nimah@gmail.com,yusufburhan8588@gmail.com',
+				hadis: {
+					shahih: 'Sunan an-Nasai:5388',
+					content: `أَخْبَرَنَا مُحَمَّدُ بْنُ الْمُثَنَّى قَالَ حَدَّثَنَا خَالِدُ بْنُ الْحَارِثِ قَالَ حَدَّثَنَا حُمَيْدٌ عَنْ الْحَسَنِ عَنْ أَبِي بَكْرَةَ قَالَ عَصَمَنِي اللَّهُ بِشَيْءٍ سَمِعْتُهُ مِنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ لَمَّا هَلَكَ كِسْرَى قَالَ مَنْ اسْتَخْلَفُوا قَالُوا بِنْتَهُ قَالَ لَنْ يُفْلِحَ قَوْمٌ وَلَّوْا أَمْرَهُمْ امْرَأَةً`,
+					description: `Telah mengabarkan kepada kami Muhammad Ibnul Mutsanna ia berkata, telah menceritakan kepada kami Khalid Ibnul Harits ia berkata, telah menceritakan kepada kami Humaid dari Al Hasan dari Abu Bakrah ia berkata, "Allah telah memeliharaku dengan sesuatu yang aku dengar dari Rasulullah ﷺ saat Kisra hancur, beliau bertanya, "Siapa yang mereka angkat sebagai raja?" para sahabat menjawab, "Puterinya." Beliau lalu bersabda, "Tidak akan beruntung suatu kaum yang menyerahkan perkaranya kepada seorang wanita."`
+				},
+				link: 'https://journal.uiad.ac.id/index.php/al-mubarak/article/view/1054'
+			},
+			{
+				title: 'Kepemimpinan Perempuan Dalam Pandangan Islam',
+				slug: 'kepemimpinan-perempuan-dalam-pandangan-islam',
+				writer: 'Ahmad Zaini, Ahmad Hadiqul Umam, Al Muzafar Sodik, Muhammad Agorrul kirom',
+				asal: 'Institut Ilmu Al-Qur’an An-Nur Yogyakarta',
+				contact: 'agorrulkirom.21@gmail.com',
+				hadis: {
+					shahih: 'Tirmidzi:2188',
+					content: `حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى حَدَّثَنَا خَالِدُ بْنُ الْحَارِثِ حَدَّثَنَا حُمَيْدٌ الطَّوِيلُ عَنْ الْحَسَنِ عَنْ أَبِي بَكْرَةَ قَالَ عَصَمَنِي اللَّهُ بِشَيْءٍ سَمِعْتُهُ مِنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ لَمَّا هَلَكَ كِسْرَى قَالَ مَنْ اسْتَخْلَفُوا قَالُوا ابْنَتَهُ فَقَالَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ لَنْ يُفْلِحَ قَوْمٌ وَلَّوْا أَمْرَهُمْ امْرَأَةً قَالَ فَلَمَّا قَدِمَتْ عَائِشَةُ يَعْنِي الْبَصْرَةَ ذَكَرْتُ قَوْلَ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَعَصَمَنِي اللَّهُ بِهِ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ`,
+					description: `Telah menceritakan kepada kami Muhammad bin Al Mutsanna, telah menceritakan kepada kami Khalid bin Al Harits, telah menceritakan kepada kami Humaid Ath Thawil dari Al Hasan dari Abu Bakrah berkata, Allah menjagaku dengan sesuatu yang aku dengar dari Rasulullah ﷺ saat Kisra mati, beliau bersabda, "Siapa yang menjadi penggantinya?" mereka menjawab: Putrinya, Nabi ﷺ bersabda, "Tidak akan beruntung suatu kaum yang menguasakan urusan mereka kepada seorang wanita." Berkata Abu Bakrah: Saat 'Aisyah tiba di Bashrah, aku sebutkan sabda Rasulullah ﷺ lalu Allah Subhaanahu wa Ta'ala menjagaku dengan sabda itu. Berkata Abu Isa: Hadits ini hasan shahih.`
+				},
+				link: 'https://ejournal.staindirundeng.ac.id/index.php/bashair/article/view/883'
+			},
+			{
+				title: 'Teori Perubahan Sosial Dalam Memahami Hadis Kepemimpinan Perempuan',
+				slug: 'teori-perubahan-sosial-dalam-memahami-hadis-kepemimpinan-perempuan',
+				writer: 'Afrizal Fahmi Ali',
+				asal: 'Pascasarjana UIN Sunan Gunung Djati Bandung',
+				contact: 'afrizalfahmiali29@gmail.com',
+				hadis: {
+					shahih: 'Shahih Bukhari:4073',
+					content: `حَدَّثَنَا عُثْمَانُ بْنُ الْهَيْثَمِ حَدَّثَنَا عَوْفٌ عَنْ الْحَسَنِ عَنْ أَبِي بَكْرَةَ قَالَ لَقَدْ نَفَعَنِي اللَّهُ بِكَلِمَةٍ سَمِعْتُهَا مِنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَيَّامَ الْجَمَلِ بَعْدَ مَا كِدْتُ أَنْ أَلْحَقَ بِأَصْحَابِ الْجَمَلِ فَأُقَاتِلَ مَعَهُمْ قَالَ لَمَّا بَلَغَ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَنَّ أَهْلَ فَارِسَ قَدْ مَلَّكُوا عَلَيْهِمْ بِنْتَ كِسْرَى قَالَ لَنْ يُفْلِحَ قَوْمٌ وَلَّوْا أَمْرَهُمْ امْرَأَةً`,
+					description: `Telah menceritakan kepada kami Utsman bin Haitsam, telah menceritakan kepada kami Auf dari Al Hasan dari Abu Bakrah dia berkata, Sungguh Allah telah memberikan manfaat kepadaku dengan suatu kalimat yang pernah aku dengar dari Rasulullah, -yaitu pada waktu perang Jamal tatkala aku hampir bergabung dengan para penunggang unta lalu aku ingin berperang bersama mereka.- Dia berkata, 'Tatkala sampai kepada Rasulullah ﷺ, bahwa penduduk Persia telah dipimpin oleh seorang anak perempuan putri raja Kisra, beliau bersabda, "Suatu kaum tidak akan beruntung, jika dipimpin oleh seorang wanita."`
+				},
+				link: 'https://e-jurnal.stiqarrahman.ac.id/index.php/dirayah/article/view/101'
+			},
+			{
+				title: 'Reinterpretasi Hadis Perempuan Di Ruang Publik Perspektif Feminisme Sosialis',
+				slug: 'reinterpretasi-hadis-perempuan-di-ruang-publik-perspektif-feminisme-sosialis',
+				writer: 'Nur Ikhlas',
+				asal: 'Sekolah Tinggi Agama Islam Negeri Sultan Abdurrahman Kepulauan Riau',
+				contact: 'nur_ikhlas@stainkepri.ac.id',
+				hadis: {
+					shahih: 'Shahih Muslim:2389',
+					content: `حَدَّثَنَا أَبُو كَامِلٍ الْجَحْدَرِيُّ حَدَّثَنَا بِشْرٌ يَعْنِي ابْنَ مُفَضَّلٍ حَدَّثَنَا سُهَيْلُ بْنُ أَبِي صَالِحٍ عَنْ أَبِيهِ عَنْ أَبِي هُرَيْرَةَ قَالَ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ لَا يَحِلُّ لِامْرَأَةٍ أَنْ تُسَافِرَ ثَلَاثًا إِلَّا وَمَعَهَا ذُو مَحْرَمٍ مِنْهَا`,
+					description: `Telah menceritakan kepada kami Abu Kamil Al Jahdari, telah menceritakan kepada kami Bisyr bin Mufadldlal, telah menceritakan kepada kami Suhail bin Abu Shalih dari bapaknya dari Abu Hurairah ia berkata, Rasulullah ﷺ bersabda, "Tidak halal bagi seorang wanita untuk mengadakan perjalanan selama tiga hari kecuali disertai mahramnya."`
+				},
+				link: 'http://ejournal.uinib.ac.id/jurnal/index.php/ulunnuha/article/view/4020'
+			}
+		]
+	},
+	{
+		theme: 'Memuliakan Wanita',
+		slug: 'memuliakan-wanita',
+		list: [
+			{
+				title: 'Reinterpretasi Hadis Perempuan Tercipta dari Tulang Rusuk',
+				slug: 'reinterpretasi-hadis-perempuan-tercipta-dari-tulang-rusuk',
+				writer: 'Nilna Fadlillah',
+				asal: 'Institut Agama Islam Qomaruddin Gresik',
+				contact: 'Nilna.fa@gmail.com',
+				hadis: {
+					shahih: 'Shahih Bukhari:3084',
+					content: `حَدَّثَنَا أَبُو كُرَيْبٍ وَمُوسَى بْنُ حِزَامٍ قَالَا حَدَّثَنَا حُسَيْنُ بْنُ عَلِيٍّ عَنْ زَائِدَةَ عَنْ مَيْسَرَةَ الْأَشْجَعِيِّ عَنْ أَبِي حَازِمٍ عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ اسْتَوْصُوا بِالنِّسَاءِ فَإِنَّ الْمَرْأَةَ خُلِقَتْ مِنْ ضِلَعٍ وَإِنَّ أَعْوَجَ شَيْءٍ فِي الضِّلَعِ أَعْلَاهُ فَإِنْ ذَهَبْتَ تُقِيمُهُ كَسَرْتَهُ وَإِنْ تَرَكْتَهُ لَمْ يَزَلْ أَعْوَجَ فَاسْتَوْصُوا بِالنِّسَاءِ`,
+					description: `Telah bercerita kepada kami Abu Kuraib dan Musa bin Hizam, keduanya berkata, telah bercerita kepada kami Husain bin "Ali dari Za'idah dari Maisarah Al Asyja'iy dari Abu Hazim dari Abu Hurairah radhiallahu'anhu, ia berkata, Rasulullah ﷺ bersabda, "Saling berwasiatlah kalian (dalam menjaga hubungan baik) terhadap para wanita. Sesungguhnya wanita itu diciptakan dari tulang rusuk yang bengkok, sementara yang paling bengkok dari tulang rusuk adalah pangkalnya. Jika engkau hendak mencoba untuk meluruskannya, maka ia akan patah, namun bila engkau biarkan, maka ia akan tetap bengkok. Oleh karena itu, saling berwasiatlah kalian terhadap para wanita".`
+				},
+				link: 'https://ejournal.uin-suka.ac.id/ushuluddin/Living/article/view/2017'
+			},
+			{
+				title: 'Revitalisasi Nilai-Nilai Khitbah di dalam Hadis Sebagai Upaya Menjaga Kemuliaan Perempuan (Analisis Hadis Tematik)',
+				slug: 'revitalisasi-nilai-nilai-khitbah-di-dalam-hadis-sebagai-upaya-menjaga',
+				writer: 'Husnul Khatimah',
+				asal: 'Institut Agama Islam Negeri Madura, Indonesia',
+				contact: 'husnul.MDR78@gmail.com',
+				hadis: {
+					shahih: 'Shahih Bukhari:4700',
+					content: `حَدَّثَنَا مُسَدَّدٌ حَدَّثَنَا يَحْيَى عَنْ عُبَيْدِ اللَّهِ قَالَ حَدَّثَنِي سَعِيدُ بْنُ أَبِي سَعِيدٍ عَنْ أَبِيهِ عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ عَنْ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ تُنْكَحُ الْمَرْأَةُ لِأَرْبَعٍ لِمَالِهَا وَلِحَسَبِهَا وَجَمَالِهَا وَلِدِينِهَا فَاظْفَرْ بِذَاتِ الدِّينِ تَرِبَتْ يَدَاكَ`,
+					description: `Telah menceritakan kepada kami Musaddad, telah menceritakan kepada kami Yahya dari Ubaidullah ia berkata, telah menceritakan kepadaku Sa'id bin Abu Sa'id dari bapaknya dari Abu Hurairah radhiallahu'anhu, dari Nabi ﷺ, beliau bersabda, "Wanita itu dinikahi karena empat hal, karena hartanya, karena keturunannya, karena kecantikannya dan karena agamanya. Maka pilihlah karena agamanya, niscaya kamu akan beruntung."`
+				},
+				link: 'http://ejournal.iainmadura.ac.id/index.php/elnubuwwah/article/view/8433'
+			},
+			{
+				title: 'Mudahnya Mencari Surga Bagi Wanita yang Sudah Menikah',
+				slug: 'mudahnya-mencari-surga-bagi-wanita-yang-sudah-menikah',
+				writer: 'Eka Nurohmah',
+				asal: 'Institut Agama Islam Negeri Metro',
+				contact: 'Ekanurohmah28@gmail.com',
+				hadis: {
+					shahih: 'Shahih Bukhari:4700',
+					content: `حَدَّثَنَا مُسَدَّدٌ حَدَّثَنَا يَحْيَى عَنْ عُبَيْدِ اللَّهِ قَالَ حَدَّثَنِي سَعِيدُ بْنُ أَبِي سَعِيدٍ عَنْ أَبِيهِ عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ عَنْ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ تُنْكَحُ الْمَرْأَةُ لِأَرْبَعٍ لِمَالِهَا وَلِحَسَبِهَا وَجَمَالِهَا وَلِدِينِهَا فَاظْفَرْ بِذَاتِ الدِّينِ تَرِبَتْ يَدَاكَ`,
+					description: `Telah menceritakan kepada kami Musaddad, telah menceritakan kepada kami Yahya dari Ubaidullah ia berkata, telah menceritakan kepadaku Sa'id bin Abu Sa'id dari bapaknya dari Abu Hurairah radhiallahu'anhu, dari Nabi ﷺ, beliau bersabda, "Wanita itu dinikahi karena empat hal, karena hartanya, karena keturunannya, karena kecantikannya dan karena agamanya. Maka pilihlah karena agamanya, niscaya kamu akan beruntung."`
+				},
+				link: 'https://www.academia.edu/download/63597724/artikel_munakahat_fiks_banget20200611-94409-i6wmou.pdf'
+			},
+			{
+				title: 'Gender Perspektif Hadis',
+				slug: 'gender-perspektif-hadis',
+				writer: 'Staf Pengajar Abdul Mutakabbir',
+				asal: 'Ma’had Aly Uin Aalauddin',
+				contact: 'abdulmutakabbir90@gmai.com',
+				hadis: {
+					shahih: 'Shahih Muslim:1468',
+					content: `و حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ حَدَّثَنَا حُسَيْنُ بْنُ عَلِيٍّ عَنْ زَائِدَةَ عَنْ مَيْسَرَةَ عَنْ أَبِي حَازِمٍ عَنْ أَبِي هُرَيْرَةَ عَنْ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الْآخِرِ فَإِذَا شَهِدَ أَمْرًا فَلْيَتَكَلَّمْ بِخَيْرٍ أَوْ لِيَسْكُتْ وَاسْتَوْصُوا بِالنِّسَاءِ فَإِنَّ الْمَرْأَةَ خُلِقَتْ مِنْ ضِلَعٍ وَإِنَّ أَعْوَجَ شَيْءٍ فِي الضِّلَعِ أَعْلَاهُ إِنْ ذَهَبْتَ تُقِيمُهُ كَسَرْتَهُ وَإِنْ تَرَكْتَهُ لَمْ يَزَلْ أَعْوَجَ اسْتَوْصُوا بِالنِّسَاءِ خَيْرًا`,
+					description: `Telah menceritakan kepada kami Abu Bakar bin Abu Syaibah telah menceritakan kepada kami Husain bin Ali dari Za'idah dari Maisarah dari Abu Hazim dari Abu Hurairah dari Nabi shallallahu 'alaihi wa sallam beliau bersabda: "Barangsiapa yang beriman kepada Allah dan Hari Akhir, kemudian dia menyaksikan suatu peristiwa, hendaklah dia berbicara dengan baik atau diam, dan berwasiatlah kepada wanita dengan kebaikan, karena sesungguhnya dia diciptakan dari tulang rusuk, dan bagian yang paling bengkok adalah tulang rusuk yang paling atas, jika kamu berusaha untuk meluruskannya, niscaya akan patah, jika kamu membiarkannya, dia akan senantiasa bengkok, maka berwasiatlah terhadap wanita dengan kebaikan."`
+				},
+				link: 'https://journal3.uin-alauddin.ac.id/index.php/tahdis/article/view/2779'
+			}
+		]
+	},
+	{
+		theme: 'Perempuan Di Bidang Olahraga',
+		slug: 'perempuan-di-bidang-olahraga',
+		list: [
+			{
+				title: 'Partisipasi Perempuan Dalam Olahraga Perspektif Hermeneutika Hadis Fazlur Rahman',
+				slug: 'partisipasi-perempuan-dalam-olahraga-perspektif-hermeneutika-hadis',
+				writer: 'Rianto Hasan',
+				asal: 'UIN Sunan Kalijaga Yogyakarta',
+				contact: 'hasanrianto24@gmail.com',
+				hadis: {
+					shahih: 'Abu Dawud:2214',
+					content: `حَدَّثَنَا أَبُو صَالِحٍ الْأَنْطَاكِيُّ مَحْبُوبُ بْنُ مُوسَى أَخْبَرَنَا أَبُو إِسْحَقَ يَعْنِي الْفَزَارِيَّ عَنْ هِشَامِ بْنِ عُرْوَةَ عَنْ أَبِيهِ وَعَنْ أَبِي سَلَمَةَ عَنْ عَائِشَةَ رَضِيَ اللَّهُ عَنْهَا أَنَّهَا كَانَتْ مَعَ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي سَفَرٍ قَالَتْ فَسَابَقْتُهُ فَسَبَقْتُهُ عَلَى رِجْلَيَّ فَلَمَّا حَمَلْتُ اللَّحْمَ سَابَقْتُهُ فَسَبَقَنِي فَقَالَ هَذِهِ بِتِلْكَ السَّبْقَةِ`,
+					description: `Telah menceritakan kepada kami Abu Shalih Al Anthoki Mahbub bin Musa, telah mengabarkan kepada kami Al Fazari, dari Hisyam bin 'Urwah, dari ayahnya, dan dari Abu Salamah, dari Aisyah, radliyallahu 'anha, bahwa Ia pernah bersama Nabi shallallahu 'alaihi wa sallam dalam suatu perjalanan, ia berkata: Kemudian aku berlomba dengan beliau dengan berlari, lalu aku mendahului beliau. Kemudian setelah gemuk aku berlomba dengan beliau, maka beliau mendahuluiku. Beliau berkata: "Ini menggantikan kekalahan pada perlombaan terdahulu."`
+				},
+				link: 'https://ejournal.uin-suka.ac.id/ushuluddin/alquran/article/view/2001-03'
+			}
+		]
+	},
+	{
+		theme: 'Perempuan Di Bidang Pendidikan',
+		slug: 'perempuan-di-bidang-pendidikan',
+		list: [
+			{
+				title: 'Pendidikan Perempuan Menurut Rahmah El Yunusiyah Dalam Perspektif Hadis',
+				slug: 'pendidikan-perempuan-menurut-rahmah-el-yunusiah-dalam-perspektif-hadis',
+				writer: 'Febria Monicha, Endiri Yenti',
+				asal: 'IAIN Bukittinggi',
+				contact: 'febrimonicha4@gmail.com,endri.yenti@yahoo.co.id',
+				hadis: {
+					shahih: 'Sunan Ibnu Majah:224',
+					content: `حَدَّثَنَا هِشَامُ بْنُ عَمَّارٍ قَالَ: حَدَّثَنَا حَفْصُ بْنُ سُلَيْمَانَ قَالَ: حَدَّثَنَا كَثِيرُ بْنُ شِنْظِيرٍ، عَنْ مُحَمَّدِ بْنِ سِيرِينَ، عَنْ أَنَسِ بْنِ مَالِكٍ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «طَلَبُ الْعِلْمِ فَرِيضَةٌ عَلَى كُلِّ مُسْلِمٍ، وَوَاضِعُ الْعِلْمِ عِنْدَ غَيْرِ أَهْلِهِ كَمُقَلِّدِ الْخَنَازِيرِ الْجَوْهَرَ وَاللُّؤْلُؤَ وَالذَّهَبَ»`,
+					description: `Ahmad bin Abdul Wahhab menceritakan kepada kami bahwa ia berkata Ali bin Iyasy al-Himsi menceritakan bahwa Hafas bin Sulaiman menceritakan Kasir bin syanzir dari Muhammad bin Sirin dari Anas bin Malik ia berkata, Rasulullah SAW bersabda,“Mencari ilmu dalah kewajiban setiap muslim`
+				},
+				link: 'http://journal.ikopin.ac.id/index.php/humantech/article/view/1136'
+			},
+			{
+				title: 'Artikulasi Kesetaraan Gender Dalam Pendidikan (Perspektif Islam)',
+				slug: 'artikulasi-kesetaraan-gender-dalam-pendidikan',
+				writer: 'Wahyuddin Naro',
+				asal: 'UIN Alauddin Makassar',
+				contact: '-',
+				hadis: {
+					shahih: 'Shahih Bukhari:4789',
+					content: `حَدَّثَنَا أَبُو النُّعْمَانِ حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ عَنْ أَيُّوبَ عَنْ نَافِعٍ عَنْ عَبْدِ اللَّهِ قَالَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ كُلُّكُمْ رَاعٍ وَكُلُّكُمْ مَسْئُولٌ فَالْإِمَامُ رَاعٍ وَهُوَ مَسْئُولٌ وَالرَّجُلُ رَاعٍ عَلَى أَهْلِهِ وَهُوَ مَسْئُولٌ وَالْمَرْأَةُ رَاعِيَةٌ عَلَى بَيْتِ زَوْجِهَا وَهِيَ مَسْئُولَةٌ وَالْعَبْدُ رَاعٍ عَلَى مَالِ سَيِّدِهِ وَهُوَ مَسْئُولٌ أَلَا فَكُلُّكُمْ رَاعٍ وَكُلُّكُمْ مَسْئُولٌ`,
+					description: `Telah menceritakan kepada kami Abu Nu'man Telah menceritakan kepada kami Hammad bin Zaid dari Ayyub dari Nafi' dari Abdullah ia berkata: Nabi shallallahu 'alaihi wa sallam bersabda: "Setiap kalian adalah pemimpin, dan setiap kalian akan dimintai pertanggungjawabannya. Seorang laki-laki adalah pemimpin atas keluarganya dan ia akan dimintai pertanggungjawabannya. Seorang wanita adalah pemimpin atas rumah suaminya, dan ia pun akan dimintai pertanggung jawabannya. Dan seorang budak juga pemimpin atas harta tuannya dan ia juga akan dimintai pertanggung jawabannya. Sungguh setiap kalian adalah pemimpin dan setiap kalian akan dimintai pertanggung jawabannya."`
+				},
+				link: 'https://journal3.uin-alauddin.ac.id/index.php/diskursus_islam/article/view/1319'
+			}
+		]
+	},
+	{
+		theme: 'Perempuan Dalam Pernikahan',
+		slug: 'perempuan-dalam-pernikahan',
+		list: [
+			{
+				title: 'Hikmah Walimah al-’Ursy (Pesta Pernikahan) dengan Kehormatan Perempuan Perspektif Hadis',
+				slug: 'hikmah-walimah-al-ursy-dengan-kehormatan',
+				writer: 'Lia Laquna Jamali, Lukman Zain, Ahmad Faqih Hasyim',
+				asal: '-',
+				contact: 'lialaquna22@gmail.com,Elzamsya@yahoo.com,Bungfaq@gmail.com',
+				hadis: {
+					shahih: 'Shahih Bukhari:5167',
+					content: `حَدَّثَنَا عَلِيٌّ حَدَّثَنَا سُفْيَانُ قَالَ حَدَّثَنِي حُمَيْدٌ أَنَّهُ سَمِعَ أَنَسًا رَضِيَ اللَّهُ عَنْهُ قَالَ سَأَلَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ عَبْدَ الرَّحْمَنِ بْنَ عَوْفٍ وَتَزَوَّجَ امْرَأَةً مِنْ الْأَنْصَارِ كَمْ أَصْدَقْتَهَا قَالَ وَزْنَ نَوَاةٍ مِنْ ذَهَبٍ وَعَنْ حُمَيْدٍ سَمِعْتُ أَنَسًا قَالَ لَمَّا قَدِمُوا الْمَدِينَةَ نَزَلَ الْمُهَاجِرُونَ عَلَى الْأَنْصَارِ فَنَزَلَ عَبْدُ الرَّحْمَنِ بْنُ عَوْفٍ عَلَى سَعْدِ بْنِ الرَّبِيعِ فَقَالَ أُقَاسِمُكَ مَالِي وَأَنْزِلُ لَكَ عَنْ إِحْدَى امْرَأَتَيَّ قَالَ بَارَكَ اللَّهُ لَكَ فِي أَهْلِكَ وَمَالِكَ فَخَرَجَ إِلَى السُّوقِ فَبَاعَ وَاشْتَرَى فَأَصَابَ شَيْئًا مِنْ أَقِطٍ وَسَمْنٍ فَتَزَوَّجَ فَقَالَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَوْلِمْ وَلَوْ بِشَاةٍ`,
+					description: `Telah menceritakan kepada kami Ali, telah menceritakan kepada kami Sufyan ia berkata: Telah menceritakan kepadaku Humaid bahwa ia mendengar Anas radliyallahu 'anhu berkata: Nabi shallallahu 'alaihi wa sallam pernah bertanya kepada Abdurrahman bin Auf saat ia menikahi seorang wanita Anshar: "Berapa mahar yang kamu berikan padanya?" Ia pun menjawab: "Seukuran biji berupa emas." Dan dari Humaid: Aku mendengar Anas berkata: Ketika mereka sampai di kota Madinah, kaum Muhajirin pun singgah di tempat orang-orang Anshar. Lalu Abdurrahman bin Auf tinggal di tempat Sa'd bin Ar Rabi'. Lalu Sa'd berkata padanya: "Aku akan membagi hartaku kepadamu dan menikahkanmu dengan salah seorang isteriku." Abdurrahman berkata: "Semoga Allah memberi keberkahan pada keluarga dan juga hartamu." Lalu ia pun keluar menuju pasar dan berjual beli hingga ia mendapatkan keuntungan berupa keju dan samin, dan ia pun menikah. Maka Nabi shallallahu 'alaihi wa sallam bersabda: "Adakanlah walimah meskipun hanya dengan seekor kambing."`
+				},
+				link: 'https://www.jurnal.syekhnurjati.ac.id/index.php/diya/article/view/1161'
+			},
+			{
+				title: 'Kriteria Memilih Pasangan Hidup (Kajian Hermeneutika Hadis)',
+				slug: 'kriteria-memilih-pasangan-hidup',
+				writer: 'Nurun Najwah',
+				asal: 'UIN Sunan Kalijaga Yogyakarta',
+				contact: '-',
+				hadis: {
+					content: `حَدَّثَنَا الْحَسَنُ بْنُ أَبِي الرَّبِيعِ أَنْبَأَنَا عَبْدُ الرَّزَّاقِ عَنْ مَعْمَرٍ عَنْ ثَابِتٍ الْبُنَانِيِّ عَنْ بَكْرِ بْنِ عَبْدِ اللَّهِ الْمُزَنِيِّ عَنْ الْمُغِيرَةِ بْنِ شُعْبَةَ قَالَ أَتَيْتُ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَذَكَرْتُ لَهُ امْرَأَةً أَخْطُبُهَا فَقَالَ اذْهَبْ فَانْظُرْ إِلَيْهَا فَإِنَّهُ أَجْدَرُ أَنْ يُؤْدَمَ بَيْنَكُمَا فَأَتَيْتُ امْرَأَةً مِنْ الْأَنْصَارِ فَخَطَبْتُهَا إِلَى أَبَوَيْهَا وَأَخْبَرْتُهُمَا بِقَوْلِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَكَأَنَّهُمَا كَرِهَا ذَلِكَ قَالَ فَسَمِعَتْ ذَلِكَ الْمَرْأَةُ وَهِيَ فِي خِدْرِهَا فَقَالَتْ إِنْ كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَمَرَكَ أَنْ تَنْظُرَ فَانْظُرْ وَإِلَّا فَأَنْشُدُكَ كَأَنَّهَا أَعْظَمَتْ ذَلِكَ قَالَ فَنَظَرْتُ إِلَيْهَا فَتَزَوَّجْتُهَا فَذَكَرَ مِنْ مُوَافَقَتِهَا`,
+					description: `Telah menceritakan kepada kami Al Hasan bin Abu Ar Rabi' berkata: telah memberitakan kepada kami Abdurrazaq dari Ma'mar dari Tsabit Al Bunani dari Bakr bin Abdullah Al Muzani dari Al Mughirah bin Syu'bah ia berkata: "Aku menemui Nabi shallallahu 'alaihi wa sallam, lalu aku sebutkan perihal wanita yang akan aku pinang. Beliau bersabda: "Pergi dan lihatlah ia, sebab itu akan membuat rumah tanggamu kekal." Setelah itu aku mendatangi dan meminangnya melalui kedua orang tuanya, dan aku sampaikan kepada keduanya tentang sabda Nabi shallallahu 'alaihi wa sallam. Namun sepertinya mereka berdua kurang menyukainya." Al Mughirah berkata: "Percakapan itu didengar oleh anak wanitanya yang ada di balik satir, hingga ia berkata: "Jika memang Rasulullah shallallahu 'alaihi wa sallam memerintahkanmu untuk melihat, maka lihatlah. Namun jika tidak, maka aku akan menyumpahimu! " seakan wanita itu benar-benar menganggap besar perkara tersebut. Al Mughirah berkata: "Maka aku pun melihat dan menikahinya." Al Mughirah lalu menyebutkan persetujuannya."`
+				},
+				link: 'https://ejournal.uin-suka.ac.id/ushuluddin/alquran/article/view/1701-05'
+			},
+			{
+				title: 'Pernikahan Dini Dalam Perspektif Hadis',
+				slug: 'pernikahan-dini-dalam-perspektif-hadis',
+				writer: 'Fulaifah Azzahra, Arif Friyad',
+				asal: 'IAIN Kudus',
+				contact: 'fulaihahazzahra@gmail.com,Ariffriyadi@iainkudus.ac.id',
+				hadis: {
+					shahih: 'Shahih Muslim:1422',
+					content: `و حَدَّثَنَا يَحْيَى بْنُ يَحْيَى وَإِسْحَقُ بْنُ إِبْرَاهِيمَ وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ وَأَبُو كُرَيْبٍ قَالَ يَحْيَى وَإِسْحَقُ أَخْبَرَنَا و قَالَ الْآخَرَانِ حَدَّثَنَا أَبُو مُعَاوِيَةَ عَنْ الْأَعْمَشِ عَنْ إِبْرَاهِيمَ عَنْ الْأَسْوَدِ عَنْ عَائِشَةَ قَالَتْ تَزَوَّجَهَا رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَهِيَ بِنْتُ سِتٍّ وَبَنَى بِهَا وَهِيَ بِنْتُ تِسْعٍ وَمَاتَ عَنْهَا وَهِيَ بِنْتُ ثَمَان عَشْرَةَ`,
+					description: `Dan telah menceritakan kepada kami Yahya bin Yahya, Ishaq bin Ibrahim, Abu Bakar bin Abi Syaibah dan Abu Kuraib. Yahya dan Ishaq mengatakan: Telah mengabarkan kepada kami, sedangkan yang dua mengatakan: Telah menceritakan kepada kami Abu Mu'awiyah dari Al A'masy dari Ibrahim dari Al Aswad dari 'Aisyah dia berkata bahwa Rasulullah shallallahu 'alaihi wa sallam menikahinya ketika dia berusia enam tahun dan berumah tangga dengannya ketika berusia sembilan tahun dan tatkala beliau wafat dia berusia delapan belas tahun."`
+				},
+				link: 'http://103.35.140.53/index.php/MINARET/article/view/47'
+			}
+		]
+	},
+	{
+		theme: 'Diskriminasi',
+		slug: 'diskriminasi',
+		list: [
+			{
+				title: 'Hadis tentang perempuan setengah akal dan agamanya : studi maanil hadis',
+				slug: 'hadis-tentang-perempuan-setengah-akal-dan-agamanya',
+				writer: 'Habibeb Bullah',
+				asal: 'Institut Pesantren KH. Abdul Chalim (IKHAC), Mojokerto',
+				contact: 'habibhabieb@gmail.com',
+				hadis: {
+					shahih: 'HR. Bukhari',
+					content: `عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَنَّهُ قَالَ يَا مَعْشَرَ النِّسَاءِ تَصَدَّقْنَ وَأَكْثِرْنَ الِاسْتِغْفَارَ فَإِنِّي رَأَيْتُكُنَّ أَكْثَرَ أَهْلِ النَّارِ فَقَالَتْ امْرَأَةٌ مِنْهُنَّ جَزْلَةٌ وَمَا لَنَا يَا رَسُولَ اللَّهِ أَكْثَرَ أَهْلِ النَّارِ قَالَ تُكْثِرْنَ اللَّعْنَ وَتَكْفُرْنَ الْعَشِيرَ وَمَا رَأَيْتُ مِنْ نَاقِصَاتِ عَقْلٍ وَدِينٍ أَغْلَبَ لِذِي لُبٍّ مِنْكُنَّ قَالَتْ يَا رَسُولَ اللَّهِ وَمَا نُقْصَانُ الْعَقْلِ وَالدِّينِ قَالَ أَمَّا نُقْصَانُ الْعَقْلِ فَشَهَادَةُ امْرَأَتَيْنِ تَعْدِلُ شَهَادَةَ رَجُلٍ فَهَذَا نُقْصَانُ الْعَقْلِ وَتَمْكُثُ اللَّيَالِي مَا تُصَلِّي وَتُفْطِرُ فِي رَمَضَانَ فَهَذَا نُقْصَانُ الدِّينِ`,
+					description: `“Diriwayatkan dari Abdullah bin Umar bahwa Rasulullah shallallahu ‘alaihi wasallam bersabda: "Wahai kaum wanita! Bersedekahlah kamu dan perbanyaklah istighfar. Karena, aku melihat banyak di antara kalian adalah penghuni neraka." Lantas seorang wanita yang pintar di antara mereka bertanya, "Wahai Rasulullah, kenapa kaum wanita banyak menjadi penghuni neraka?" Rasulullah shallallahu 'alaihi wasallam menjawab: "Kalian banyak mengutuk dan mengingkari (pemberian nikmat dari) suami. Aku tidak melihat kaum yang kurang akal dan agamanya itu lebih banyak dari yang lebih memiliki akal – kecuali dari golongan kalian."   Wanita itu bertanya lagi, "Wahai Rasulullah! Apakah maksud kekurangan akal dan agama itu?" Rasulullah shallallahu 'alaihi wasallam menjawab: "Maksud kekurangan akal ialah persaksian dua orang wanita sama dengan persaksian seorang lelaki. Inilah yang dikatakan kekurangan akal. Begitu juga kaum wanita tidak beribadah kala malam-malam juga akan berbuka pada bulan Ramadhan (karena sebab haid). Inilah yang dikatakan kekurangan agama." (HR al-Bukhari).`
+				},
+				link: 'https://journal3.uin-alauddin.ac.id/index.php/tahdis/article/view/17138'
+			},
+			{
+				title: 'Ketidakadilan Gender dalam Perspektif Hadis',
+				slug: 'ketidakadilan-gender-dalam-perspektif-hadis',
+				writer: 'Nur Indah Permatasari',
+				asal: 'UIN Sunan Gunung Djati Bandung',
+				contact: 'nipermata30@gmail.com',
+				hadis: {
+					shahih: 'HR. Bukhari',
+					content: `عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَنَّهُ قَالَ يَا مَعْشَرَ النِّسَاءِ تَصَدَّقْنَ وَأَكْثِرْنَ الِاسْتِغْفَارَ فَإِنِّي رَأَيْتُكُنَّ أَكْثَرَ أَهْلِ النَّارِ فَقَالَتْ امْرَأَةٌ مِنْهُنَّ جَزْلَةٌ وَمَا لَنَا يَا رَسُولَ اللَّهِ أَكْثَرَ أَهْلِ النَّارِ قَالَ تُكْثِرْنَ اللَّعْنَ وَتَكْفُرْنَ الْعَشِيرَ وَمَا رَأَيْتُ مِنْ نَاقِصَاتِ عَقْلٍ وَدِينٍ أَغْلَبَ لِذِي لُبٍّ مِنْكُنَّ قَالَتْ يَا رَسُولَ اللَّهِ وَمَا نُقْصَانُ الْعَقْلِ وَالدِّينِ قَالَ أَمَّا نُقْصَانُ الْعَقْلِ فَشَهَادَةُ امْرَأَتَيْنِ تَعْدِلُ شَهَادَةَ رَجُلٍ فَهَذَا نُقْصَانُ الْعَقْلِ وَتَمْكُثُ اللَّيَالِي مَا تُصَلِّي وَتُفْطِرُ فِي رَمَضَانَ فَهَذَا نُقْصَانُ الدِّينِ`,
+					description: `“Diriwayatkan dari Abdullah bin Umar bahwa Rasulullah shallallahu ‘alaihi wasallam bersabda: "Wahai kaum wanita! Bersedekahlah kamu dan perbanyaklah istighfar. Karena, aku melihat banyak di antara kalian adalah penghuni neraka." Lantas seorang wanita yang pintar di antara mereka bertanya, "Wahai Rasulullah, kenapa kaum wanita banyak menjadi penghuni neraka?" Rasulullah shallallahu 'alaihi wasallam menjawab: "Kalian banyak mengutuk dan mengingkari (pemberian nikmat dari) suami. Aku tidak melihat kaum yang kurang akal dan agamanya itu lebih banyak dari yang lebih memiliki akal – kecuali dari golongan kalian."   Wanita itu bertanya lagi, "Wahai Rasulullah! Apakah maksud kekurangan akal dan agama itu?" Rasulullah shallallahu 'alaihi wasallam menjawab: "Maksud kekurangan akal ialah persaksian dua orang wanita sama dengan persaksian seorang lelaki. Inilah yang dikatakan kekurangan akal. Begitu juga kaum wanita tidak beribadah kala malam-malam juga akan berbuka pada bulan Ramadhan (karena sebab haid). Inilah yang dikatakan kekurangan agama." (HR al-Bukhari).`
+				},
+				link: 'https://conferences.uinsgd.ac.id/index.php/gdcs/article/view/1354'
 			}
 		]
 	}
