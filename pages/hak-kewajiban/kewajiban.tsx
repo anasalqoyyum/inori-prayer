@@ -31,7 +31,7 @@ const Kewajiban = () => {
 
 					<Card>
 						<Text as="p">
-							Dalam kitab Dau’ul al-Misbah fi Bayani ahkam al-Nikah karya KH. Hasyim Asy’ari. Beliau memaparkan hak-hak perempuan sebagai
+							Dalam kitab Dau’ul al-Misbah fi Bayani ahkam al-Nikah karya KH. Hasyim Asy’ari. Beliau memaparkan kewajiban perempuan sebagai
 							berikut:
 						</Text>
 						<ol className="list-decimal mx-6 my-6">
