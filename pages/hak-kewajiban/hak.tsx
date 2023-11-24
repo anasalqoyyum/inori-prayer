@@ -4,8 +4,10 @@ import { Flex, Card, Heading, IconButton, Separator, Text } from '@radix-ui/them
 import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 import { Routes } from '@/constants/Link'
-import { HakA, HakB, HakC, HakKhusus, HakUmum, KewajibanList } from '@/constants/HakKewajiban'
+import { HakA, HakB, HakC, HakKhusus, HakList, HakUmum, KewajibanList } from '@/constants/HakKewajiban'
 import { Fragment } from 'react'
+import clsx from 'clsx'
+import { arabic } from '../_app'
 
 const Hak = () => {
 	return (
@@ -39,40 +41,20 @@ const Hak = () => {
 									</Text>
 								</li>
 								<Flex direction={'column'} gap={'2'}>
-									{HakA.map((item, idx) => (
+									{HakList.map((item, idx) => (
 										<Fragment key={`${idx}`}>
 											<ul className="list-disc mx-6">
-												<li>{item}</li>
-											</ul>
-										</Fragment>
-									))}
-								</Flex>
-								<li>
-									<Text as="p">
-										Dalam kitab Kifayatul Akhyar fi Halli Ghayat al-Ikhtishar karya Abu Bakr bin Muhammad al-Husaini dalam kitabnya. beliau
-										memaparkan hak-hak perempuan sebagai berikut:
-									</Text>
-								</li>
-								<Flex direction={'column'} gap={'2'}>
-									{HakB.map((item, idx) => (
-										<Fragment key={`${idx}`}>
-											<ul className="list-disc mx-6">
-												<li>{item}</li>
-											</ul>
-										</Fragment>
-									))}
-								</Flex>
-								<li>
-									<Text as="p">
-										Dalam Kitab Asna al-Mathalib Syarah Raudh Al-Thalib karya Zakaria Al-Anshari dalam kitabnya. beliau memaparkan hak-hak
-										perempuan sebagai berikut:
-									</Text>
-								</li>
-								<Flex direction={'column'} gap={'2'}>
-									{HakC.map((item, idx) => (
-										<Fragment key={`${idx}`}>
-											<ul className="list-disc mx-6">
-												<li>{item}</li>
+												<li>{item.title}</li>
+												<Text as="p" className="my-2">
+													{item.hadis.title}
+												</Text>
+												<Text as="p" size="5" align="center" className={clsx(arabic.className, 'my-4 leading-9 font-semibold')}>
+													{item.hadis.content}
+												</Text>
+												<Separator size={'4'} />
+												<Text as="p" align="center" className="my-4">
+													{item.hadis.defintion}
+												</Text>
 											</ul>
 										</Fragment>
 									))}

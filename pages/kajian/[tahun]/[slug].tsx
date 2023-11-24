@@ -18,12 +18,12 @@ const JurnalDetail = () => {
 		<Page>
 			<Flex align="center" gap="4">
 				<IconButton asChild variant="ghost">
-					<Link href={`/jurnal/${currentJurnalListv2?.slug}`}>
+					<Link href={`/kajian/${currentJurnalListv2?.slug}`}>
 						<ArrowLeft width="24" height="24" />
 					</Link>
 				</IconButton>
 				<Heading as="h2" size="8" align="center" className="text-pink-500">
-					Jurnal
+					Kajian
 				</Heading>
 			</Flex>
 

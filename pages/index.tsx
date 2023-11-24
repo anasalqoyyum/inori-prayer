@@ -28,7 +28,7 @@ const Items: Item[] = [
 		href: Routes.wanitaInspiratif.index
 	},
 	{
-		title: 'Jurnal',
+		title: 'Kajian',
 		subtitle: 'Kumpulan Kajian Mengenai Perempuan',
 		icon: <ScrollText />,
 		href: Routes.jurnal.index

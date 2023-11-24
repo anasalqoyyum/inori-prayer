@@ -20,7 +20,7 @@ const Jurnal = () => {
 						return (
 							<Fragment key={item.slug}>
 								<Card asChild size="3" variant="ghost">
-									<Link href={`/jurnal/${item.slug}`}>
+									<Link href={`/kajian/${item.slug}`}>
 										<Flex gap="3" align="center">
 											<Avatar size="3" radius="full" fallback={<Scroll />} />
 											<Box>

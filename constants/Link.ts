@@ -9,8 +9,8 @@ export const Routes = {
 		detail: '/wanita-inspiratif/:slug'
 	},
 	jurnal: {
-		index: '/jurnal',
-		detail: '/jurnal/:slug'
+		index: '/kajian',
+		detail: '/kajian/:slug'
 	},
 	hakKewajiban: {
 		index: '/hak-kewajiban',
