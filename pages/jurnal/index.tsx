@@ -12,7 +12,7 @@ const Jurnal = () => {
 	return (
 		<Page>
 			<Heading as="h2" size="6" align="center" className="text-pink-500">
-				Jurnal Hadis-Hadis Perempuan
+				Kajian Mengenai Perempuan
 			</Heading>
 			<Section>
 				<Flex gap="6" direction="column">

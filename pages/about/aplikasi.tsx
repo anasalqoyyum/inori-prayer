@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 import { Routes } from '@/constants/Link'
 import logo from '@/public/assets/logo.png'
+import uin from '@/public/assets/uin2.png'
 
 const Aplikasi = () => {
 	return (
@@ -22,8 +23,12 @@ const Aplikasi = () => {
 
 			<Section>
 				<Card>
-					<Flex gap="4" direction={'column'} align={'center'}>
-						<Avatar size={'8'} radius="full" src={logo.src} fallback="SF" />
+					<Flex gap="8" direction={'column'} align={'center'} className="my-8">
+						<Flex direction={'row'} align={'center'} gap={'4'}>
+							<Avatar size={'8'} radius="full" src={logo.src} fallback="SF" />
+							<Avatar size={'8'} src={uin.src} fallback="SF" />
+						</Flex>
+
 						<Text align={'center'}>
 							Website ini disebut “hadithofwoman” adalah software yang membahas tentang hadis-hadis perempuan. Didalamnya terdapat 25 hadis
 							mengenai perempuan dilengkapi dengan kualitas, nomer, serta takhrij hadis. Website ini juga terdapat hak dan kewajiban,

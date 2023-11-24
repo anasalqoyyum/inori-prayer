@@ -40,6 +40,7 @@ const HadisDetail = () => {
 								<Text as="p">Derajat: {currentHadis?.info.derajat}</Text>
 								<Text as="p">Kitab: {currentHadis?.info.kitab}</Text>
 								<Text as="p">Bab: {currentHadis?.info.bab}</Text>
+								<Text as="p">Sumber: {currentHadis?.info?.sumber}</Text>
 							</Blockquote>
 						</Flex>
 					</Card>

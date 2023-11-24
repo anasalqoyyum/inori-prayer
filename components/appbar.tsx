@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import logo from '@/public/assets/logo.png'
+import uin from '@/public/assets/uin2.png'
 import { Links, Routes } from '@/constants/Link'
 
 const Appbar = () => {
@@ -32,8 +33,15 @@ const Appbar = () => {
 						</div>
 
 						<div
+							title="UIN Sunan Kalijaga Logo"
+							className="h-10 w-10 bg-zinc-100 bg-contain dark:bg-zinc-800"
+							style={{
+								backgroundImage: `url(${uin.src})`
+							}}
+						/>
+						<div
 							title="App Logo"
-							className="h-10 w-10 rounded-full bg-zinc-200 bg-cover shadow-inner dark:bg-zinc-800"
+							className="h-10 w-10 rounded-full bg-zinc-100 bg-cover shadow-inner dark:bg-zinc-800"
 							style={{
 								backgroundImage: `url(${logo.src})`
 							}}

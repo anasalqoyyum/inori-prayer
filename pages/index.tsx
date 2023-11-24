@@ -29,7 +29,7 @@ const Items: Item[] = [
 	},
 	{
 		title: 'Jurnal',
-		subtitle: 'Jurnal hadis-hadis perempuan',
+		subtitle: 'Kumpulan Kajian Mengenai Perempuan',
 		icon: <ScrollText />,
 		href: Routes.jurnal.index
 	},
