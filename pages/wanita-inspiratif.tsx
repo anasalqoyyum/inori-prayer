@@ -53,7 +53,7 @@ const WanitaInspiratif = () => {
 				Wanita Inspiratif
 			</Heading>
 			<Section>
-				<Grid columns={'2'} gap={'3'} width={'auto'}>
+				<Grid columns={'2'} gap={'3'} width={'auto'} justify={'center'} align={'center'} className="place-items-center">
 					{Data.map((item, idx) => (
 						<Card size="2" style={{ maxWidth: 240 }} key={idx}>
 							<Inset side="top" pb="current">

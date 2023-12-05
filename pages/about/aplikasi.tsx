@@ -30,14 +30,13 @@ const Aplikasi = () => {
 						</Flex>
 
 						<Text align={'center'}>
-							Website ini disebut “hadithofwoman” adalah software yang membahas tentang hadis-hadis perempuan. Didalamnya terdapat 25 hadis
-							mengenai perempuan dilengkapi dengan kualitas, nomer, serta takhrij hadis. Website ini juga terdapat hak dan kewajiban,
-							toko-tokoh inspiratif, artikel dari tahun 2019 hingga 2023, dan quotes tentang perempuan. Filosofi logo software ini yaitu
-							adanya gambar wanita hijab, tulisan “HOW”, dan bentuk lingkaran putih. Untuk arti wanita berhijab sebagaimana maksud penulis
-							dalam membuat software ini yaitu software yang hanya mengenai wanita muslim. jika tulisan HOW diambil dari Hadith Of Woman
-							yang memiliki arti hadis-hadis perempuan dimana dalam software ini berisi hadis-hadis perempuan. Terakhir warna putih
-							lingkaran sebagai pelengkap dan arti putih sendiri yaitu suci dimana memiliki arti sebuah kepercayaan diri yang dikhususkan
-							pada seorang perempuan yang harus tempil percaya diri kapanpun dan dimanapun.
+							Website ini disebut “hadithofwoman” merupakan software yang berisi tentang perempuan. Meliputi terdapat 25 hadis tentang
+							perempuan dilengkapi dengan nomer, kualitas, takhrij, bab, dan sumber setiap hadis. Kemudian adanya wanita inspiratif, hak dan
+							kewajiban perempuan, quotes tentang perempuan, kajian mengenai perempuan dilengkapi dengan hadis setiap bacaannya. Filosofi
+							logo software ini adalah adanya gambar wanita muslim berhijab dan terdapat tulisan HOW singkatan dari Hadith Of Woman memiliki
+							arti hadis-hadis perempuan. untuk warna yang digunakan menggunakan warna “pink dan putih” identik dengan seorang perempuan
+							Adanya logo Universitas Islam Negeri Yogyakarta dan tulisan Ilmu Hadis guna untuk memperlihatkan bahwa software ini dibuat
+							oleh mahasiswa sebagai penelitian tugas.
 						</Text>
 					</Flex>
 				</Card>

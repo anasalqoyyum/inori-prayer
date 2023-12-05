@@ -110,14 +110,7 @@ const DaftarPustaka = () => {
 						</ol>
 						<Heading>HAK dan KEWAJIBAN</Heading>
 						<ol className="list-disc mx-6">
-							<li>
-								Bangun, Budi Hermawan, ‘Hak Perempuan Dan Kesetaraan Gender Dalam Perspektif Filsafat Hukum’, Pandecta Research Law Journal,
-								15.1 (2020), 74–82
-							</li>
-							<li>
-								Indana, Nurul, ‘Tela’ah Nilai-Nilai Pendidikan Akhlak Pada Kisah Sayyidati Khadijah Istri Rasulullah’, Dar El-Ilmi: Jurnal
-								Studi Keagamaan, Pendidikan Dan Humaniora, 5.1 (2018), 123–44
-							</li>
+							<li>Kitab Dau’ul Misbah Karya KH. Hasyim Asy’ari</li>
 						</ol>
 						<Heading>WANITA INSPIRATIF</Heading>
 						<ol className="list-disc mx-6">

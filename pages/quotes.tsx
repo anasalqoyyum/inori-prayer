@@ -1,6 +1,6 @@
 import Page from '@/components/page'
 import Section from '@/components/section'
-import { Heading } from '@radix-ui/themes'
+import { Flex, Heading } from '@radix-ui/themes'
 import image1 from '@/public/assets/quotes/1.png'
 import image2 from '@/public/assets/quotes/2.png'
 import image3 from '@/public/assets/quotes/3.png'
@@ -19,7 +19,9 @@ const Quotes = () => {
 				Quote of the Day
 			</Heading>
 			<Section>
-				<Image src={currQuote.src} width={500} height={500} priority alt="Quote of the Day" />
+				<Flex align={'center'} justify={'center'}>
+					<Image src={currQuote.src} width={500} height={500} priority alt="Quote of the Day" />
+				</Flex>
 			</Section>
 		</Page>
 	)
