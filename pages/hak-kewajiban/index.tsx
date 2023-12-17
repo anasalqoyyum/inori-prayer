@@ -2,7 +2,7 @@ import { Routes } from '@/constants/Link'
 import Page from '@/components/page'
 import Section from '@/components/section'
 import { Flex, Card, Avatar, Box, Text, Heading } from '@radix-ui/themes'
-import { AppWindow, Clipboard, Library, PencilRuler, Scale } from 'lucide-react'
+import { AppWindow, Building, Building2, Clipboard, Library, PencilRuler, Scale } from 'lucide-react'
 import Link from 'next/link'
 import { ReactNode } from 'react'
 
@@ -18,14 +18,26 @@ const Items: Item[] = [
 		title: 'Hak',
 		subtitle: 'Hak seorang perempuan',
 		icon: <Scale />,
-		href: Routes.hakKewajiban.hak
+		href: Routes.hakKewajiban.hak,
 	},
 	{
 		title: 'Kewajiban',
 		subtitle: 'Kewajiban seorang perempuan',
 		icon: <Clipboard />,
-		href: Routes.hakKewajiban.kewajiban
-	}
+		href: Routes.hakKewajiban.kewajiban,
+	},
+	{
+		title: 'Hak di Lingkup Publik',
+		subtitle: 'Hak seorang perempuan di Lingkup Publik',
+		icon: <Building />,
+		href: Routes.hakKewajiban.hakPublik,
+	},
+	{
+		title: 'Kewajiban di Lingkup Publik',
+		subtitle: 'Kewajiban seorang perempuan di Lingkup Publik',
+		icon: <Building2 />,
+		href: Routes.hakKewajiban.kewajibanPublik,
+	},
 ]
 
 const HakKewajiban = () => (
@@ -35,6 +47,24 @@ const HakKewajiban = () => (
 		</Heading>
 		<Section>
 			<Flex gap="3" direction="column">
+				<Card>
+					<Text className="font-semibold">Sumber: </Text>
+					<ul className="list-disc mx-6">
+						<li>
+							Hak dan kewajiban seorang perempuan di ruang lingkup keluarga bersumber dari Kitab Dau’ul Misbah fi ahkami Nikah karya KH.
+							Hasyim Asy’ari
+						</li>
+						<li>
+							Hak dan Kewajiban seorang perempuan diruang lingkup publik bersumber pada kitab Fatawa al-Mar’ah al-Muslimah karya Yusuf
+							Qardhawi
+						</li>
+						<li>
+							Hak dan Kewajiban perempuan di ruang publik bersumber dari kitab Fatawa al-Mar’ah al-Muslimah karya Yusuf Qardhawi, Dalam
+							kitab ini ada salah satu bab yang membahas mengenai perempuan karir. Karena segala bentuk perbuatan baik dan berijtihad adalah
+							suatu hal yang diperuntukan kepada laki-laki maupun perempuan.
+						</li>
+					</ul>
+				</Card>
 				{Items.map(item => {
 					return (
 						<Card asChild size="3" variant="classic" key={item.href}>

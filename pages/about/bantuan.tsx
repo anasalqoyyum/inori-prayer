@@ -54,7 +54,7 @@ const Bantuan = () => {
 						</Link>
 					</IconButton>
 				)}
-				<Heading as="h2" size="8" align="center" className="text-pink-500">
+				<Heading as="h2" size="4" align="center" className="text-pink-500">
 					Cara Penggunaan Website &quot;hadithofwoman&quot;
 				</Heading>
 			</Flex>

@@ -15,7 +15,13 @@ export const Routes = {
 	hakKewajiban: {
 		index: '/hak-kewajiban',
 		hak: '/hak-kewajiban/hak',
+		hakIstri: '/hak-kewajiban/hak/hak-istri',
+		hakSuami: '/hak-kewajiban/hak/hak-suami',
 		kewajiban: '/hak-kewajiban/kewajiban',
+		kewajibanIstri: '/hak-kewajiban/kewajiban/kewajiban-istri',
+		kewajibanSuami: '/hak-kewajiban/kewajiban/kewajiban-suami',
+		hakPublik: '/hak-kewajiban/hak-publik',
+		kewajibanPublik: '/hak-kewajiban/kewajiban-publik',
 	},
 	quotes: '/quotes',
 	about: {

@@ -693,4 +693,46 @@ export const HadisList: Hadis[] = [
 		definition: `Telah menceritakan kepada kami 'Abbas bin 'Abdul 'Adzim telah menceritakan kepadaku Ishaq bin Manshur telah menceritakan kepada kami Huraim dari Ibrahim bin Muhammad Al Muntasyir dari Qais bin Muslim dari Thariq bin Syihab dari Nabi shallallahu 'alaihi wa sallam beliau bersabda: "Jum'at itu wajib bagi setiap Muslim dengan berjama'ah, kecuali empat golongan, yaitu: hamba sahaya, wanita, anak-anak dan orang yang sakit." Abu Daud berkata: "Thariq bin Ziyad pernah melihat (hidup semasa) Nabi shallallahu 'alaihi wa sallam, namun dirinya tidak mendengar sesuatu pun dari beliau."`,
 		takhrij: [],
 	},
+	{
+		title: 'Hadis Empat Puluh Tiga',
+		slug: 'hadis-EmpatpuluhTiga',
+		info: {
+			shahih: 'Shahih Bukhari : 5094',
+			derajat: 'Shahih',
+			kitab: 'Nikah',
+			bab: 'Suami menginap di Isteri janda atau gadis',
+			sumber: 'Shahih Muslim 5094, Juz 7, hal. 8 maktabah shamela',
+		},
+		content: `حَدَّثَنَا مُحَمَّدُ بْنُ مِنْهَالٍ حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ حَدَّثَنَا عُمَرُ بْنُ مُحَمَّدٍ الْعَسْقَلَانِيُّ عَنْ أَبِيهِ عَنْ ابْنِ عُمَرَ قَالَ ذَكَرُوا الشُّؤْمَ عِنْدَ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَقَالَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ إِنْ كَانَ الشُّؤْمُ فِي شَيْءٍ فَفِي الدَّارِ وَالْمَرْأَةِ وَالْفَرَسِ `,
+		definition: `Telah menceritakan kepada kami Muhammad bin Minhal Telah menceritakan kepada kami Yazid bin Zurai' Telah menceritakan kepada kami Umar bin Muhammad Al Asyqalani dari bapaknya dari Ibnu 'Umar ia berkata: Mereka membicarakan kesialan di sisi Nabi shallallahu 'alaihi wa sallam, maka Nabi shallallahu 'alaihi wa sallam pun bersabda: "Sekiranya kesialan itu ada pada sesuatu, maka niscaya akan terdapat pada rumah, wanita dan kuda."`,
+		takhrij: ['Shahih Muslim 2225', 'Abu Dawud 3922', 'Sunan An-Nasai 3569', 'Sunan An-Nasai 3570'],
+	},
+	{
+		title: 'Hadis Empat Puluh Empat',
+		slug: 'hadis-EmpatpuluhEmpat',
+		info: {
+			shahih: 'Sunan Abu Dawud : 4921',
+			derajat: 'Shahih',
+			kitab: 'Perselisihan',
+			bab: 'Memperbaiki Perselisihan',
+			sumber: 'Sunan Abu Dawud 4921, juz 4, hal 281 Maktabah Shamela',
+		},
+		content: `حَدَّثَنَا الرَّبِيعُ بْنُ سُلَيْمَانَ الْجِيزِيُّ حَدَّثَنَا أَبُو الْأَسْوَدِ عَنْ نَافِعٍ يَعْنِي ابْنَ يَزِيدَ عَنْ ابْنِ الْهَادِي أَنَّ عَبْدَ الْوَهَّابِ بْنَ أَبِي بَكْرٍحَدَّثَهُ عَنْ ابْنِ شِهَابٍ عَنْ حُمَيْدِ بْنِ عَبْدِ الرَّحْمَنِ عَنْ أُمِّهِ أُمِّ كُلْثُومٍ بِنْتِ عُقْبَةَ قَالَتْ مَا سَمِعْتُ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يُرَخِّصُ فِي شَيْءٍ مِنْ الْكَذِبِ إِلَّا فِي ثَلَاثٍ كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَقُولُ لَا أَعُدُّهُ كَاذِبًا الرَّجُلُ يُصْلِحُ بَيْنَ النَّاسِ يَقُولُ الْقَوْلَ وَلَا يُرِيدُ بِهِ إِلَّا الْإِصْلَاحَ وَالرَّجُلُ يَقُولُ فِي الْحَرْبِ وَالرَّجُلُ يُحَدِّثُ امْرَأَتَهُ وَالْمَرْأَةُ تُحَدِّثُ زَوْجَهَا`,
+		definition: `Telah menceritakan kepada kami Ar Rabi' bin Sulaiman Al Jizi berkata: telah menceritakan kepada kami Abul Aswad dari nafi' -maksudnya Nafi' bin Yazid- dari Ibnul Hadi bahwa Abdul Wahhab bin Abu Bakr menceritakan kepadanya, dari Ibnu Syihab dari Humaid bin 'Abdurrahman dari ibunya Ummu Kultsum binti Uqbah ia berkata: "Aku tidak pernah mendengar Rasulullah shallallahu 'alaihi wa sallam memberi keringanan untuk berbohong kecuali pada tiga tempat. Rasulullah shallallahu 'alaihi wa sallam mengatakan: "Aku tidak menganggapnya sebagai seorang pembohong, seorang laki-laki yang memperbaiki hubungan antara manusia. Ia mengatakan suatu perkataan (bohong), namun ia tidak bermaksud dengan perkataan itu kecuali untuk mendamaikan. Seorang laki-laki yang berbohong dalam peperangan. Dan seorang laki-laki yang berbohong kepada isteri atau isteri yang berbohong kepada suami (untuk kebaikan)."`,
+		takhrij: [],
+	},
+	{
+		title: 'Hadis Empat Puluh Lima', // TODO: Checkpoint No 20
+		slug: 'hadis-EmpatpuluhLima',
+		info: {
+			shahih: 'Shahih Muslim:511',
+			derajat: 'Shahih',
+			kitab: 'Shalat',
+			bab: 'Penghalang Pada Shalat',
+			sumber: 'Shahih Muslim 511 , juz 1, hal 365 Maktabah Shamela',
+		},
+		content: `وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا الْمَخْزُومِيُّ، حَدَّثَنَا عَبْدُ الْوَاحِدِ وَهُوَ ابْنُ زِيَادٍ، حَدَّثَنَا عُبَيْدُ اللهِ بْنُ عَبْدِ اللهِ بْنِ الْأَصَمِّ، حَدَّثَنَا يَزِيدُ بْنُ الْأَصَمِّ، عَنْ أَبِي هُرَيْرَةَ، قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «يَقْطَعُ الصَّلَاةَ الْمَرْأَةُ وَالْحِمَارُ وَالْكَلْبُ، وَيَقِي ذَلِكَ مِثْلُ مُؤْخِرَةِ الرَّحْلِ»`,
+		definition: `Dan telah menceritakan kepada kami Ishaq bin Ibrahim telah mengabarkan kepada kami al-Makhzumi telah menceritakan kepada kami Abdul Wahid, dan dia adalah Ibnu Ziyad telah menceritakan kepada kami Ubaidullah bin Abdullah bin al-'Ashamm telah menceritakan kepada kami Yazid bin al-'Ashamm dari Abu Hurairah Radhiyallahu'anhu dia berkata: Rasulullah shallallahu 'alaihi wa sallam bersabda, "Yang memutuskan shalat ialah wanita, keledai, dan anjing. Untuk menjaga sholatmu (dengan meletakkan sutrah berupa) seperti kayu yang diletakkan di atas punggung unta."`,
+		takhrij: ['Sunan Ibnu Majah 950', 'Sunan Ibnu Majah 951', 'Sunan Abu Dawud 703'],
+	},
 ]
