@@ -1,5 +1,14 @@
 # Inori Prayer
 
+## Description
+
 Go listen to this:
 
-[![Watch the video](https://img.youtube.com/vi/rjB6waYflTg/default.jpg)](https://youtu.be/nTQUwghvy5Q)
+[祈 -我ら神祖と共に歩む者なり](https://youtu.be/nTQUwghvy5Q)
+
+## Usage
+
+```
+pnpm install
+pnpm run dev
+```
