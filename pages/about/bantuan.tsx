@@ -183,7 +183,9 @@ const Bantuan = () => {
 							{isFromHome && <Button onClick={redirectToHome}>Mulai</Button>}
 							{!isFromHome && (
 								<Flex gap="2" direction={'column'}>
-									<Text>Halaman Bantuan {isNoHelp ? 'Tidak Akan Muncul' : 'Akan Muncul'} di Kunjungan Berikutnya</Text>
+									<Text className="font-bold">
+										Halaman Bantuan {isNoHelp ? 'Tidak Akan Muncul' : 'Akan Muncul'} di Kunjungan Berikutnya
+									</Text>
 									<Button onClick={isNoHelp ? reEnableBantuan : enableBantuan}>{isNoHelp ? 'Aktifkan' : 'Matikan'}</Button>
 								</Flex>
 							)}

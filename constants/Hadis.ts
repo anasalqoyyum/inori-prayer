@@ -463,20 +463,6 @@ export const HadisList: Hadis[] = [
 		takhrij: ['Sunan Abu Dawud:2151'],
 	},
 	{
-		title: 'Hadis Kedua Puluh Enam',
-		slug: 'hadis-keduapuluhenam',
-		info: {
-			shahih: 'Shahih Muslim:1403',
-			derajat: 'Shahih',
-			kitab: 'Nikah',
-			bab: 'Menundukkan Pandangan',
-			sumber: 'Shahih Muslim no 1403 Juz 2, hal 1201 Maktabah Shamela',
-		},
-		content: `حَدَّثَنَا عَمْرُو بْنُ عَلِيٍّ، حَدَّثَنَا عَبْدُ الْأَعْلَى، حَدَّثَنَا هِشَامُ بْنُ أَبِي عَبْدِ اللهِ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، أَنَّ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ رَأَى امْرَأَةً، فَأَتَى امْرَأَتَهُ زَيْنَبَ، وَهِيَ تَمْعَسُ مَنِيئَةً لَهَا، فَقَضَى حَاجَتَهُ، ثُمَّ خَرَجَ إِلَى أَصْحَابِهِ، فَقَالَ: «إِنَّ الْمَرْأَةَ تُقْبِلُ فِي صُورَةِ شَيْطَانٍ، وَتُدْبِرُ فِي صُورَةِ شَيْطَانٍ، فَإِذَا أَبْصَرَ أَحَدُكُمُ امْرَأَةً فَلْيَأْتِ أَهْلَهُ، فَإِنَّ ذَلِكَ يَرُدُّ مَا فِي نَفْسِهِ »،`,
-		definition: `Telah menceritakan kepada kami Amru bin Ali telah menceritakan kepada kami Abdul A'la telah menceritakan kepada kami Hisyam bهn Abu Abdullah dari Abu Zubair dari Jabir bahwasanya: Rasulullah shallallahu 'alaihi wa sallam pernah melihat seorang wanita, lalu beliau mendatangi istrinya, yaitu Zainab yang sedang menyamak kulit, guna melepaskan rasa rindunya. Sesudah itu, beliau pergi menemui para sahabatnya, lalu beliau bersabda: "Sesungguhnya wanita itu datang dan pergi bagaikan syetan. Maka bila kamu melihat seorang wanita, datangilah istrimu, karena yang demikian itu dapat menentramkan gejolak hatimu”.`,
-		takhrij: ['Sunan Abu Dawud:2151'],
-	},
-	{
 		title: 'Hadis Kedua Puluh Tujuh',
 		slug: 'hadis-keduapuluhtujuh',
 		info: {
@@ -655,7 +641,7 @@ export const HadisList: Hadis[] = [
 		title: 'Hadis Ketiga Puluh Sembilan',
 		slug: 'hadis-KetigapuluhSembilan',
 		info: {
-			shahih: 'Sunan Abu Dawud : 4140',
+			shahih: 'Sunan An-Nasai : 5177',
 			derajat: 'Shahih',
 			kitab: 'Perhiasan',
 			bab: 'Perbedaan wewangian laki-laki dan perempuan',
