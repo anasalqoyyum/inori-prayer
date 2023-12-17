@@ -5,8 +5,8 @@ export const Routes = {
 		detail: '/hadis/:slug'
 	},
 	wanitaInspiratif: {
-		index: '/wanita-inspiratif',
-		detail: '/wanita-inspiratif/:slug'
+		index: '/perempuan-pengkaji-hadis',
+		detail: '/perempuan-pengkaji-hadis/:slug'
 	},
 	jurnal: {
 		index: '/kajian',

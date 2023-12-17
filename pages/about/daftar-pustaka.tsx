@@ -112,9 +112,8 @@ const DaftarPustaka = () => {
 						<ol className="list-disc mx-6">
 							<li>Kitab Dau’ul Misbah Karya KH. Hasyim Asy’ari</li>
 						</ol>
-						<Heading>WANITA INSPIRATIF</Heading>
+						<Heading>Perempuan Pengkaji Hadis</Heading>
 						<ol className="list-disc mx-6">
-							<li>Pinterest</li>
 							<li>Google</li>
 						</ol>
 						<Heading>QUOTES</Heading>

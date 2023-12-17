@@ -31,9 +31,6 @@ const HadisDetail = () => {
 					<Card>
 						<Flex gap="3" direction="column">
 							<Heading as="h3" align={'center'} className="text-pink-500">
-								{currentHadis?.title}
-							</Heading>
-							<Heading as="h4" size={'3'} align={'center'}>
 								{currentHadis?.info.shahih}
 							</Heading>
 							<Blockquote>
@@ -54,7 +51,7 @@ const HadisDetail = () => {
 					<Card>
 						<Flex gap="3" direction="column">
 							<Heading as="h3" align={'center'} className="text-pink-500">
-								Takhrij Hadis
+								Hadis yang setema dengan hadis diatas dapat ditemui pada hadis-hadis dibawah ini:
 							</Heading>
 							<Separator size={'4'} />
 							<Grid align="center" columns="2" gap="3" p="3">

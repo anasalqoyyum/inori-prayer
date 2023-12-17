@@ -54,14 +54,14 @@ const Hadis = () => {
 										<Flex gap="3" align="center">
 											<Avatar size="3" radius="full" fallback={index + 1} />
 											<Box>
-												<Text as="div" size="5" weight="bold">
-													{item.title}
-												</Text>
-												<Text as="div" size="2" color="gray">
+												<Text as="div" size="5" weight="bold" className="mb-1">
 													{item.info.shahih}
 												</Text>
 												<Text as="div" size="2" color="gray">
-													Kitab: {item.info.kitab} | Bab: {item.info.bab}
+													Kitab: {item.info.kitab}
+												</Text>
+												<Text as="div" size="2" color="gray">
+													Bab: {item.info.bab}
 												</Text>
 											</Box>
 										</Flex>

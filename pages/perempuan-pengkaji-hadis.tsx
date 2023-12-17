@@ -10,6 +10,12 @@ import img5 from '@/public/assets/wanita/wanita5.png'
 import img6 from '@/public/assets/wanita/wanita6.png'
 import img7 from '@/public/assets/wanita/wanita7.png'
 import img8 from '@/public/assets/wanita/wanita8.png'
+import img9 from '@/public/assets/wanita/wanita9.png'
+import img10 from '@/public/assets/wanita/wanita10.png'
+import img11 from '@/public/assets/wanita/wanita11.png'
+import img12 from '@/public/assets/wanita/wanita12.png'
+import img13 from '@/public/assets/wanita/wanita13.png'
+import img14 from '@/public/assets/wanita/wanita14.png'
 
 const Data = [
 	{
@@ -21,36 +27,60 @@ const Data = [
 		pict: img2.src
 	},
 	{
-		name: 'Najwa Shihab, S.H., LL.M.',
+		name: 'Chandra Kartika Dewi, M.Kes',
 		pict: img3.src
 	},
 	{
-		name: 'Maudy Ayunda',
+		name: 'Dr. Adib Sofia, S.S., M.Hum',
 		pict: img4.src
 	},
 	{
-		name: 'R.A. Kartini',
+		name: 'Dr. Dian Nur Anna, S.Ag., M.A',
 		pict: img5.src
 	},
 	{
-		name: 'Susi Pudjiastuti',
+		name: 'Dr. Siti Khodijah Nurul Aula, M.Ag',
 		pict: img6.src
 	},
 	{
-		name: 'Sri Mulyani',
+		name: 'Fitriana Firdausi, S.Th.I., M.Hum',
 		pict: img7.src
 	},
 	{
-		name: 'Oki Setiana Dewi',
+		name: `Imas Lu'ul Jannah, M.A`,
 		pict: img8.src
+	},
+	{
+		name: `Lien Iffah Naf'atu Fina, M.Hum`,
+		pict: img9.src
+	},
+	{
+		name: `Nafisatul Mu'Awwanah, M.A`,
+		pict: img10.src
+	},
+	{
+		name: 'Nur Afni Khafsoh, M.Sos',
+		pict: img11.src
+	},
+	{
+		name: 'Rosi Islamiyati, S.Ag., M.Ag',
+		pict: img12.src
+	},
+	{
+		name: 'Subkhani Kusuma Dewi M.A',
+		pict: img13.src
+	},
+	{
+		name: 'Zunly Nadia, M.A',
+		pict: img14.src
 	}
 ]
 
-const WanitaInspiratif = () => {
+const PerempuanPengkaji = () => {
 	return (
 		<Page>
 			<Heading as="h2" size="8" align="center" className="text-pink-500">
-				Wanita Inspiratif
+				Perempuan Para Pengkaji Hadis
 			</Heading>
 			<Section>
 				<Grid columns={'2'} gap={'3'} width={'auto'} justify={'center'} align={'center'} className="place-items-center">
@@ -70,4 +100,4 @@ const WanitaInspiratif = () => {
 	)
 }
 
-export default WanitaInspiratif
+export default PerempuanPengkaji

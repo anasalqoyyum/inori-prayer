@@ -31,12 +31,12 @@ const Aplikasi = () => {
 
 						<Text align={'center'}>
 							Website ini disebut “hadithofwoman” merupakan software yang berisi tentang perempuan. Meliputi terdapat 25 hadis tentang
-							perempuan dilengkapi dengan nomer, kualitas, takhrij, bab, dan sumber setiap hadis. Kemudian adanya wanita inspiratif, hak dan
-							kewajiban perempuan, quotes tentang perempuan, kajian mengenai perempuan dilengkapi dengan hadis setiap bacaannya. Filosofi
-							logo software ini adalah adanya gambar wanita muslim berhijab dan terdapat tulisan HOW singkatan dari Hadith Of Woman memiliki
-							arti hadis-hadis perempuan. untuk warna yang digunakan menggunakan warna “pink dan putih” identik dengan seorang perempuan
-							Adanya logo Universitas Islam Negeri Yogyakarta dan tulisan Ilmu Hadis guna untuk memperlihatkan bahwa software ini dibuat
-							oleh mahasiswa sebagai penelitian tugas.
+							perempuan dilengkapi dengan nomer, kualitas, takhrij, bab, dan sumber setiap hadis. Kemudian adanya perempuan para pengkaji
+							hadis, hak dan kewajiban perempuan, quotes tentang perempuan, kajian mengenai perempuan dilengkapi dengan hadis setiap
+							bacaannya. Filosofi logo software ini adalah adanya gambar wanita muslim berhijab dan terdapat tulisan HOW singkatan dari
+							Hadith Of Woman memiliki arti hadis-hadis perempuan. untuk warna yang digunakan menggunakan warna “pink dan putih” identik
+							dengan seorang perempuan Adanya logo Universitas Islam Negeri Yogyakarta dan tulisan Ilmu Hadis guna untuk memperlihatkan
+							bahwa software ini dibuat oleh mahasiswa sebagai penelitian tugas.
 						</Text>
 					</Flex>
 				</Card>

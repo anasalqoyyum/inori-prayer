@@ -22,7 +22,7 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Haid',
 			bab: 'Bagaimana permulaan munculnya haid',
-			sumber: 'Shahih Bukhari, juz 1, 66. Maktabah Shamela'
+			sumber: 'Shahih Bukhari, juz 1, 66. Maktabah Shamela',
 		},
 		content:
 			'حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ قَالَ حَدَّثَنَا سُفْيَانُ قَالَ سَمِعْتُ عَبْدَ الرَّحْمَنِ بْنَ الْقَاسِمِ قَالَ سَمِعْتُ الْقَاسِمَ بْنَ مُحَمَّدٍ يَقُولُ سَمِعْتُ عَائِشَةَ تَقُولُ خَرَجْنَا لَا نَرَى إِلَّا الْحَجَّ فَلَمَّا كُنَّا بِسَرِفَ حِضْتُ فَدَخَلَ عَلَيَّ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَأَنَا أَبْكِي قَالَ مَا لَكِ أَنُفِسْتِ قُلْتُ نَعَمْ قَالَ إِنَّ هَذَا أَمْرٌ كَتَبَهُ اللَّهُ عَلَى بَنَاتِ آدَمَ فَاقْضِي مَا يَقْضِي الْحَاجُّ غَيْرَ أَنْ لَا تَطُوفِي بِالْبَيْتِ قَالَتْ وَضَحَّى رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ عَنْ نِسَائِهِ بِالْبَقَرِ',
@@ -38,8 +38,8 @@ export const HadisList: Hadis[] = [
 			'Sunan Ibnu Majah:754',
 			'Musnad Ahmad:13802',
 			'Musnad Ahmad:24891',
-			'Musnad Ahmad:25139'
-		]
+			'Musnad Ahmad:25139',
+		],
 	},
 	{
 		title: 'Hadis Kedua',
@@ -49,7 +49,7 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Denda Hasil Buruan',
 			bab: 'Hajinya kaum wanita',
-			sumber: 'Shahih Bukhari, juz 3, 19. Maktabah Shamela'
+			sumber: 'Shahih Bukhari, juz 3, 19. Maktabah Shamela',
 		},
 		content: `حَدَّثَنَا أَبُو النُّعْمَانِ حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ عَنْ عَمْرٍو عَنْ أَبِي مَعْبَدٍ مَوْلَى ابْنِ عَبَّاسٍ عَنْ ابْنِ عَبَّاسٍ رَضِيَ اللَّهُ عَنْهُمَا قَالَ قَالَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ لَا تُسَافِرْ الْمَرْأَةُ إِلَّا مَعَ ذِي مَحْرَمٍ وَلَا يَدْخُلُ عَلَيْهَا رَجُلٌ إِلَّا وَمَعَهَا مَحْرَمٌ فَقَالَ رَجُلٌ يَا رَسُولَ اللَّهِ إِنِّي أُرِيدُ أَنْ أَخْرُجَ فِي جَيْشِ كَذَا وَكَذَا وَامْرَأَتِي تُرِيدُ الْحَجَّ فَقَالَ اخْرُجْ مَعَهَ`,
 		definition: `Telah menceritakan kepada kami Abu An-Nu'man telah menceritakan kepada kami Hammad bin Zaid dari 'Amru dari Abu Ma'bad, sahayanya Ibnu 'Abbas, dari Ibnu 'Abbas radliyallahu 'anhuma berkata: Nabi shallallahu 'alaihi wa sallam bersabda: "Janganlah seorang wanita bepergian kecuali bersama mahramnya dan janganlah seorang laki-laki menemui seorang wanita kecuali wanita itu bersama mahramnya". Kemudian ada seorang laki-laki yang berkata: "Wahai Rasulullah, sebenarnya aku berkehendak untuk berangkat bersama pasukan perang ini dan ini namun isteriku hendak menunaikan haji". Maka Beliau bersabda: "Berangkatlah haji bersama isterimu"`,
@@ -60,8 +60,8 @@ export const HadisList: Hadis[] = [
 			'Sunan Abu Daud:1467',
 			'Musnad Ahmad:4386',
 			'Musnad Ahmad:4467',
-			'Musnad Ahmad:6007'
-		]
+			'Musnad Ahmad:6007',
+		],
 	},
 	{
 		title: 'Hadis Ketiga',
@@ -71,11 +71,11 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Denda Hasil Buruan',
 			bab: 'Hajinya kaum wanita',
-			sumber: 'Shahih Bukhari, juz 4, 116. Maktabah Shamela'
+			sumber: 'Shahih Bukhari, juz 4, 116. Maktabah Shamela',
 		},
 		content: `حَدَّثَنَا مُسَدَّدٌ حَدَّثَنَا أَبُو عَوَانَةَ عَنْ الْأَعْمَشِ عَنْ أَبِي حَازِمٍ عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ إِذَا دَعَا الرَّجُلُ امْرَأَتَهُ إِلَى فِرَاشِهِ فَأَبَتْ فَبَاتَ غَضْبَانَ عَلَيْهَا لَعَنَتْهَا الْمَلَائِكَةُ حَتَّى تُصْبِحَ تَابَعَهُ شُعْبَةُ وَأَبُو حَمْزَةَ وَابْنُ دَاوُدَ وَأَبُو مُعَاوِيَةَ عَنْ الْأَعْمَش`,
 		definition: `Telah bercerita kepada kami Musaddad telah bercerita kepada kami Abu 'Awanah dari Al A'masy dari Abu Hazim dari Abu Hurairah radliyallahu 'anhu berkata: Rasulullah shallallahu 'alaihi wa sallam bersabda: Jika seorang suami mengajak istrinya ke tempat tidurnya, lalu istrinya menolaknya sehingga dia melalui malam itu dalam keadaan marah, maka malaikat melaknat istrinya itu hingga shubuh."`,
-		takhrij: ['Shahih Bukhari:4794', 'Shahih Muslim:2596', 'Sunan Abu Daud:1829', 'Musnad Ahmad:9294', 'Musnad Ahmad:9835']
+		takhrij: ['Shahih Bukhari:4794', 'Shahih Muslim:2596', 'Sunan Abu Daud:1829', 'Musnad Ahmad:9294', 'Musnad Ahmad:9835'],
 	},
 	{
 		title: 'Hadis Keempat',
@@ -85,11 +85,11 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Hadis yang meriwayatkan tentang para Nabi',
 			bab: 'Pencipta Adam dan Keturunannya',
-			sumber: 'Shahih Bukhari, juz 4, 133. Maktabah Shamela'
+			sumber: 'Shahih Bukhari, juz 4, 133. Maktabah Shamela',
 		},
 		content: `ا أَبُو كُرَيْبٍ وَمُوسَى بْنُ حِزَامٍ قَالَا حَدَّثَنَا حُسَيْنُ بْنُ عَلِيٍّ عَنْ زَائِدَةَ عَنْ مَيْسَرَةَ الْأَشْجَعِيِّ عَنْ أَبِي حَازِمٍ عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ اسْتَوْصُوا بِالنِّسَاءِ فَإِنَّ الْمَرْأَةَ خُلِقَتْ مِنْ ضِلَعٍ وَإِنَّ أَعْوَجَ شَيْءٍ فِي الضِّلَعِ أَعْلَاهُ فَإِنْ ذَهَبْتَ تُقِيمُهُ كَسَرْتَهُ وَإِنْ تَرَكْتَهُ لَمْ يَزَلْ أَعْوَجَ فَاسْتَوْصُوا بِالنِّسَاء`,
 		definition: `Telah bercerita kepada kami Abu Kuraib dan Musa bin Hizam keduanya berkata: telah bercerita kepada kami Husain bin "Ali dari Za'idah dari Maisarah Al Asyka'iy dari Abu Hazim dari Abu Hurairah radliyallahu 'anhu berkata: Rasulullah shallallahu 'alaihi wa sallam bersabda: "Nasehatilah para wanita karena wanita diciptakan dari tulang rusuk yang bengkok, dan yang paling bengkok dari tulang rusuk adalah pangkalnya, jika kamu mencoba untuk meluruskannya maka dia akan patah namun bila kamu biarkan maka dia akan tetap bengkok. Untuk itu nasehatilah para wanita".`,
-		takhrij: ['Shahih Muslim:2670', 'Sunan Darimi:2124']
+		takhrij: ['Shahih Muslim:2670', 'Sunan Darimi:2124'],
 	},
 	{
 		title: 'Hadis Kelima',
@@ -99,7 +99,7 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Peperangan',
 			bab: 'Surat Nabi kepada Kisra dan Qaishar',
-			sumber: 'Shahih Bukhari, juz 6. 8 Maktabah Shamela'
+			sumber: 'Shahih Bukhari, juz 6. 8 Maktabah Shamela',
 		},
 		content: `حَدَّثَنَا عُثْمَانُ بْنُ الْهَيْثَمِ حَدَّثَنَا عَوْفٌ عَنْ الْحَسَنِ عَنْ أَبِي بَكْرَةَ قَالَ لَقَدْ نَفَعَنِي اللَّهُ بِكَلِمَةٍ سَمِعْتُهَا مِنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَيَّامَ الْجَمَلِ بَعْدَ مَا كِدْتُ أَنْ أَلْحَقَ بِأَصْحَابِ الْجَمَلِ فَأُقَاتِلَ مَعَهُمْ قَالَ لَمَّا بَلَغَ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَنَّ أَهْلَ فَارِسَ قَدْ مَلَّكُوا عَلَيْهِمْ بِنْتَ كِسْرَى قَالَ لَنْ يُفْلِحَ قَوْمٌ وَلَّوْا أَمْرَهُمْ امْرَأَة`,
 		definition: `Telah menceritakan kepada kami Utsman bin Haitsam Telah menceritakan kepada kami Auf dari Al Hasan dari Abu Bakrah dia berkata: Sungguh Allah telah memberikan manfaat kepadaku dengan suatu kalimat yang pernah aku dengar dari Rasulullah, -yaitu pada waktu perang Jamal tatkala aku hampir bergabung dengan para penunggang unta lalu aku ingin berperang bersama mereka.- Dia berkata: Tatkala sampai kepada Rasulullah shallallahu 'alaihi wa sallam, bahwa penduduk Persia telah dipimpin oleh seorang anak perempuan putri raja Kisra, beliau bersabda: "Suatu kaum tidak akan beruntung, jika dipimpin oleh seorang wanita."`,
@@ -109,8 +109,8 @@ export const HadisList: Hadis[] = [
 			`Sunan Nasa'i:5293`,
 			'Musnad Ahmad:19507',
 			'Musnad Ahmad:19542',
-			'Musnad Ahmad:19575'
-		]
+			'Musnad Ahmad:19575',
+		],
 	},
 	{
 		title: 'Hadis Keenam',
@@ -120,11 +120,11 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Menyusui',
 			bab: 'Sebaik-baik harta dunia adalah wanita yang shalihah',
-			sumber: 'Shahih Muslim, juz 2. 1090. Maktabah Shamela'
+			sumber: 'Shahih Muslim, juz 2. 1090. Maktabah Shamela',
 		},
 		content: `حَدَّثَنِي مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ الْهَمْدَانِيُّ حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يَزِيدَ حَدَّثَنَا حَيْوَةُ أَخْبَرَنِي شُرَحْبِيلُ بْنُ شَرِيكٍ أَنَّهُ سَمِعَ أَبَا عَبْدِ الرَّحْمَنِ الْحُبُلِيَّ يُحَدِّثُ عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ الدُّنْيَا مَتَاعٌ وَخَيْرُ مَتَاعِ الدُّنْيَا الْمَرْأَةُ الصَّالِحَة`,
 		definition: `Telah menceritakan kepadaku Muhammad bin Abdullah bin Numair Al Hamdani telah menceritakan kepada kami Abdullah bin Yazid telah menceritakan kepada kami Haiwah telah mengabarkan kepadaku Syurahbil bin Syarik bahwa dia pernah mendengar Abu Abdurrahman Al Hubuli telah bercerita dari Abdullah bin 'Amru bahwasannya Rasulullah shallallahu 'alaihi wa sallam bersabda: "Dunia adalah perhiasan dan sebaik-baik perhiasan adalah wanita shalihah."`,
-		takhrij: ['Sunan An-Nasai:3180, Musnad Ahmad:6279']
+		takhrij: ['Sunan An-Nasai:3180, Musnad Ahmad:6279'],
 	},
 	{
 		title: 'Hadis Ketujuh',
@@ -134,11 +134,11 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Menyusui',
 			bab: 'Wasiat untuk memperhatikan wanita',
-			sumber: 'Shahih Muslim juz 2 , 1090 . Maktabah Shamela'
+			sumber: 'Shahih Muslim juz 2 , 1090 . Maktabah Shamela',
 		},
 		content: `و حَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى أَخْبَرَنَا ابْنُ وَهْبٍ أَخْبَرَنِي يُونُسُ عَنْ ابْنِ شِهَابٍ حَدَّثَنِي ابْنُ الْمُسَيَّبِ عَنْ أَبِي هُرَيْرَةَ قَالَ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ إِنَّ الْمَرْأَةَ كَالضِّلَعِ إِذَا ذَهَبْتَ تُقِيمُهَا كَسَرْتَهَا وَإِنْ تَرَكْتَهَا اسْتَمْتَعْتَ بِهَا وَفِيهَا عِوَجٌ و حَدَّثَنِيهِ زُهَيْرُ بْنُ حَرْبٍ وَعَبْدُ بْنُ حُمَيْدٍ كِلَاهُمَا عَنْ يَعْقُوبَ بْنِ إِبْرَاهِيمَ بْنِ سَعْدٍ عَنْ ابْنِ أَخِي الزُّهْرِيِّ عَنْ عَمِّهِ بِهَذَا الْإِسْنَادِ مِثْلَهُ سَوَاء`,
 		definition: `Dan telah menceritakan kepada kami Harmalah bin Yahya telah mengabarkan kepada kami Ibnu Wahb telah mengabarkan kepadaku Yunus dari Ibnu Syihab telah menceritakan kepadaku Ibnu Musayyab dari Abu Hurairah dia berkata: Rasulullah shallallahu 'alaihi wa sallam bersabda: "Sesungguhnya seorang wanita bagaikan tulang rusuk, jika kamu meluruskannya, niscaya akan patah, jika kamu membiarkannya, maka kamu dapat bersenang-senang dengannya namun tetap bengkok." Dan telah menceritakan kepadaku Zuhair bin Harb dan Abd bin Humaid keduanya dari Ya'qub bin Ibrahim bin Sa'ad dari anak saudaraku yaitu Az Zuhri dari pamannya dengan isnad seperti ini.`,
-		takhrij: ['Shahih Bukhari:4786', 'Sunan Tirmidzi:1109']
+		takhrij: ['Shahih Bukhari:4786', 'Sunan Tirmidzi:1109'],
 	},
 	{
 		title: 'Hadis Kedelapan',
@@ -148,7 +148,7 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Salam',
 			bab: 'Firasat Sial, bersikap optimis dan pesimis',
-			sumber: 'Shahih Muslim juz 4 , 1746. Maktabah Shamela'
+			sumber: 'Shahih Muslim juz 4 , 1746. Maktabah Shamela',
 		},
 		content: `و حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ بْنِ قَعْنَبٍ حَدَّثَنَا مَالِكُ بْنُ أَنَسٍ ح و حَدَّثَنَا يَحْيَى بْنُ يَحْيَى قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ ابْنِ شِهَابٍ عَنْ حَمْزَةَ وَسَالِمٍ ابْنَيْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ الشُّؤْمُ فِي الدَّارِ وَالْمَرْأَةِ وَالْفَرَسِ`,
 		definition: `Dan telah menceritakan kepada kami 'Abdullah bin Maslamah bin Qa'nab: Telah menceritakan kepada kami Malik bin Anas: Demikian juga diriwayatkan dari jalur lainnya, Dan telah menceritakan kepada kami Yahya bin Yahya dia berkata: Aku membaca atas Malik dari Ibnu Syihab dari Hamzah dan Salim Ibnu 'Abdullah bin 'Umar dari 'Abdullah bin 'Umar bahwa Rasulullah shallallahu 'alaihi wa sallam bersabda: Terkadang pengaruh jahat (kecelakaan atau kesialan) itu terdapat pada tiga perkara: "Di dalam rumah tangga, dalam diri wanita, dan pada kuda."`,
@@ -160,8 +160,8 @@ export const HadisList: Hadis[] = [
 			'Shahih Muslim:4130',
 			'Sunan Abu Dawud:3421',
 			'Sunan Tirmidzi:2750',
-			`Sunan An-Nasa'i:3512`
-		]
+			`Sunan An-Nasa'i:3512`,
+		],
 	},
 	{
 		title: 'Hadis Kesembilan',
@@ -171,11 +171,11 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Menyusui',
 			bab: 'Kadar waktu suami menginap di istri yang janda dan yang gadis setelah menikahinya',
-			sumber: 'Shahih Muslim juz 2, 1084. Maktabah Shamela'
+			sumber: 'Shahih Muslim juz 2, 1084. Maktabah Shamela',
 		},
 		content: `حَدَّثَنَا يَحْيَى بْنُ يَحْيَى أَخْبَرَنَا هُشَيْمٌ عَنْ خَالِدٍ عَنْ أَبِي قِلَابَةَ عَنْ أَنَسِ بْنِ مَالِكٍ قَالَ إِذَا تَزَوَّجَ الْبِكْرَ عَلَى الثَّيِّبِ أَقَامَ عِنْدَهَا سَبْعًا وَإِذَا تَزَوَّجَ الثَّيِّبَ عَلَى الْبِكْرِ أَقَامَ عِنْدَهَا ثَلَاثًا قَالَ خَالِدٌ وَلَوْ قُلْتُ إِنَّهُ رَفَعَهُ لَصَدَقْتُ وَلَكِنَّهُ قَالَ السُّنَّةُ كَذَلِكَ`,
 		definition: `Telah menceritakan kepada kami Yahya bin Yahya telah mengabarkan kepada kami Husyaim dari Khalid dari Abu Qilabah dari Anas bin Malik dia berkata: Apabila seorang laki-laki menikahi seorang gadis, maka dia tinggal bersamanya selama tujuh hari, dan jika seorang laki-laki menikahi janda, maka dia tinggal bersamanya selama tiga hari. Khalid berkata: Seandainya saya katakan (kepada Anas) bahwa hadits tersebut saya marfu'kan, niscaya dia akan membenarkanku, akan tetapi dia berkata: Demikianlah yang sesuai dengan sunnah.`,
-		takhrij: ['Shahih Bukhari:4812', 'Shahih Bukhari:4813', 'Sunan Abu Dawud:1814', 'Sunan Tirmidzi:1058', `Musnad Ahmad:6378`]
+		takhrij: ['Shahih Bukhari:4812', 'Shahih Bukhari:4813', 'Sunan Abu Dawud:1814', 'Sunan Tirmidzi:1058', `Musnad Ahmad:6378`],
 	},
 	{
 		title: 'Hadis Kesepuluh',
@@ -185,11 +185,11 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Haid',
 			bab: 'Wanita haid wajib mengqadha puasa tanpa perlu mengqadha shalatnya',
-			sumber: 'Shahih Muslim juz 1, 265. Maktabah Shamela'
+			sumber: 'Shahih Muslim juz 1, 265. Maktabah Shamela',
 		},
 		content: `و حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ حَدَّثَنَا شُعْبَةُ عَنْ يَزِيدَ قَالَ سَمِعْتُ مُعَاذَةَ أَنَّهَا سَأَلَتْ عَائِشَةَ أَتَقْضِي الْحَائِضُ الصَّلَاةَ فَقَالَتْ عَائِشَةُ أَحَرُورِيَّةٌ أَنْتِ قَدْ كُنَّ نِسَاءُ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَحِضْنَ أَفَأَمَرَهُنَّ أَنْ يَجْزِينَ قَالَ مُحَمَّدُ بْنُ جَعْفَرٍ تَعْنِي يَقْضِينَ`,
 		definition: `Dan telah menceritakan kepada kami Muhammad bin al-Mutsanna telah menceritakan kepada kami Muhammad bin Ja'far telah menceritakan kepada kami Syu'bah dari Yazid dia berkata: saya mendengar Mu'adzah bahwa dia bertanya kepada Aisyah, "Apakah wanita haid harus mengqadha shalat?" Aisyah menjawab, "Apakah kamu dari golongan Haruriyyah? Sungguh kami dulu, para istri Nabi shallallahu 'alaihi wa sallam haid, apakah beliau memerintahkan mereka untuk mengqadha shalat?" Muhammad bin Ja'far berkata: maksudnya mengqadha'nya.`,
-		takhrij: ['Musnad Ahmad:24345']
+		takhrij: ['Musnad Ahmad:24345'],
 	},
 	{
 		title: 'Hadis Kesebelas',
@@ -199,11 +199,11 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Nikah',
 			bab: 'Menikahi Gadis',
-			sumber: 'Sunan Tirmidzi  juz 2, 397. Maktabah Shamela'
+			sumber: 'Sunan Tirmidzi  juz 2, 397. Maktabah Shamela',
 		},
 		content: `حَدَّثَنَا قُتَيْبَةُ حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ عَنْ عَمْرِو بْنِ دِينَارٍ عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ قَالَ تَزَوَّجْتُ امْرَأَةً فَأَتَيْتُ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَقَالَ أَتَزَوَّجْتَ يَا جَابِرُ فَقُلْتُ نَعَمْ فَقَالَ بِكْرًا أَمْ ثَيِّبًا فَقُلْتُ لَا بَلْ ثَيِّبًا فَقَالَ هَلَّا جَارِيَةً تُلَاعِبُهَا وَتُلَاعِبُكَ فَقُلْتُ يَا رَسُولَ اللَّهِ إِنَّ عَبْدَ اللَّهِ مَاتَ وَتَرَكَ سَبْعَ بَنَاتٍ أَوْ تِسْعًا فَجِئْتُ بِمَنْ يَقُومُ عَلَيْهِنَّ قَالَ فَدَعَا لِي قَالَ وَفِي الْبَاب عَنْ أُبَيِّ بْنِ كَعْبٍ وَكَعْبِ بْنِ عُجْرَةَ قَالَ أَبُو عِيسَى حَدِيثُ جَابِرِ بْنِ عَبْدِ اللَّهِ حَدِيثٌ حَسَنٌ صَحِيحٌ`,
 		definition: `Telah menceritakan kepada kami Qutaibah, telah menceritakan kepada kami Hammad bin Zaid dari 'Amr bin Dinar dari Jabir bin Abdullah berkata: “Saya baru saja menikahi seorang wanita. Kemudian saya menemui Nabi shallallahu 'alaihi wa sallam. Beliau bertanya: 'Apakah kamu baru saja menikah wahai Jabir?' Saya menjawab: 'Ya.' Beliau bertanya: 'Gadis atau janda.' Saya menjawab: 'Janda.' Beliau bertanya: 'Kenapa kamu tidak menikahi gadis saja. Kamu bisa bermain-main dengannya dan dia bisa bercanda denganmu.' Saya menjawab: 'Wahai Rasulullah, Abdullah telah meninggal dan meninggalkan tujuh anak perempuan atau sembilan. Saya datang (menikahi istrinya) agar bisa mengurus mereka.'" (Jabir bin Abdullah) berkata: "Kemudian beliau mendoakanku." (Abu Isa At Tirmidzi) berkata: "Hadits semakna diriwayatkan dari Ubay bin Ka'ab, dan Ka'ab bin Ujrah." Abu Isa berkata: "Hadits Jabir bin Abdullah merupakan hadits hasan sahih."`,
-		takhrij: ['Shahih Bukhari:2745', 'Sunan Ibnu Majah:1850', 'Sunan Ibnu Majah:2707']
+		takhrij: ['Shahih Bukhari:2745', 'Sunan Ibnu Majah:1850', 'Sunan Ibnu Majah:2707'],
 	},
 	{
 		title: 'Hadis Kedua Belas',
@@ -213,11 +213,11 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Fitnah',
 			bab: 'Fitnah Wanita',
-			sumber: 'Sunan Ibnu Majah, Juz 2, 1326. Maktabah Shamela'
+			sumber: 'Sunan Ibnu Majah, Juz 2, 1326. Maktabah Shamela',
 		},
 		content: `حَدَّثَنَا مُحَمَّدُ بْنُ رُمْحٍ أَنْبَأَنَا اللَّيْثُ بْنُ سَعْدٍ عَنْ ابْنِ الْهَادِ عَنْ عَبْدِ اللَّهِ بْنِ دِينَارٍ عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ عَنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَنَّهُ قَالَ يَا مَعْشَرَ النِّسَاءِ تَصَدَّقْنَ وَأَكْثِرْنَ مِنْ الِاسْتِغْفَارِ فَإِنِّي رَأَيْتُكُنَّ أَكْثَرَ أَهْلِ النَّارِ فَقَالَتْ امْرَأَةٌ مِنْهُنَّ جَزْلَةٌ وَمَا لَنَا يَا رَسُولَ اللَّهِ أَكْثَرَ أَهْلِ النَّارِ قَالَ تُكْثِرْنَ اللَّعْنَ وَتَكْفُرْنَ الْعَشِيرَ مَا رَأَيْتُ مِنْ نَاقِصَاتِ عَقْلٍ وَدِينٍ أَغْلَبَ لِذِي لُبٍّ مِنْكُنَّ قَالَتْ يَا رَسُولَ اللَّهِ وَمَا نُقْصَانُ الْعَقْلِ وَالدِّينِ قَالَ أَمَّا نُقْصَانِ الْعَقْلِ فَشَهَادَةُ امْرَأَتَيْنِ تَعْدِلُ شَهَادَةَ رَجُلٍ فَهَذَا مِنْ نُقْصَانِ الْعَقْلِ وَتَمْكُثُ اللَّيَالِيَ مَا تُصَلِّي وَتُفْطِرُ فِي رَمَضَانَ فَهَذَا مِنْ نُقْصَانِ الدِّينِ`,
 		definition: `Telah menceritakan kepada kami Muhammad bin Rumh telah memberitakan kepada kami Al Laits bin Sa'd dari Ibnu Al Had dari Abdullah bin Dinar dari Abdullah bin Umar dari Rasulullah shallallahu 'alaihi wa sallam, bahwa beliau bersabda: "Wahai para wanita, perbanyaklah sedekah dan istighfar, sungguh saya melihat kebanyakan kalian adalah penghuni neraka." Lalu seorang wanita berbadan gemuk dari mereka bertanya, "Wahai Rasulullah, kenapa kami yang paling banyak masuk ke dalam neraka?" Beliau menjawab: "Kalian banyak melaknat dan mengkhianati perlakuan suami, saya tidak pernah melihat makhluk berakal yang akal dan agamanya kurang selain kalian." Wanita tersebut kembali bertanya, "Wahai Rasulullah, apa yang dimaksud dengan kekurangan akal dan agama?" beliau menjawab: "Adapun akalnya kurang disebabkan karena kesaksian dua orang wanita sama dengan kesaksian seorang laki-laki, ini termasuk dari kekurangan akal. Kalian berdiam beberapa hati tidak shalat dan berbuka di bulan Ramadan adalah bukti kurangnya agama kalian."`,
-		takhrij: ['Bukhari:1369', 'Musnad Ahmad:5091']
+		takhrij: ['Bukhari:1369', 'Musnad Ahmad:5091'],
 	},
 	{
 		title: 'Hadis Ketiga Belas',
@@ -227,7 +227,7 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Shalat',
 			bab: 'Meluruskan barisan dan keutamaan shaf pertama',
-			sumber: 'Shahih Muslim, Juz 1, 326. Maktabah Shamela'
+			sumber: 'Shahih Muslim, Juz 1, 326. Maktabah Shamela',
 		},
 		content: `حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ حَدَّثَنَا جَرِيرٌ عَنْ سُهَيْلٍ عَنْ أَبِيهِ عَنْ أَبِي هُرَيْرَةَ قَالَ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ خَيْرُ صُفُوفِ الرِّجَالِ أَوَّلُهَا وَشَرُّهَا آخِرُهَا وَخَيْرُ صُفُوفِ النِّسَاءِ آخِرُهَا وَشَرُّهَا أَوَّلُهَا حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ قَالَ حَدَّثَنَا عَبْدُ الْعَزِيزِ يَعْنِي الدَّرَاوَرْدِيَّ عَنْ سُهَيْلٍ بِهَذَا الْإِسْنَادِ`,
 		definition: `Telah menceritakan kepada kami Zuhair bin Harb telah menceritakan kepada kami Jarir dari Suhail dari Bapaknya dari Abu Hurairah radhiyallahu'anhu dia berkata: Rasulullah shallallahu 'alaihi wa sallam bersabda, "Sebaik-baik shaf kaum laki-laki adalah di depan, dan sejelek-jeleknya adalah pada akhirnya. Dan sebaik-baik shaf wanita adalah akhirnya, dan sejelek-jeleknya adalah awal shaf." Telah menceritakan kepada kami Qutaibah bin Sa'id dia berkata: telah menceritakan kepada kami Abdul Aziz, yaitu ad-Darawardi dari Suhail dengan isnad ini.`,
@@ -238,8 +238,8 @@ export const HadisList: Hadis[] = [
 			'Sunan Ibnu Majah:990',
 			'Sunan Ibnu Majah:991',
 			'Musnad Ahmad:7058',
-			'Musnad Ahmad:8074'
-		]
+			'Musnad Ahmad:8074',
+		],
 	},
 	{
 		title: 'Hadis Keempat Belas',
@@ -249,11 +249,11 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Nikah',
 			bab: 'Hak istri atas suami',
-			sumber: 'Sunan Ibnu Majah, Juz 1, 593. Maktabah Shamela'
+			sumber: 'Sunan Ibnu Majah, Juz 1, 593. Maktabah Shamela',
 		},
 		content: `حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ عَنْ شُعْبَةَ عَنْ أَبِي قَزْعَةَ عَنْ حَكِيمِ بْنِ مُعَاوِيَةَ عَنْ أَبِيهِ أَنَّ رَجُلًا سَأَلَ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ مَا حَقُّ الْمَرْأَةِ عَلَى الزَّوْجِ قَالَ أَنْ يُطْعِمَهَا إِذَا طَعِمَ وَأَنْ يَكْسُوَهَا إِذَا اكْتَسَى وَلَا يَضْرِبْ الْوَجْهَ وَلَا يُقَبِّحْ وَلَا يَهْجُرْ إِلَّا فِي الْبَيْتِ`,
 		definition: `Telah menceritakan kepada kami Abu Bakr bin Abu Syaibah berkata: telah menceritakan kepada kami Yazid bin Harun dari Syu'bah dari Abu Qaz'ah dari Hakim bin Mu'awiyah dari Bapaknya berkata: "Seorang laki-laki bertanya kepada Nabi shallallahu 'alaihi wa sallam, "Apa hak seorang wanita atas suaminya?" beliau menjawab: "Memberi makan kepadanya apabila dia makan, memberi pakaian apabila ia berpakaian, tidak memukul wajah, tidak menjelek-jelekkannya dan tidak boleh mendiamkannya kecuali di dalam rumah."`,
-		takhrij: []
+		takhrij: [],
 	},
 	{
 		title: 'Hadis Kelima Belas',
@@ -263,11 +263,11 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Nikah',
 			bab: 'Sekufu dalam agama',
-			sumber: 'Shahih Bukhari juz 7, 7. Maktabah Shamela'
+			sumber: 'Shahih Bukhari juz 7, 7. Maktabah Shamela',
 		},
 		content: `حَدَّثَنَا مُسَدَّدٌ حَدَّثَنَا يَحْيَى عَنْ عُبَيْدِ اللَّهِ قَالَ حَدَّثَنِي سَعِيدُ بْنُ أَبِي سَعِيدٍ عَنْ أَبِيهِ عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ عَنْ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ تُنْكَحُ الْمَرْأَةُ لِأَرْبَعٍ لِمَالِهَا وَلِحَسَبِهَا وَجَمَالِهَا وَلِدِينِهَا فَاظْفَرْ بِذَاتِ الدِّينِ تَرِبَتْ يَدَاكَ`,
 		definition: `Telah menceritakan kepada kami Musaddad Telah menceritakan kepada kami Yahya dari Ubaidullah ia berkata: Telah menceritakan kepadaku Sa'id bin Abu Sa'id dari bapaknya dari Abu Hurairah radliyallahu 'anhu, dari Nabi shallallahu 'alaihi wa sallam, beliau bersabda: “Wanita itu dinikahi karena empat hal, karena hartanya, karena keturunannya, karena kecantikannya dan karena agamanya. Maka pilihlah karena agamanya, niscaya kamu akan beruntung."`,
-		takhrij: ['Shahih Muslim:2661', 'Sunan Abu Daud:1751', 'Sunan An-Nasa’I:3178', 'Sunan Ibnu Majah:1848', 'Musnad Ahmad:9156']
+		takhrij: ['Shahih Muslim:2661', 'Sunan Abu Daud:1751', 'Sunan An-Nasa’I:3178', 'Sunan Ibnu Majah:1848', 'Musnad Ahmad:9156'],
 	},
 	{
 		title: 'Hadis Keenam Belas',
@@ -277,7 +277,7 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Pakaian',
 			bab: 'Laki-laki menyerupai perempuan dan sebaliknya',
-			sumber: 'Shahih Bukhari juz 7, 159. Maktabah Shamela'
+			sumber: 'Shahih Bukhari juz 7, 159. Maktabah Shamela',
 		},
 		content: `حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ حَدَّثَنَا غُنْدَرٌ حَدَّثَنَا شُعْبَةُ عَنْ قَتَادَةَ عَنْ عِكْرِمَةَ عَنْ ابْنِ عَبَّاسٍ رَضِيَ اللَّهُ عَنْهُمَا قَالَ لَعَنَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ الْمُتَشَبِّهِينَ مِنْ الرِّجَالِ بِالنِّسَاءِ وَالْمُتَشَبِّهَاتِ مِنْ النِّسَاءِ بِالرِّجَالِ تَابَعَهُ عَمْرٌو أَخْبَرَنَا شُعْبَةُ`,
 		definition: `Telah menceritakan kepada kami Muhammad bin Basyar telah menceritakan kepada kami Ghundar telah menceritakan kepada kami Syu’bah dari Qatadah dari Ikrimah dari Ibnu Abbas r.a. Dia Berkata “Allah Melaknat laki-laki yang menyerupai wanita dan wanita yang menyerupai laki-laki” Hadis ini diperkuat dengan hadis ‘Amru telah mengabarkan kepada kami Syu’bah.`,
@@ -290,8 +290,8 @@ export const HadisList: Hadis[] = [
 			'Musnad Ahmad:2150',
 			'Musnad Ahmad:2177',
 			'Musnad Ahmad:2901',
-			'Musnad Ahmad:2984'
-		]
+			'Musnad Ahmad:2984',
+		],
 	},
 	{
 		title: 'Hadis Ketujuh Belas',
@@ -301,7 +301,7 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Adab',
 			bab: 'Jangan seseorang menganggap remeh untuk memberi hadiah tetangga',
-			sumber: 'Shahih Bukhari juz 8, 10. Maktabah Shamela'
+			sumber: 'Shahih Bukhari juz 8, 10. Maktabah Shamela',
 		},
 		content: `حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ حَدَّثَنَا اللَّيْثُ حَدَّثَنَا سَعِيدٌ هُوَ الْمَقْبُرِيُّ عَنْ أَبِيهِ عَنْ أَبِي هُرَيْرَةَ قَالَ كَانَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَقُولُ يَا نِسَاءَ الْمُسْلِمَاتِ لَا تَحْقِرَنَّ جَارَةٌ لِجَارَتِهَا وَلَوْ فِرْسِنَ شَاةٍ`,
 		definition: `Telah menceritakan kepada kami Abdullah bin Yusuf telah menceritakan kepada kami Al Laits telah menceritakan kepada kami Sa'id yaitu Al Maqburi dari Ayahnya dari Abu Hurairah dia berkata: Nabi shallallahu 'alaihi wa sallam bersabda: "Wahai para wanita muslimah, janganlah antara tetangga yang satu dengan yang lainnya saling meremehkan walaupun hanya dengan memberi kaki kambing."`,
@@ -311,8 +311,8 @@ export const HadisList: Hadis[] = [
 			'Musnad Ahmad:7721',
 			'Musnad Ahmad:9210',
 			'Musnad Ahmad:9999',
-			'Musnad Ahmad:10170'
-		]
+			'Musnad Ahmad:10170',
+		],
 	},
 	{
 		title: 'Hadis Kedelepan Belas',
@@ -322,11 +322,11 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Iman',
 			bab: 'Iman bertambah dan berkurang',
-			sumber: 'Sunan Tirmidzi  juz 4, 306. Maktabah Shamela'
+			sumber: 'Sunan Tirmidzi  juz 4, 306. Maktabah Shamela',
 		},
 		content: `حَدَّثَنَا أَبُو عَبْدِ اللَّهِ هُرَيْمُ بْنُ مِسْعَرٍ الْأَزْدِيُّ التِّرْمِذِيُّ حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ مُحَمَّدٍ عَنْ سُهَيْلِ بْنِ أَبِي صَالِحٍ عَنْ أَبِيهِ عَنْ أَبِي هُرَيْرَةَ أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ خَطَبَ النَّاسَ فَوَعَظَهُمْ ثُمَّ قَالَ يَا مَعْشَرَ النِّسَاءِ تَصَدَّقْنَ فَإِنَّكُنَّ أَكْثَرُ أَهْلِ النَّارِ فَقَالَتْ امْرَأَةٌ مِنْهُنَّ وَلِمَ ذَاكَ يَا رَسُولَ اللَّهِ قَالَ لِكَثْرَةِ لَعْنِكُنَّ يَعْنِي وَكُفْرِكُنَّ الْعَشِيرَ قَالَ وَمَا رَأَيْتُ مِنْ نَاقِصَاتِ عَقْلٍ وَدِينٍ أَغْلَبَ لِذَوِي الْأَلْبَابِ وَذَوِي الرَّأْيِ مِنْكُنَّ قَالَتْ امْرَأَةٌ مِنْهُنَّ وَمَا نُقْصَانُ دِينِهَا وَعَقْلِهَا قَالَ شَهَادَةُ امْرَأَتَيْنِ مِنْكُنَّ بِشَهَادَةِ رَجُلٍ وَنُقْصَانُ دِينِكُنَّ الْحَيْضَةُ تَمْكُثُ إِحْدَاكُنَّ الثَّلَاثَ وَالْأَرْبَعَ لَا تُصَلِّي وَفِي الْبَاب عَنْ أَبِي سَعِيدٍ وَابْنِ عُمَرَ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ غَرِيبٌ مِنْ هَذَا الْوَجْهِ`,
 		definition: `Telah bercerita kepada kami Abu Abdillah Huraim bin Mis'ar Al Azdi At Tirmdzi telah menceritakan kepada kami Abdul Aziz bin Muhammad dari Suhail bin Abu Shalih dari bapaknya dari Abu Hurairah bahwa Rasulullah shallallahu 'alaihi wa sallam berkhutbah di hadapan para sahabat lalu menasehati mereka kemudian berkata: "Wahai para wanita berinfaqlah karena kalian adalah penghuni neraka yang paling banyak". Maka salah seorang wanita bertanya: 'Kenapa demikian wahai Rasulullah? ' Beliau menjawab: "Karena kalian banyak melaknat yaitu mengingkari terhadap (nikmat) suami, " lalu beliau bersabda: "Dan aku tidak melihat dari orang-orang yang sedikit akal dan agamanya lebih banyak orang yang memiliki hati dan pikiran daripada kalian", salah seorang wanita bertanya, 'Apa kekurangan agama dan akal wanita? ' Beliau menjawab: "Persaksian dua orang wanita dari kalian adalah sama dengan persaksian seorang lelaki sedangkan kekurangan din (agama) kalian adalah adanya masa haid yang dapat menahan salah seorang dari kalian tiga sampai empat hari dari melaksanakan sholat." Dan dalam bab ini ada hadits dari Abu Sa'id dan Ibnu Umar, Abu Isa berkata: 'Hadits ini hasan shahih gharib dari jalur sanad ini".`,
-		takhrij: ['Shahih Bukhari:293', 'Musnad Ahmad:3388', 'Musnad Ahmad:3815', 'Musnad Sunan Darimi:989']
+		takhrij: ['Shahih Bukhari:293', 'Musnad Ahmad:3388', 'Musnad Ahmad:3815', 'Musnad Sunan Darimi:989'],
 	},
 	{
 		title: 'Hadis Kesembilan Belas',
@@ -336,7 +336,7 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Shaf',
 			bab: 'Shaf wanita dan larangan untuk menghindari shaf pertama',
-			sumber: 'Sunan Abu Dawud juz 1, 181. Maktabah Shamela'
+			sumber: 'Sunan Abu Dawud juz 1, 181. Maktabah Shamela',
 		},
 		content: `حَدَّثَنَا مُحَمَّدُ بْنُ الصَّبَّاحِ الْبَزَّازُ حَدَّثَنَا خَالِدٌ وَإِسْمَعِيلُ بْنُ زَكَرِيَّاءَ عَنْ سُهَيْلِ بْنِ أَبِي صَالِحٍ عَنْ أَبِيهِ عَنْ أَبِي هُرَيْرَةَ قَالَ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ خَيْرُ صُفُوفِ الرِّجَالِ أَوَّلُهَا وَشَرُّهَا آخِرُهَا وَخَيْرُ صُفُوفِ النِّسَاءِ آخِرُهَا وَشَرُّهَا أَوَّلُهَا`,
 		definition: `Telah menceritakan kepada kami Muhammad bin Ash Shabbah Al Bazzaz telah menceritakan kepada kami Khalid dan Isma'il bin Zakariyya dari Suhail bin Abi Shalih dari Ayahnya dari Abu Hurairah dia berkata: Rasulullah shallallahu 'alaihi wa sallam bersabda: “Sebaik baik shaf laki laki adalah shaf yang pertama dan sejelek jeleknya adalah shaf yang terakhir. Sebaik baik shaf wanita adalah yang terakhir dan sejelek jeleknya adalah shaf yang pertama."`,
@@ -347,8 +347,8 @@ export const HadisList: Hadis[] = [
 			'Sunan Ibnu Majah:990',
 			'Sunan Ibnu Majah:991',
 			'Musnad Ahmad:7058',
-			'Musnad Ahmad:8074'
-		]
+			'Musnad Ahmad:8074',
+		],
 	},
 	{
 		title: 'Hadis Kedua Puluh',
@@ -358,7 +358,7 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Nikah',
 			bab: 'Seorang wanita tidak boleh dimadu dengan bibinya',
-			sumber: 'Shahih Bukhari  juz 7, 12. Maktabah Shamela'
+			sumber: 'Shahih Bukhari  juz 7, 12. Maktabah Shamela',
 		},
 		content: `حَدَّثَنَا عَبْدَانُ أَخْبَرَنَا عَبْدُ اللَّهِ أَخْبَرَنَا عَاصِمٌ عَنْ الشَّعْبِيِّ سَمِعَ جَابِرًا رَضِيَ اللَّهُ عَنْهُ قَالَ نَهَى رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَنْ تُنْكَحَ الْمَرْأَةُ عَلَى عَمَّتِهَا أَوْ خَالَتِهَا وَقَالَ دَاوُدُ وَابْنُ عَوْنٍ عَنْ الشَّعْبِيِّ عَنْ أَبِي هُرَيْرَةَ`,
 		definition: `Telah menceritakan kepada kami Abdan Telah mengabarkan kepada kami Abdullah Telah mengabarkan kepada kami Ashim dari Asy Sya'bi bahwa ia mendengar Jabir radhiyallahu 'anhu berkata: ”Rasulullah shallallahu 'alaihi wa sallam melarang bilamana wanita dimadu dengan bibinya baik dari jalur ibu atau bapaknya." Dawud berkata: Dan Ibnu 'Aun dari Asy Sya'bi dari Abu Hurairah.`,
@@ -368,8 +368,8 @@ export const HadisList: Hadis[] = [
 			'Shahih Muslim:2520',
 			'Sunan Tirmidzi:1044',
 			'Sunan Tirmidzi:1045',
-			'Sunan Nasa’I:3238'
-		]
+			'Sunan Nasa’I:3238',
+		],
 	},
 	{
 		title: 'Hadis Kedua Puluh Satu',
@@ -379,11 +379,11 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Washiyat',
 			bab: 'Tidak ada wasiat untuk orang yang mendapat waris',
-			sumber: 'Shahih Bukhari, Juz 8, 152. Maktabah Shamela'
+			sumber: 'Shahih Bukhari, Juz 8, 152. Maktabah Shamela',
 		},
 		content: `حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ عَنْ وَرْقَاءَ عَنْ ابْنِ أَبِي نَجِيحٍ عَنْ عَطَاءٍ عَنْ ابْنِ عَبَّاسٍ رَضِيَ اللَّهُ عَنْهُمَا قَالَ كَانَ الْمَالُ لِلْوَلَدِ وَكَانَتْ الْوَصِيَّةُ لِلْوَالِدَيْنِ فَنَسَخَ اللَّهُ مِنْ ذَلِكَ مَا أَحَبَّ فَجَعَلَ لِلذَّكَرِ مِثْلَ حَظِّ الْأُنْثَيَيْنِ وَجَعَلَ لِلْأَبَوَيْنِ لِكُلِّ وَاحِدٍ مِنْهُمَا السُّدُسَ وَجَعَلَ لِلْمَرْأَةِ الثُّمُنَ وَالرُّبُعَ وَلِلزَّوْجِ الشَّطْرَ وَالرُّبُعَ`,
 		definition: `Telah bercerita kepada kami Muhammad bin Yusuf dari Warqa' dari Ibnu Abi Najih dari 'Atha' dari Ibnu 'Abbas radliyallahu 'anhuma berkata: Dahulu harta warisan menjadi milik anak sedangkan wasiat hak kedua orang tua. Kemudian Allah menghapus ketentuan ini dengan yang lebih disenangi-Nya. Maka Allah menjadikan bagian warisan anak laki-laki dua kali dari bagian anak perempuan dan untuk kedua orang tua masing-masing mendapat seperenam sedangkan untuk istri seperdelapan atau seperempat sedangkan suami mendapat setengah atau seperempat.`,
-		takhrij: ['Shahih Bukhari:4578', 'Shahih Bukhari:6739']
+		takhrij: ['Shahih Bukhari:4578', 'Shahih Bukhari:6739'],
 	},
 	{
 		title: 'Hadis Kedua Puluh Dua',
@@ -392,12 +392,12 @@ export const HadisList: Hadis[] = [
 			shahih: 'Shahih Muslim:2548',
 			derajat: 'Shahih',
 			kitab: 'Adab',
-			bab: 'Siapa yang paling berhak digauli dengan baik',
-			sumber: 'Shahih Muslim  juz 4, 1974. Maktabah Shamela'
+			bab: 'Berbakti Pada Ibu',
+			sumber: 'Shahih Muslim  juz 4, 1974. Maktabah Shamela',
 		},
 		content: `حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ حَدَّثَنَا جَرِيرٌ عَنْ عُمَارَةَ بْنِ الْقَعْقَاعِ بْنِ شُبْرُمَةَ عَنْ أَبِي زُرْعَةَ عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ جَاءَ رَجُلٌ إِلَى رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَقَالَ يَا رَسُولَ اللَّهِ مَنْ أَحَقُّ النَّاسِ بِحُسْنِ صَحَابَتِي قَالَ أُمُّكَ قَالَ ثُمَّ مَنْ قَالَ ثُمَّ أُمُّكَ قَالَ ثُمَّ مَنْ قَالَ ثُمَّ أُمُّكَ قَالَ ثُمَّ مَنْ قَالَ ثُمَّ أَبُوكَ وَقَالَ ابْنُ شُبْرُمَةَ وَيَحْيَى بْنُ أَيُّوبَ حَدَّثَنَا أَبُو زُرْعَةَ مِثْلَهُ`,
 		definition: `Telah menceritakan kepada kami Qutaibah bin Sa'id telah menceritakan kepada kami Jarir dari 'Umarah bin Al Qa'qa' bin Syubrumah dari Abu Zur'ah dari Abu Hurairah radhiyallahu 'anhu dia berkata: "Seorang laki-laki datang kepada Rasulullah shallallahu 'alaihi wa sallam sambil berkata: "Wahai Rasulullah, siapakah orang yang paling berhak aku berbakti kepadanya?" beliau menjawab: "Ibumu." Dia bertanya lagi: "Kemudian siapa?" beliau menjawab: "Ibumu." Dia bertanya lagi: "kemudian siapa lagi?" beliau menjawab: "Ibumu." Dia bertanya lagi: "Kemudian siapa?" dia menjawab: "Kemudian ayahmu." Ibnu Syubrumah dan Yahya bin Ayyub berkata: telah menceritakan kepada kami Abu Zur'ah hadits seperti di atas."`,
-		takhrij: ['Shahih Muslim:4621', 'Sunan Tirmidzi:1819', 'Sunan Ibnu Majah:2697', 'Sunan Ibnu Majah:3648', 'Musnad Ahmad:7994']
+		takhrij: ['Shahih Muslim:4621', 'Sunan Tirmidzi:1819', 'Sunan Ibnu Majah:2697', 'Sunan Ibnu Majah:3648', 'Musnad Ahmad:7994'],
 	},
 	{
 		title: 'Hadis Kedua Puluh Tiga',
@@ -407,11 +407,11 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Adab',
 			bab: 'Berbakti kepada orang tua dan berbuat baik kepada anak wanita',
-			sumber: 'Sunan Ibnu Majah  juz 2, 1210. Maktabah Shamela'
+			sumber: 'Sunan Ibnu Majah  juz 2, 1210. Maktabah Shamela',
 		},
 		content: `حَدَّثَنَا الْحُسَيْنُ بْنُ الْحَسَنِ الْمَرْوَزِيُّ حَدَّثَنَا ابْنُ الْمُبَارَكِ عَنْ حَرْمَلَةَ بْنِ عِمْرَانَ قَالَ سَمِعْتُ أَبَا عُشَانَةَ الْمُعَافِرِيَّ قَالَ سَمِعْتُ عُقْبَةَ بْنَ عَامِرٍ يَقُولُ سَمِعْتُ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَقُولُ مَنْ كَانَ لَهُ ثَلَاثُ بَنَاتٍ فَصَبَرَ عَلَيْهِنَّ وَأَطْعَمَهُنَّ وَسَقَاهُنَّ وَكَسَاهُنَّ مِنْ جِدَتِهِ كُنَّ لَهُ حِجَابًا مِنْ النَّارِ يَوْمَ الْقِيَامَةِ`,
 		definition: `Telah menceritakan kepada kami Al Husain bin Hasan Al Mawarzi telah menceritakan kepada kami Ibnu Al Mubarak dari Harmalah bin 'Imran dia berkata: saya mendengar Abu 'Usyanah Al Mu'afiri berkata: saya mendengar 'Uqbah bin 'Amir berkata: "Saya mendengar Rasulullah shallallahu 'alaihi wa sallam bersabda: "Barangsiapa memiliki tiga orang anak perempuan, lalu ia dapat bersabar dalam mengurusi mereka, memberinya makan, minum serta pakaian kepada mereka dari usaha kerasnya, maka mereka akan menjadi penghalang baginya dari api neraka di hari Kiamat kelak."`,
-		takhrij: ['Musnad Ahmad:8071', 'Musnad Ahmad:122133', 'Musnad Ahmad:16762', 'Musnad Ahmad:22881']
+		takhrij: ['Musnad Ahmad:8071', 'Musnad Ahmad:122133', 'Musnad Ahmad:16762', 'Musnad Ahmad:22881'],
 	},
 	{
 		title: 'Hadis Kedua Puluh Empat',
@@ -421,7 +421,7 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Nikah',
 			bab: 'Wanita tidak boleh menerima laki-laki di rumah suaminya kecuali dengan izin',
-			sumber: 'Shahih Bukhari  juz 7, 30. Maktabah Shamela'
+			sumber: 'Shahih Bukhari  juz 7, 30. Maktabah Shamela',
 		},
 		content: `حَدَّثَنَا أَبُو الْيَمَانِ أَخْبَرَنَا شُعَيْبٌ حَدَّثَنَا أَبُو الزِّنَادِ عَنْ الْأَعْرَجِ عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ لَا يَحِلُّ لِلْمَرْأَةِ أَنْ تَصُومَ وَزَوْجُهَا شَاهِدٌ إِلَّا بِإِذْنِهِ وَلَا تَأْذَنَ فِي بَيْتِهِ إِلَّا بِإِذْنِهِ وَمَا أَنْفَقَتْ مِنْ نَفَقَةٍ عَنْ غَيْرِ أَمْرِهِ فَإِنَّهُ يُؤَدَّى إِلَيْهِ شَطْرُهُ وَرَوَاهُ أَبُو الزِّنَادِ أَيْضًا عَنْ مُوسَى عَنْ أَبِيهِ عَنْ أَبِي هُرَيْرَةَ فِي الصَّوْمِ`,
 		definition: `Telah menceritakan kepada kami Abul Yaman Telah mengabarkan kepada kami Syu'aib Telah menceritakan kepada kami Abu Zinad dari Al A'raj dari Abu Hurairah radhiyallahu 'anhu, bahwa Rasulullah shallallahu 'alaihi wa sallam bersabda: “Tidak halal bagi seorang wanita untuk berpuasa sementara suaminya ada dirumah, kecuali dengan seizinnya. Dan tidak boleh mengizinkan seseorang masuk ke dalam rumahnya kecuali dengan seizinnya. Dan sesuatu yang ia infakkan tanpa seizinnya, maka setengahnya harus dikembalikan pada suaminya." Hadits ini juga diriwayatkan oleh Az Zinad dari Musa dari bapaknya dari Abu Hurairah dalam bab shaum.`,
@@ -431,8 +431,8 @@ export const HadisList: Hadis[] = [
 			'Musnad Ahmad:9607',
 			'Musnad Ahmad:9780',
 			'Sunan Darimi:1656',
-			'Sunan Darimi:1658'
-		]
+			'Sunan Darimi:1658',
+		],
 	},
 	{
 		title: 'Hadis Kedua Puluh Lima',
@@ -442,10 +442,241 @@ export const HadisList: Hadis[] = [
 			derajat: 'Shahih',
 			kitab: 'Nikah',
 			bab: 'Bersikap lembut dengan wanita',
-			sumber: 'Shahih Bukhari  juz 7, 26. Maktabah Shamela'
+			sumber: 'Shahih Bukhari  juz 7, 26. Maktabah Shamela',
 		},
 		content: `حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ عَبْدِ اللَّهِ قَالَ حَدَّثَنِي مَالِكٌ عَنْ أَبِي الزِّنَادِ عَنْ الْأَعْرَجِ عَنْ أَبِي هُرَيْرَةَ أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ الْمَرْأَةُ كَالضِّلَعِ إِنْ أَقَمْتَهَا كَسَرْتَهَا وَإِنْ اسْتَمْتَعْتَ بِهَا اسْتَمْتَعْتَ بِهَا وَفِيهَا عِوَجٌ`,
 		definition: `Telah menceritakan kepada kami Abdul Aziz bin Abdullah ia berkata: Telah menceritakan kepadaku Malik bin Anas dari Abu Zinad dari Al A'raj dari Abu Hurairah bahwa Rasulullah shallallahu 'alaihi wa sallam bersabda Wanita itu bagaikan tulang rusuk, bila kamu memaksa untuk meluruskannya, niscaya kamu akan mematahkannya, dan jika kamu bermesraan dan menurutinya, maka kamu dapat bermesraan namun padanya terdapat kebengkokan."`,
-		takhrij: ['Shahih Muslim:2669', 'Sunan Tirmidzi:1109', 'Musnad Ahmad:25180']
-	}
+		takhrij: ['Shahih Muslim:2669', 'Sunan Tirmidzi:1109', 'Musnad Ahmad:25180'],
+	},
+	{
+		title: 'Hadis Kedua Puluh Enam',
+		slug: 'hadis-keduapuluhenam',
+		info: {
+			shahih: 'Shahih Muslim:1403',
+			derajat: 'Shahih',
+			kitab: 'Nikah',
+			bab: 'Menundukkan Pandangan',
+			sumber: 'Shahih Muslim no 1403 Juz 2, hal 1201 Maktabah Shamela',
+		},
+		content: `حَدَّثَنَا عَمْرُو بْنُ عَلِيٍّ، حَدَّثَنَا عَبْدُ الْأَعْلَى، حَدَّثَنَا هِشَامُ بْنُ أَبِي عَبْدِ اللهِ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، أَنَّ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ رَأَى امْرَأَةً، فَأَتَى امْرَأَتَهُ زَيْنَبَ، وَهِيَ تَمْعَسُ مَنِيئَةً لَهَا، فَقَضَى حَاجَتَهُ، ثُمَّ خَرَجَ إِلَى أَصْحَابِهِ، فَقَالَ: «إِنَّ الْمَرْأَةَ تُقْبِلُ فِي صُورَةِ شَيْطَانٍ، وَتُدْبِرُ فِي صُورَةِ شَيْطَانٍ، فَإِذَا أَبْصَرَ أَحَدُكُمُ امْرَأَةً فَلْيَأْتِ أَهْلَهُ، فَإِنَّ ذَلِكَ يَرُدُّ مَا فِي نَفْسِهِ »،`,
+		definition: `Telah menceritakan kepada kami Amru bin Ali telah menceritakan kepada kami Abdul A'la telah menceritakan kepada kami Hisyam bهn Abu Abdullah dari Abu Zubair dari Jabir bahwasanya: Rasulullah shallallahu 'alaihi wa sallam pernah melihat seorang wanita, lalu beliau mendatangi istrinya, yaitu Zainab yang sedang menyamak kulit, guna melepaskan rasa rindunya. Sesudah itu, beliau pergi menemui para sahabatnya, lalu beliau bersabda: "Sesungguhnya wanita itu datang dan pergi bagaikan syetan. Maka bila kamu melihat seorang wanita, datangilah istrimu, karena yang demikian itu dapat menentramkan gejolak hatimu”.`,
+		takhrij: ['Sunan Abu Dawud:2151'],
+	},
+	{
+		title: 'Hadis Kedua Puluh Enam',
+		slug: 'hadis-keduapuluhenam',
+		info: {
+			shahih: 'Shahih Muslim:1403',
+			derajat: 'Shahih',
+			kitab: 'Nikah',
+			bab: 'Menundukkan Pandangan',
+			sumber: 'Shahih Muslim no 1403 Juz 2, hal 1201 Maktabah Shamela',
+		},
+		content: `حَدَّثَنَا عَمْرُو بْنُ عَلِيٍّ، حَدَّثَنَا عَبْدُ الْأَعْلَى، حَدَّثَنَا هِشَامُ بْنُ أَبِي عَبْدِ اللهِ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، أَنَّ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ رَأَى امْرَأَةً، فَأَتَى امْرَأَتَهُ زَيْنَبَ، وَهِيَ تَمْعَسُ مَنِيئَةً لَهَا، فَقَضَى حَاجَتَهُ، ثُمَّ خَرَجَ إِلَى أَصْحَابِهِ، فَقَالَ: «إِنَّ الْمَرْأَةَ تُقْبِلُ فِي صُورَةِ شَيْطَانٍ، وَتُدْبِرُ فِي صُورَةِ شَيْطَانٍ، فَإِذَا أَبْصَرَ أَحَدُكُمُ امْرَأَةً فَلْيَأْتِ أَهْلَهُ، فَإِنَّ ذَلِكَ يَرُدُّ مَا فِي نَفْسِهِ »،`,
+		definition: `Telah menceritakan kepada kami Amru bin Ali telah menceritakan kepada kami Abdul A'la telah menceritakan kepada kami Hisyam bهn Abu Abdullah dari Abu Zubair dari Jabir bahwasanya: Rasulullah shallallahu 'alaihi wa sallam pernah melihat seorang wanita, lalu beliau mendatangi istrinya, yaitu Zainab yang sedang menyamak kulit, guna melepaskan rasa rindunya. Sesudah itu, beliau pergi menemui para sahabatnya, lalu beliau bersabda: "Sesungguhnya wanita itu datang dan pergi bagaikan syetan. Maka bila kamu melihat seorang wanita, datangilah istrimu, karena yang demikian itu dapat menentramkan gejolak hatimu”.`,
+		takhrij: ['Sunan Abu Dawud:2151'],
+	},
+	{
+		title: 'Hadis Kedua Puluh Tujuh',
+		slug: 'hadis-keduapuluhtujuh',
+		info: {
+			shahih: 'Shahih Bukhari:893',
+			derajat: 'Shahih',
+			kitab: 'Jum’at',
+			bab: 'Shalat jumat didesa dan kota',
+			sumber: 'Shahih Bukhari:893, Juz 2 , hal 5 Maktabah Syamelah',
+		},
+		content: `أَخْبَرَنَا سَالِمُ بْنُ عَبْدِ اللَّهِ، عَنِ ابْنِ عُمَرَ رَضِيَ اللَّهُ عَنْهُمَا: أَنَّ رَسُولَ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ يَقُولُ: «كُلُّكُمْ رَاعٍ» وَزَادَ اللَّيْثُ، قَالَ يُونُسُ: كَتَبَ رُزَيْقُ بْنُ حُكَيْمٍ إِلَى ابْنِ شِهَابٍ، وَأَنَا مَعَهُ يَوْمَئِذٍ بِوَادِي القُرَى: هَلْ تَرَى أَنْ أُجَمِّعَ وَرُزَيْقٌ عَامِلٌ عَلَى أَرْضٍ يَعْمَلُهَا، وَفِيهَا جَمَاعَةٌ مِنَ السُّودَانِ وَغَيْرِهِمْ؟ - وَرُزَيْقٌ يَوْمَئِذٍ عَلَى أَيْلَةَ - فَكَتَبَ ابْنُ شِهَابٍ، وَأَنَا أَسْمَعُ: يَأْمُرُهُ أَنْ يُجَمِّعَ، يُخْبِرُهُ أَنَّ سَالِمًا حَدَّثَهُ: أَنَّ عَبْدَ اللَّهِ بْنَ عُمَرَ، يَقُولُ: سَمِعْتُ رَسُولَ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ يَقُولُ: «كُلُّكُمْ رَاعٍ، وَكُلُّكُمْ مَسْئُولٌ عَنْ رَعِيَّتِهِ، الإِمَامُ رَاعٍ وَمَسْئُولٌ عَنْ رَعِيَّتِهِ، وَالرَّجُلُ رَاعٍ فِي أَهْلِهِ وَهُوَ مَسْئُولٌ عَنْ رَعِيَّتِهِ، وَالمَرْأَةُ رَاعِيَةٌ فِي بَيْتِ زَوْجِهَا وَمَسْئُولَةٌ عَنْ رَعِيَّتِهَا، وَالخَادِمُ رَاعٍ فِي مَالِ سَيِّدِهِ وَمَسْئُولٌ عَنْ رَعِيَّتِهِ» قَالَ: - وَحَسِبْتُ أَنْ قَدْ قَالَ - «وَالرَّجُلُ رَاعٍ فِي مَالِ أَبِيهِ وَمَسْئُولٌ عَنْ رَعِيَّتِهِ، وَكُلُّكُمْ رَاعٍ وَمَسْئُولٌ عَنْ رَعِيَّتِهِ»`,
+		definition: `Telah menceritakan kepada kami Bisyr bin Muhammad Al Marwazi berkata: telah mengabarkan kepada kami 'Abdullah berkata: telah mengabarkan kepada kami Yunus dari Az Zuhri berkata: telah mengabarkan kepada kami Salim bin 'Abdullah dari Ibnu 'Umar radliyallahu 'anhuma, bahwa Rasulullah shallallahu 'alaihi wa sallam bersabda: "Setiap kalian adalah pemimpin." Al Laits menambahkan: Yunus berkata: Ruzaiq bin Hukaim menulis surat kepada Ibnu Syihab, dan pada saat itu aku bersamanya di Wadi Qura (pinggiran kota): "Apa pendapatmu jika aku mengumpulkan orang untuk shalat Jum'at?" -Saat itu Ruzaiq bertugas di suatu tempat dimana banyak jama'ah dari negeri Sudan dan yang lainnya, yaitu di negeri Ailah-. Maka Ibnu Syihab membalasnya dan aku mendengar dia memerintahkan (Ruzaiq) untuk mendirikan shalat Jum'at. Lalu mengabarkan bahwa Salim telah menceritakan kepadanya, bahwa 'Abdullah bin 'Umar berkata: Aku mendengar Rasulullah shallallahu 'alaihi wa sallam bersabda: "Setiap kalian adalah pemimpin, dan setiap pemimpin akan dimintai pertanggung jawaban atas yang dipimpinnya. Imam adalah pemimpin yang akan diminta pertanggung jawaban atas rakyatnya. Seorang suami adalah pemimpin dan akan dimintai pertanggungjawaban atas keluarganya. Seorang istri adalah pemimpin di dalam urusan rumah tangga suaminya, dan akan dimintai pertanggung jawaban atas urusan rumah tangga tersebut. Seorang pembantu adalah pemimpin dalam urusan harta tuannya, dan akan dimintai pertanggung jawaban atas urusan tanggung jawabnya tersebut." Aku menduga Ibnu 'Umar menyebutkan: "Dan seorang laki-laki adalah pemimpin atas harta bapaknya, dan akan dimintai pertanggung jawaban atasnya. Setiap kalian adalah pemimpin dan setiap pemimpin akan dimintai pertanggung jawaban atas yang dipimpinnya."`,
+		takhrij: [
+			'Shahih Bukhari:2554',
+			'Shahih Bukhari:5188',
+			'Shahih Bukhari:7138',
+			'Shahih Muslim:1829',
+			'Sunan Abu Dawud:2928',
+			'Sunan Tirmidzi:1705',
+		],
+	},
+	{
+		title: 'Hadis Kedua Puluh Delapan',
+		slug: 'hadis-keduapuluhdelapan',
+		info: {
+			shahih: 'Sunan Ibnu Majah:2014',
+			derajat: 'Sanadnya Hasan',
+			kitab: 'Nikah',
+			bab: 'Istri memenuhi suaminya',
+			sumber: 'Sunan Ibnu Majah : 2014, Juz 1, Hal 649',
+		},
+		content: `حَدَّثَنَا عَبْدُ الْوَهَّابِ بْنُ الضَّحَّاكِ قَالَ: حَدَّثَنَا إِسْمَاعِيلُ بْنُ عَيَّاشٍ، عَنْ بَحِيرِ بْنِ سَعْدٍ، عَنْ خَالِدِ بْنِ مَعْدَانَ، عَنْ كَثِيرِ بْنِ مُرَّةَ، عَنْ مُعَاذِ بْنِ جَبَلٍ، قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: " لَا تُؤْذِي امْرَأَةٌ زَوْجَهَا إِلَّا قَالَتْ زَوْجَتُهُ مِنَ الْحُورِ الْعِينِ: لَا تُؤْذِيهِ، قَاتَلَكِ اللَّهُ، فَإِنَّمَا هُوَ عِنْدَكِ دَخِيلٌ، أَوْشَكَ أَنْ يُفَارِقَكِ إِلَيْنَا "`,
+		definition: `Telah bercerita kepada kami 'Abdullah telah bercerita kepadaku ayahku. telah bercerita kepada kami Ibrahim bin Mahdi telah bercerita kepada kami Isma'il bin 'Ayyasy dari Bahir bin Sa'ad dari Kholid bin Ma'dan dari Katsir bin Murroh dari Mu'adz bin Jabal dari Nabi shallallahu 'alaihi wa sallam bersabda: "Tidaklah seorang wanita menyakiti suaminya didunia melainkan istrinya dari kalangan bidadari berkata: Jangan kau sakiti dia, semoga Allah membinasakanmu. Ia bagimu hanya tamu yang hampir saja akan meninggalkanmu untuk kami."`,
+		takhrij: ['Sunan Tirmidzi:1174'],
+	},
+	{
+		title: 'Hadis Kedua Puluh Sembilan',
+		slug: 'hadis-keduapuluhsembilan',
+		info: {
+			shahih: 'Shahih Bukhari:5240',
+			derajat: 'Hasan Shahih',
+			kitab: 'Nikah',
+			bab: 'Menundukkan kepalanya',
+			sumber: 'Shahih bukhari : 5240, juz 4, hal 406 Maktabah syamelah',
+		},
+		content: `حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ، حَدَّثَنَا سُفْيَانُ، عَنْ مَنْصُورٍ، عَنْ أَبِي وَائِلٍ، عَنْ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ رَضِيَ اللَّهُ عَنْهُ، قَالَ: قَالَ النَّبِيُّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «لاَ تُبَاشِرُ المَرْأَةُ المَرْأَةَ، فَتَنْعَتَهَا لِزَوْجِهَا كَأَنَّهُ يَنْظُرُ إِلَيْهَا`,
+		definition: `Telah bercerita kepada kami Muhammad bin Yusuf, telah bercerita kepada kami Sufyan, dari Manshur, dari ayahnya Wail, dari Absullah bin Mas’ud r.a. berkata: Nabi Muhammad SAW telah bersabda: “ Seorang wanita tidak boleh melakukan hubungan seksual dengan wanita lain, jadi dia harus memperlakukan suaminya seolah-olah dia memandangnya.”`,
+		takhrij: ['Shahih Bukhari:5241', 'Sunan Abu Dawud:2150', 'Sunan Tirmidzi:2792'],
+	},
+	{
+		title: 'Hadis Ketiga Puluh',
+		slug: 'hadis-Ketigapuluh',
+		info: {
+			shahih: 'Shahih Bukhari:115',
+			derajat: 'Shahih',
+			kitab: 'Ilmu',
+			bab: 'Mencari ilmu dan pelajaran pada malam hari',
+			sumber: 'Shahih Bukhari 115 , juz 1, hal 34 maktabah shamela',
+		},
+		content: `حَدَّثَنَا صَدَقَةُ، أَخْبَرَنَا ابْنُ عُيَيْنَةَ، عَنْ مَعْمَرٍ، عَنِ الزُّهْرِيِّ، عَنْ هِنْدٍ، عَنْ أُمِّ سَلَمَةَ، وَعَمْرٍو، وَيَحْيَى بْنِ سَعِيدٍ، عَنِ الزُّهْرِيِّ، عَنْ هِنْدٍ، عَنْ أُمِّ سَلَمَةَ، قَالَتْ: اسْتَيْقَظَ النَّبِيُّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ ذَاتَ لَيْلَةٍ فَقَالَ: «سُبْحَانَ اللَّهِ، مَاذَا أُنْزِلَ اللَّيْلَةَ مِنَ الفِتَنِ، وَمَاذَا فُتِحَ مِنَ الخَزَائِنِ، أَيْقِظُوا صَوَاحِبَاتِ الحُجَرِ، فَرُبَّ كَاسِيَةٍ فِي الدُّنْيَا عَارِيَةٍ فِي الآخِرَةِ»`,
+		definition: `Telah menceritakan kepada kami Shadaqah telah mengabarkan kepada kami Ibnu 'Uyainah dari Ma'mar dari Az Zuhri dari Hind dari Ummu Salamah. Dan 'Amru serta Yahya bin Sa'id dari Az Zuhri dari Hind dari Ummu Salamah berkata: "Pada suatu malam Nabi shallallahu 'alaihi wa sallam terbangun lalu bersabda: "Subhaanallah (Maha suci Allah), fitnah apakah yang diturunkan pada malam ini? Dan apa yang dibuka dari dua perbendaharaan (Ramawi dan Parsi)? Bangunlah wahai orang-orang yang ada di balik dinding (kamar-kamar), karena betapa banyak orang hidup menikmati nikmat-nikmat dari Allah di dunia ini namun akan telanjang nanti di akhirat (tidak mendapatkan kebaikan)."`,
+		takhrij: [],
+	},
+	{
+		title: 'Hadis Ketiga Puluh Satu',
+		slug: 'hadis-Ketigapuluhsatu',
+		info: {
+			shahih: 'Shahih Muslim:2738',
+			derajat: 'Shahih',
+			kitab: 'Penduduk surga',
+			bab: 'Kebanyakan penduduk surga adalah wanita',
+			sumber: 'Shahih bukhari 2738, juz 4, hal 2097',
+		},
+		content: `حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ حَدَّثَنَا أَبِي حَدَّثَنَا شُعْبَةُ عَنْ أَبِي التَّيَّاحِ قَالَ كَانَ لِمُطَرِّفِ بْنِ عَبْدِ اللَّهِ امْرَأَتَانِ فَجَاءَ مِنْ عِنْدِ إِحْدَاهُمَا فَقَالَتْ الْأُخْرَى جِئْتَ مِنْ عِنْدِ فُلَانَةَ فَقَالَ جِئْتُ مِنْ عِنْدِ عِمْرَانَ بْنِ حُصَيْنٍ فَحَدَّثَنَا أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ إِنَّ أَقَلَّ سَاكِنِي الْجَنَّةِ النِّسَاءُ و حَدَّثَنَا مُحَمَّدُ بْنُ الْوَلِيدِ بْنِ عَبْدِ الْحَمِيدِ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ حَدَّثَنَا شُعْبَةُ عَنْ أَبِي التَّيَّاحِ قَالَ سَمِعْتُ مُطَرِّفًا يُحَدِّثُ أَنَّهُ كَانَتْ لَهُ امْرَأَتَانِ بِمَعْنَى حَدِيثِ مُعَاذٍ`,
+		definition: `Telah menceritakan kepada kami 'Ubaidullah bin Mu'adz telah menceritakan kepada kami bapakku telah menceritakan kepada kami Syu'bah dari Abu At Tayyah dia berkata: Muthatrrif bin 'Abdullah memiliki dua orang istri, suatu ketika dia pulang dari salah satu istrinya, lalu salah satu istrinya lagi bertanya kepadanya: Apakah kamu baru pulang dari fulanah? Dia menjawab: Aku baru dari 'Imran bin Hushain, dia telah menceritakan kepada kami bahwa Rasulullah shallallahu 'alaihi wa sallam bersabda: "Bahwa kaum wanita adalah penghuni surga yang paling sedikit." Dan telah menceritakan kepada kami Muhammad bin Al Walid bin 'Abdul Hamid telah menceritakan kepada kami Muhammad bin Ja'far telah menceritakan kepada kami Syu'bah dari Abu At Tayyah dia berkata: aku mendengar Mutharrif bercerita bahwasanya ia memiliki dua orang istri, -yang semakna dengan hadits Mu'adz.-`,
+		takhrij: ['Musnad Ahmad 18995', 'Musnad Ahmad 19069', 'Musnad Ahmad 19135'],
+	},
+	{
+		title: 'Hadis Ketiga Puluh Dua',
+		slug: 'hadis-KetigapuluhDua',
+		info: {
+			shahih: 'Shahih Muslim:132',
+			derajat: 'Shahih',
+			kitab: '-',
+			bab: 'Berkurangnya keimanan karena berkurangnya ketaatan',
+			sumber: 'Shahih Muslim 79, juz 1 , hal 86 Maktabah Shamelah',
+		},
+		content: `حَدَّثَنَا مُحَمَّدُ بْنُ رُمْحِ بْنِ الْمُهَاجِرِ الْمِصْرِيُّ، أَخْبَرَنَا اللَّيْثُ، عَنِ ابْنِ الْهَادِ، عَنْ عَبْدِ اللهِ بْنِ دِينَارٍ، عَنْ عَبْدِ اللهِ بْنِ عُمَرَ، عَنْ رَسُولِ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ أَنَّهُ قَالَ: «يَا مَعْشَرَ النِّسَاءِ، تَصَدَّقْنَ وَأَكْثِرْنَ الِاسْتِغْفَارَ، فَإِنِّي رَأَيْتُكُنَّ أَكْثَرَ أَهْلِ النَّارِ» فَقَالَتِ امْرَأَةٌ مِنْهُنَّ جَزْلَةٌ: وَمَا لَنَا يَا رَسُولَ اللهِ أَكْثَرُ أَهْلِ النَّارِ؟ قَالَ: «تُكْثِرْنَ اللَّعْنَ، وَتَكْفُرْنَ الْعَشِيرَ، وَمَا رَأَيْتُ مِنْ نَاقِصَاتِ عَقْلٍ وَدِينٍ أَغْلَبَ لِذِي لُبٍّ مِنْكُنَّ» قَالَتْ: يَا رَسُولَ اللهِ، وَمَا نُقْصَانُ الْعَقْلِ وَالدِّينِ؟ قَالَ: " أَمَّا نُقْصَانُ الْعَقْلِ: فَشَهَادَةُ امْرَأَتَيْنِ تَعْدِلُ شَهَادَةَ رَجُلٍ فَهَذَا نُقْصَانُ الْعَقْلِ، وَتَمْكُثُ اللَّيَالِيَ مَا تُصَلِّي، وَتُفْطِرُ فِي رَمَضَانَ فَهَذَا نُقْصَانُ الدِّينِ`,
+		definition: `Telah meriwayatkan Muhammad bin Rumh bin al-Muhajir al-Mishri telah mengabarkan kepada kami al-Laits dari Ibnu al-Had dari Abdullah bin Dinar dari Abdullah bin Umar dari Rasulullah shallallahu 'alaihi wa sallam, bahwa beliau bersabda: "Wahai kaum wanita! Bersedekahlah kamu dan perbanyakkanlah istighfar. Karena, aku melihat kaum wanitalah yang paling banyak menjadi penghuni Neraka." Seorang wanita yang pintar di antara mereka bertanya, "Wahai Rasulullah, kenapa kaum wanita yang paling banyak menjadi penghuni Neraka?" Rasulullah shallallahu 'alaihi wa sallam. bersabda: "Kalian banyak mengutuk dan mengingkari (pemberian nikmat dari) suami. Aku tidak melihat mereka yang kekurangan akal dan agama yang lebih menguasai pemilik akal, daripada golongan kamu." Wanita itu bertanya lagi, "Wahai Rasulullah! Apakah maksud kekurangan akal dan agama itu?" Rasulullah shallallahu 'alaihi wa sallam menjawab: "Maksud kekurangan akal ialah persaksian dua orang wanita sama dengan persaksian seorang lelaki. Inilah yang dikatakan kekurangan akal. Begitu juga kaum wanita tidak mengerjakan shalat pada malam-malam yang dilaluinya kemudian berbuka pada bulan Ramadhan (karena haid). Maka inilah yang dikatakan kekurangan agama."`,
+		takhrij: ['Shahih Bukhari 304', 'Shahih Bukhari 1462', 'Sunan Ibnu Majah 4003', 'Sunan Abu Dawud 4237', 'Sunan Tirmidzi 635'],
+	},
+	{
+		title: 'Hadis Ketiga Puluh Tiga',
+		slug: 'hadis-KetigapuluhTiga',
+		info: {
+			shahih: 'Sunan Abu Dawud : 4098',
+			derajat: 'Shahih',
+			kitab: 'Pakaian',
+			bab: 'Pakaian Wanita',
+			sumber: 'Sunan Abu Dawud 4098, juz 4, hal 60, makatabah Shamela',
+		},
+		content: `حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ حَدَّثَنَا أَبُو عَامِرٍ عَنْ سُلَيْمَانَ بْنِ بِلَالٍ عَنْ سُهَيْلٍ عَنْ أَبِيهِ عَنْ أَبِي هُرَيْرَةَ قَالَ لَعَنَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ الرَّجُلَ يَلْبَسُ لِبْسَةَ الْمَرْأَةِ وَالْمَرْأَةَ تَلْبَسُ لِبْسَةَ الرَّجُلِ`,
+		definition: `Telah menceritakan kepada kami Zuhair bin Harb berkata: telah menceritakan kepada kami Abu Amir dari Sulaiman bin Hilal dari Suhail dari Bapaknya dari Abu Hurairah ia berkata: Rasulullah shallallahu 'alaihi wa sallam melaknat laki-laki yang memakai pakaian wanita dan wanita yang memakai pakaian laki-laki.`,
+		takhrij: ['Musnad Ahmad 7958'],
+	},
+	{
+		title: 'Hadis Ketiga Puluh Empat',
+		slug: 'hadis-KetigapuluhEmpat',
+		info: {
+			shahih: 'Shahih Bukhari : 5096',
+			derajat: 'Hasan Shahih',
+			kitab: 'Berlindung dari kejahatan',
+			bab: 'Melindungi diri kejahatan wanita ',
+			sumber: 'Shahih Bukhari : 5096, Juz 7, hal 8 Maktabah shamela',
+		},
+		content: `حَدَّثَنَا آدَمُ، حَدَّثَنَا شُعْبَةُ، عَنْ سُلَيْمَانَ التَّيْمِيِّ، قَالَ: سَمِعْتُ أَبَا عُثْمَانَ النَّهْدِيَّ، عَنْ أُسَامَةَ بْنِ زَيْدٍ رَضِيَ اللَّهُ عَنْهُمَا، عَنِ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: «مَا تَرَكْتُ بَعْدِي فِتْنَةً أَضَرَّ عَلَى الرِّجَالِ مِنَ النِّسَاءِ»`,
+		definition: `Telah menceritakan kepada kami Adam dari Sulaiman at-Taimiy, berkata telah mendengar dari Abu Utsman al-Nahdi dari Usamah bin Zayd, dari Rasulullah saw bersabda: “ Apa yang saya meninggalkan beberapa orang yang lebih berbahaya bagi laki-laki daripada perempuan.”`,
+		takhrij: ['Shahih Muslim 2740', 'Shahih Muslim 2741', 'Sunan Tirmidzi 2780'],
+	},
+	{
+		title: 'Hadis Ketiga Puluh Lima',
+		slug: 'hadis-KetigapuluhLima',
+		info: {
+			shahih: 'Sunan Tirmidzi : 1173',
+			derajat: 'Hasan Shahih Gharib',
+			kitab: 'Aurat',
+			bab: 'Aurat Perempuan',
+			sumber: 'Sunan Tirmidzi : 1173, juz 2, hal 467 maktabah shamela',
+		},
+		content: `حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قَالَ: حَدَّثَنَا عَمْرُو بْنُ عَاصِمٍ، قَالَ: حَدَّثَنَا هَمَّامٌ، عَنْ قَتَادَةَ، عَنْ مُوَرِّقٍ، عَنْ أَبِي الأَحْوَصِ، عَنْ عَبْدِ اللهِ، عَنِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ، قَالَ: الْمَرْأَةُ عَوْرَةٌ، فَإِذَا خَرَجَتْ اسْتَشْرَفَهَا الشَّيْطَانُ.`,
+		definition: `Telah menceritakan kepada kami Muhammad bin Basyar, berkat : telah menceritakan kepada Kami Amr bin Ashim, berkata : telah menceritakan kepada kami Hammam, dari Qatadah dari Muwarriq , dari ayahnya Ahwash, dari Abdullah, dari Rasulullah saw telah bersabda: ”Wanita adalah aurat, sehingga ketika dia keluar, setan mendekatinya.”`,
+		takhrij: [],
+	},
+	{
+		title: 'Hadis Ketiga Puluh Enam',
+		slug: 'hadis-KetigapuluhEnam',
+		info: {
+			shahih: 'Shahih Bukhari : 2066',
+			derajat: 'Shahih',
+			kitab: 'Jual Beli',
+			bab: 'Menafkahi Hasil Usaha Sendiri',
+			sumber: 'Shahih Bukhari 2066, Juz 3, hal. 56 maktabah shamela',
+		},
+		content: `حَدَّثَنِي يَحْيَى بْنُ جَعْفَرٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، عَنْ مَعْمَرٍ، عَنْ هَمَّامٍ، قَالَ: سَمِعْتُ أَبَا هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ، عَنِ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ، قَالَ: «إِذَا أَنْفَقَتِ المَرْأَةُ مِنْ كَسْبِ زَوْجِهَا، عَنْ غَيْرِ أَمْرِهِ، فَلَهُ نِصْفُ أَجْرِهِ»`,
+		definition: `Telah menceritakan kepada saya Yahya bin Ja'far telah menceritakan kepada kami 'Abdur Razzaq dari Ma'mar dari Hammam berkata: aku mendengar Abu Hurairah radliyallahu 'anhu berkata: Nabi shallallahu 'alaihi wa sallam bersabda: "Jika seorang istri menginfakkan (bershadaqah) harta hasil usaha suaminya tanpa perintah suaminya maka bagi suaminya separuh pahalanya."`,
+		takhrij: ['Shahih Bukhari 5360', 'Shahih Muslim 1024', 'sunan Abu Dawud 1435', 'Abu Dawud 1437'],
+	},
+	{
+		title: 'Hadis Ketiga Puluh Tujuh',
+		slug: 'hadis-KetigapuluhTujuh',
+		info: {
+			shahih: 'Shahih Bukhari : 3411',
+			derajat: 'Shahih',
+			kitab: 'Hadis tentang Para Nabi',
+			bab: 'Perempuan Yang Istimewa',
+			sumber: 'Shahih Bukhari 3411, Juz 4, hal. 158 maktabah shamela',
+		},
+		content: `حَدَّثَنَا يَحْيَى بْنُ جَعْفَرٍ، حَدَّثَنَا وَكِيعٌ، عَنْ شُعْبَةَ، عَنْ عَمْرِو بْنِ مُرَّةَ، عَنْ مُرَّةَ الهَمْدَانِيِّ، عَنْ أَبِي مُوسَى رَضِيَ اللَّهُ عَنْهُ، قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: " كَمَلَ مِنَ الرِّجَالِ كَثِيرٌ، وَلَمْ يَكْمُلْ مِنَ النِّسَاءِ: إِلَّا آسِيَةُ امْرَأَةُ فِرْعَوْنَ، وَمَرْيَمُ بِنْتُ عِمْرَانَ، وَإِنَّ فَضْلَ عَائِشَةَ عَلَى النِّسَاءِ كَفَضْلِ الثَّرِيدِ عَلَى سَائِرِ الطَّعَامِ "`,
+		definition: `Telah bercerita kepada kami Yahya bin Ja'far telah bercerita kepada kami Waki' dari Syu'bah dari 'Amru bin Murrah dari Murrah Al Hamdaniy dari Abu Musa radliyallahu 'anhu berkata: Rasulullah shallallahu 'alaihi wa sallam bersabda: "Manusia yang sempurna dari kalangan laki-laki banyak dan tidak ada manusia yang sempurna dari kalangan wanita kecuali Asiyah, istrinya Fir'aun dan Maryam binti 'Imran. Dan keistimewaan 'Aisyah dibandingkan wanita-wanita lain adalah bagaikan keistimewaan makanan "tsarid" terhadap makanan yang lain." (Tsarid adalah sejenis makanan yang terbuat dari daging dan roti yang dibuat bubur dan berkuah. -pent.)`,
+		takhrij: ['Shahih Bukhari 3433 3769 5418', 'Shahih Muslim 2431', 'Ibnu Majah 3280', 'Sunan Tirmidzi 183'],
+	},
+	{
+		title: 'Hadis Ketiga Puluh Delapan',
+		slug: 'hadis-KetigapuluhDelapan',
+		info: {
+			shahih: 'Sunan Abu Dawud : 4140',
+			derajat: 'Shahih',
+			kitab: 'Pakaian',
+			bab: 'Perhiasan yang boleh diperlihatkan oleh perempuan',
+			sumber: 'Sunan Abu Dawud 4104, Juz 4, hal. 62 maktabah shamela',
+		},
+		content: `حَدَّثَنَا يَعْقُوبُ بْنُ كَعْبٍ الْأَنْطَاكِيُّ، وَمُؤَمَّلُ بْنُ الْفَضْلِ الْحَرَّانِيُّ، قَالَا: حَدَّثَنَا الْوَلِيدُ، عَنْ سَعِيدِ بْنِ بَشِيرٍ، عَنْ قَتَادَةَ، عَنْ خَالِدٍ، قَالَ: يَعْقُوبُ ابْنُ دُرَيْكٍ: عَنْ عَائِشَةَ رَضِيَ اللَّهُ عَنْهَا، أَنَّ أَسْمَاءَ بِنْتَ أَبِي بَكْرٍ، دَخَلَتْ عَلَى رَسُولِ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ وَعَلَيْهَا ثِيَابٌ رِقَاقٌ، فَأَعْرَضَ عَنْهَا رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ، وَقَالَ: «يَا أَسْمَاءُ، إِنَّ الْمَرْأَةَ إِذَا بَلَغَتِ الْمَحِيضَ لَمْ تَصْلُحْ أَنْ يُرَى مِنْهَا إِلَّا هَذَا وَهَذَا» وَأَشَارَ إِلَى وَجْهِهِ وَكَفَّيْهِ قَالَ أَبُو دَاوُدَ: «هَذَا مُرْسَلٌ، خَالِدُ بْنُ دُرَيْكٍ لَمْ يُدْرِكْ عَائِشَةَ رَضِيَ اللَّهُ عَنْهَا» `,
+		definition: `Telah menceritakan kepada kami Ya'qub bin Ka'b Al Anthaki dan Muammal Ibnul Fadhl Al Harrani keduanya berkata: telah menceritakan kepada kami Al Walid dari Sa'id bin Basyir dari Qatadah dari Khalid berkata: Ya'qub bin Duraik berkata dari 'Aisyah radliyallahu 'anha, bahwa Asma binti Abu Bakr masuk menemui Rasulullah shallallahu 'alaihi wa sallam dengan mengenakan kain yang tipis, maka Rasulullah shallallahu 'alaihi wa sallam pun berpaling darinya. Beliau bersabda: "Wahai Asma, sesungguhnya seorang wanita jika telah baligh tidak boleh terlihat darinya kecuali ini dan ini -beliau menunjuk wajah dan kedua telapak tangannya-." Abu Dawud berkata: Ini hadits mursal. Khalid bin Duraik belum pernah bertemu dengan 'Aisyah radliyallahu 'anha.`,
+		takhrij: [],
+	},
+	{
+		title: 'Hadis Ketiga Puluh Sembilan',
+		slug: 'hadis-KetigapuluhSembilan',
+		info: {
+			shahih: 'Sunan Abu Dawud : 4140',
+			derajat: 'Shahih',
+			kitab: 'Perhiasan',
+			bab: 'Perbedaan wewangian laki-laki dan perempuan',
+			sumber: 'Sunan An-Nasai 5117, Juz 8, hal. 151  maktabah shamela',
+		},
+		content: `أَخْبَرَنَا أَحْمَدُ بْنُ سُلَيْمَانَ قَالَ حَدَّثَنَا أَبُو دَاوُدَ يَعْنِي الْحَفَرِيَّ عَنْ سُفْيَانَ عَنْ الْجُرَيْرِيِّ عَنْ أَبِي نَضْرَةَ عَنْ رَجُلٍ عَنْ أَبِي هُرَيْرَةَ قَالَ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ طِيبُ الرِّجَالِ مَا ظَهَرَ رِيحُهُ وَخَفِيَ لَوْنُهُ وَطِيبُ النِّسَاءِ مَا ظَهَرَ لَوْنُهُ وَخَفِيَ رِيحُهُ`,
+		definition: `Telah mengabarkan kepada kami Ahmad bin Sulaiman ia berkata: telah menceritakan kepada kami Abu Dawud -yaitu Al Hafari- dari Sufyan dari Al Jurairi dari Abu Nadlrah dari seorang laki-laki dari Abu Hurairah ia berkata: "Rasulullah shallallahu 'alaihi wa sallam bersabda: "Parfum laki-laki itu baunya nampak sementara warnanya tidak, dan parfum wanita itu warnanya nampak sementara baunya tidak."`,
+		takhrij: ['Sunan Tirmidzi 2711', 'Sunan Tirmidzi 2712', 'Sunan Nasai 5188'],
+	},
+	{
+		title: 'Hadis Empat Puluh',
+		slug: 'hadis-Empatpuluh',
+		info: {
+			shahih: 'Shahih Bukhari : 5355',
+			derajat: 'Shahih',
+			kitab: 'Nafkah',
+			bab: 'Kewajiban memberi nafkah kepada keluarga',
+			sumber: 'Shahih Bukhari 5355, Juz 7, hal. 63  maktabah shamela',
+		},
+		content: `حَدَّثَنَا عُمَرُ بْنُ حَفْصٍ حَدَّثَنَا أَبِي حَدَّثَنَا الْأَعْمَشُ حَدَّثَنَا أَبُو صَالِحٍ قَالَ حَدَّثَنِي أَبُو هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ قَالَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَفْضَلُ الصَّدَقَةِ مَا تَرَكَ غِنًى وَالْيَدُ الْعُلْيَا خَيْرٌ مِنْ الْيَدِ السُّفْلَى وَابْدَأْ بِمَنْ تَعُولُ تَقُولُ الْمَرْأَةُ إِمَّا أَنْ تُطْعِمَنِي وَإِمَّا أَنْ تُطَلِّقَنِي وَيَقُولُ الْعَبْدُ أَطْعِمْنِي وَاسْتَعْمِلْنِي وَيَقُولُ الِابْنُ أَطْعِمْنِي إِلَى مَنْ تَدَعُنِي فَقَالُوا يَا أَبَا هُرَيْرَةَ سَمِعْتَ هَذَا مِنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ لَا هَذَا مِنْ كِيسِ أَبِي هُرَيْرَةَ`,
+		definition: `Telah menceritakan kepada kami Umar bin Hafsh Telah menceritakan kepada kami bapakku Telah menceritakan kepada kami Al A'masy Telah menceritakan kepada kami Abu Shalih ia berkata: Telah menceritakan kepadaku Abu Hurairah radliallahu 'anhu, ia berkata: Nabi shallallahu 'alaihi wa sallam bersabda: "Sedekah yang paling utama adalah sedekah yang meninggalkan pelakunya dalam kecukupan. Tangan yang di atas adalah lebih baik daripada tangan yang dibawah. Dan mulailah dari orang yang menjadi tanggunganmu." Sebab, seorang istri akan berkata: "Terserah, kamu memberiku makan, atau kamu menceraikanku." Dan seorang budak juga berkata: "Berilah aku makan dan silahkan engkau menyuruhku bekerja." Kemudian seorang anak juga akan berkata: "Berilah aku makan, kepada siapa lagi engkau meninggalkanku?." Mereka bertanya, "Wahai Abu Hurairah, apakah kamu mendengar hal ini dari Rasulullah shallallahu 'alaihi wa sallam?" ia menjawab, "Tidak. Hal ini adalah dari Abu Hurairah."`,
+		takhrij: [],
+	},
 ]

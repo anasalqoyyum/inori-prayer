@@ -22,8 +22,8 @@ const Items: Item[] = [
 		href: Routes.hadis.index
 	},
 	{
-		title: 'Wanita Inspiratif',
-		subtitle: 'Sosok Wanita yang dapat menginspirasi',
+		title: 'Perempuan Pengkaji Hadis',
+		subtitle: 'Sosok Perempuan Para Pengkaji Hadis',
 		icon: <User />,
 		href: Routes.wanitaInspiratif.index
 	},
