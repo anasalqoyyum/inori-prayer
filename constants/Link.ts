@@ -2,32 +2,33 @@ export const Routes = {
 	index: '/',
 	hadis: {
 		index: '/hadis',
-		detail: '/hadis/:slug'
+		detail: '/hadis/:slug',
 	},
 	wanitaInspiratif: {
 		index: '/perempuan-pengkaji-hadis',
-		detail: '/perempuan-pengkaji-hadis/:slug'
+		detail: '/perempuan-pengkaji-hadis/:slug',
 	},
 	jurnal: {
 		index: '/kajian',
-		detail: '/kajian/:slug'
+		detail: '/kajian/:slug',
 	},
 	hakKewajiban: {
 		index: '/hak-kewajiban',
 		hak: '/hak-kewajiban/hak',
-		kewajiban: '/hak-kewajiban/kewajiban'
+		kewajiban: '/hak-kewajiban/kewajiban',
 	},
 	quotes: '/quotes',
 	about: {
 		index: '/about',
 		penulis: '/about/penulis',
 		aplikasi: '/about/aplikasi',
-		daftarPustaka: '/about/daftar-pustaka'
+		daftarPustaka: '/about/daftar-pustaka',
+		bantuan: '/about/bantuan',
 	},
-	notes: '/notes'
+	notes: '/notes',
 }
 
 export const Links = [
 	{ label: 'Hadis Perempuan', href: Routes.hadis.index },
-	{ label: 'Tentang Aplikasi', href: Routes.about.index }
+	{ label: 'Tentang Aplikasi', href: Routes.about.index },
 ]

@@ -2,7 +2,7 @@ import { Routes } from '@/constants/Link'
 import Page from '@/components/page'
 import Section from '@/components/section'
 import { Flex, Card, Avatar, Box, Text, Heading } from '@radix-ui/themes'
-import { AppWindow, Library, PencilRuler } from 'lucide-react'
+import { AppWindow, HelpCircle, Library, PencilRuler } from 'lucide-react'
 import Link from 'next/link'
 import { ReactNode } from 'react'
 
@@ -18,20 +18,26 @@ const Items: Item[] = [
 		title: 'Tentang Aplikasi',
 		subtitle: 'Informasi aplikasi',
 		icon: <AppWindow />,
-		href: Routes.about.aplikasi
+		href: Routes.about.aplikasi,
 	},
 	{
 		title: 'Profil Penulis',
 		subtitle: 'Informasi tentang penulis',
 		icon: <PencilRuler />,
-		href: Routes.about.penulis
+		href: Routes.about.penulis,
 	},
 	{
 		title: 'Daftar Pustaka',
 		subtitle: 'Daftar Referensi',
 		icon: <Library />,
-		href: Routes.about.daftarPustaka
-	}
+		href: Routes.about.daftarPustaka,
+	},
+	{
+		title: 'Bantuan',
+		subtitle: 'Cara Penggunaan Aplikasi',
+		icon: <HelpCircle />,
+		href: Routes.about.bantuan,
+	},
 ]
 
 const About = () => (

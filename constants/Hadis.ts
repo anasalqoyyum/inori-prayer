@@ -679,4 +679,32 @@ export const HadisList: Hadis[] = [
 		definition: `Telah menceritakan kepada kami Umar bin Hafsh Telah menceritakan kepada kami bapakku Telah menceritakan kepada kami Al A'masy Telah menceritakan kepada kami Abu Shalih ia berkata: Telah menceritakan kepadaku Abu Hurairah radliallahu 'anhu, ia berkata: Nabi shallallahu 'alaihi wa sallam bersabda: "Sedekah yang paling utama adalah sedekah yang meninggalkan pelakunya dalam kecukupan. Tangan yang di atas adalah lebih baik daripada tangan yang dibawah. Dan mulailah dari orang yang menjadi tanggunganmu." Sebab, seorang istri akan berkata: "Terserah, kamu memberiku makan, atau kamu menceraikanku." Dan seorang budak juga berkata: "Berilah aku makan dan silahkan engkau menyuruhku bekerja." Kemudian seorang anak juga akan berkata: "Berilah aku makan, kepada siapa lagi engkau meninggalkanku?." Mereka bertanya, "Wahai Abu Hurairah, apakah kamu mendengar hal ini dari Rasulullah shallallahu 'alaihi wa sallam?" ia menjawab, "Tidak. Hal ini adalah dari Abu Hurairah."`,
 		takhrij: [],
 	},
+	{
+		title: 'Hadis Empat Puluh Satu',
+		slug: 'hadis-EmpatpuluhSatu',
+		info: {
+			shahih: 'Shahih Muslim : 1460',
+			derajat: 'Shahih',
+			kitab: 'Menyusui',
+			bab: 'Suami menginap di Isteri janda atau gadis',
+			sumber: 'Shahih Muslim 1460, Juz 2, hal. 1083  maktabah shamela',
+		},
+		content: `و حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ الْقَعْنَبِيُّ حَدَّثَنَا سُلَيْمَانُ يَعْنِي ابْنَ بِلَالٍ عَنْ عَبْدِ الرَّحْمَنِ بْنِ حُمَيْدٍ عَنْ عَبْدِ الْمَلِكِ بْنِ أَبِي بَكْرٍ عَنْ أَبِي بَكْرِ بْنِ عَبْدِ الرَّحْمَنِ أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ حِينَ تَزَوَّجَ أُمَّ سَلَمَةَ فَدَخَلَ عَلَيْهَا فَأَرَادَ أَنْ يَخْرُجَ أَخَذَتْ بِثَوْبِهِ فَقَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ إِنْ شِئْتِ زِدْتُكِ وَحَاسَبْتُكِ بِهِ لِلْبِكْرِ سَبْعٌ وَلِلثَّيِّبِ ثَلَاثٌ و حَدَّثَنَا يَحْيَى بْنُ يَحْيَى أَخْبَرَنَا أَبُو ضَمْرَةَ عَنْ عَبْدِ الرَّحْمَنِ بْنِ حُمَيْدٍ بِهَذَا الْإِسْنَادِ مِثْلَهُ`,
+		definition: `Dan telah menceritakan kepada kami Abdullah bin Maslamah Al Qa'nabi telah menceritakan kepada kami Sulaiman yaitu Ibnu Bilal dari Abdurrahman bin Humaid dari Abdul Malik bin Abu Bakar dari Abu Bakar bin Abdurrahman bahwa ketika Rasulullah shallallahu 'alaihi wa sallam menikah dengan Ummu Salamah, beliau masuk menemuinya, tatkala beliau hendak keluar, baju beliau ditarik olehnya, maka Rasulullah shallallahu 'alaihi wa sallam bersabda: "Jika kamu kehendaki, maka saya akan menambah malam pengantinmu, namun saya juga harus memperhitungkannya, untuk gadis tujuh hari sedangkan untuk janda tiga hari." Dan telah menceritakan kepada kami Yahya bin Yahya telah mengabarkan kepada kami Abu Dlamrah dari Abdurrahman bin Humaid seperti isnad ini.`,
+		takhrij: [],
+	},
+	{
+		title: 'Hadis Empat Puluh Dua',
+		slug: 'hadis-EmpatpuluhDua',
+		info: {
+			shahih: 'Sunan Abu Dawud : 1067',
+			derajat: 'Shahih',
+			kitab: 'Shalat',
+			bab: 'Shalat Jum’at Bagi Budak dan Perempuan',
+			sumber: 'Sunan Abu Dawud 1067, Juz 1, hal. 280  maktabah shamela',
+		},
+		content: `حَدَّثَنَا عَبَّاسُ بْنُ عَبْدِ الْعَظِيمِ حَدَّثَنِي إِسْحَقُ بْنُ مَنْصُورٍ حَدَّثَنَا هُرَيْمٌ عَنْ إِبْرَاهِيمَ بْنِ مُحَمَّدِ بْنِ الْمُنْتَشِرِ عَنْ قَيْسِ بْنِ مُسْلِمٍ عَنْ طَارِقِ بْنِ شِهَابٍ عَنْ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ الْجُمُعَةُ حَقٌّ وَاجِبٌ عَلَى كُلِّ مُسْلِمٍ فِي جَمَاعَةٍ إِلَّا أَرْبَعَةً عَبْدٌ مَمْلُوكٌ أَوْ امْرَأَةٌ أَوْ صَبِيٌّ أَوْ مَرِيضٌ قَالَ أَبُو دَاوُد طَارِقُ بْنُ شِهَابٍ قَدْ رَأَى النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَلَمْ يَسْمَعْ مِنْهُ شَيْئًا`,
+		definition: `Telah menceritakan kepada kami 'Abbas bin 'Abdul 'Adzim telah menceritakan kepadaku Ishaq bin Manshur telah menceritakan kepada kami Huraim dari Ibrahim bin Muhammad Al Muntasyir dari Qais bin Muslim dari Thariq bin Syihab dari Nabi shallallahu 'alaihi wa sallam beliau bersabda: "Jum'at itu wajib bagi setiap Muslim dengan berjama'ah, kecuali empat golongan, yaitu: hamba sahaya, wanita, anak-anak dan orang yang sakit." Abu Daud berkata: "Thariq bin Ziyad pernah melihat (hidup semasa) Nabi shallallahu 'alaihi wa sallam, namun dirinya tidak mendengar sesuatu pun dari beliau."`,
+		takhrij: [],
+	},
 ]
